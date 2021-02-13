@@ -1,0 +1,4 @@
+hostname = account.huami.com
+
+# 小米运动获取Token
+^https:\/\/account\.huami\.com\/v2\/client\/login url script-response-body https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/xmSports.js
