@@ -1,16 +1,14 @@
-hostname = pbs.twimg.com, wq.jd.com, m.jingxi.com, weather-data.apple.com, api.weather.com, api.shimo.im, note.youdao.com, account.wps.cn, *.kuwo.cn, vip1.kuwo.cn, api.picsart.c*, api.meiease.c*, getuserinfo-globalapi.zymk.cn
+hostname = api.bilibili.com, app.bilibili.com, pbs.twimg.com, wq.jd.com, m.jingxi.com, weather-data.apple.com, api.weather.com, api.shimo.im, note.youdao.com, account.wps.cn, *.kuwo.cn, vip1.kuwo.cn, api.picsart.c*, api.meiease.c*, getuserinfo-globalapi.zymk.cn
 
 
-# 解锁B站大会员
-https:\/\/api\.bilibili\.com\/pgc\/player\/api\/playurl url 302 http://api.bili.best/playurl
-https:\/\/api.bilibili.com\/pgc\/view\/app\/season url 302 http://api.bili.best/season
+
 # 哔哩哔哩番剧开启1080P+
 ^https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/bilifj.js
 # 人人视频 (by@george Jiang & R)
 ^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll|\/rrtv-video\/v4plus\/season\/detail) url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/rrtv.js
 # 人人影视字幕组(商店版)去广告,保留轮播推荐影片(By @Kaya)
 ^http://ctrl.playcvn.com/app/(init|ads) url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/YYeTs.js
-# 彩云天气 脚本
+# 彩云天气boxjs脚本
 ^https:\/\/((weather-data\.apple)|(api.weather))\.com url script-request-header https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js
 # 联通抽奖
 ^https?:\/\/m\.client\.10010\.com\/dailylottery\/static\/(integral|doubleball)\/firstpage url script-request-header https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_checkin.js
