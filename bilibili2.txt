@@ -1,0 +1,4 @@
+hostname= *.bilibili.com
+
+
+^https:\/\/(www|live)\.bilibili\.com\/?.? url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.cookie.js
