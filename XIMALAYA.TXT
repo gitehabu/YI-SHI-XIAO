@@ -1,4 +1,4 @@
-host= mobwsa.ximalaya.com
+hostname= mobwsa.ximalaya.com
 
 
 ^https?:\/\/.*\/mobile\-user\/homePage\/.* url script-request-header ximalaya.cookie.js
