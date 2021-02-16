@@ -1,4 +1,4 @@
-hostname = api.bilibili.com, app.bilibili.com, pbs.twimg.com, wq.jd.com, m.jingxi.com, weather-data.apple.com, api.weather.com, api.shimo.im, note.youdao.com, account.wps.cn, *.kuwo.cn, vip1.kuwo.cn, api.picsart.c*, api.meiease.c*, getuserinfo-globalapi.zymk.cn
+hostname = api.bilibili.com, app.bilibili.com, api.rr.tv, ctrl.playcvn.com, weather-data.apple.com, api.weather.com, m.client.10010.com, api.m.jd.com, trade-acs.m.taobao.com, getuserinfo-globalapi.zymk.cn, ap*.intsig.net, api.picsart.c*, api.meiease.c*, vsco.co, p.du.163.com, vip1.kuwo.cn, *.amemv.com, mp.weixin.qq.com, account.wps.cn, *.snssdk.com, note.youdao.com, pan.baidu.com, pbs.twimg.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com
 
 
 
@@ -36,7 +36,7 @@ hostname = api.bilibili.com, app.bilibili.com, pbs.twimg.com, wq.jd.com, m.jingx
 #^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) url script-response-body Kuwo.js
 ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?uid\=\d+ url 302 http://musicpay.kuwo.cn/music.pay?uid=1
 # 酷我换肤(已经有的皮肤需要先从本地皮肤删除再换)
-^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/theme)  url script-response-body   https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/themekuwo.js
+^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/theme)  url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/themekuwo.js
 # 抖音去广告去水印 (By Choler)
 ^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Aweme.js
 ^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Aweme.js
@@ -50,8 +50,6 @@ hostname = api.bilibili.com, app.bilibili.com, pbs.twimg.com, wq.jd.com, m.jingx
 ^https?://m.client.10010.com/uniAdmsInterface/getHomePageAd url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/china_unicom.js
 # 有道云笔记VIP (ByAlex0510)
 ^https://note.youdao.com/yws/(mapi/payment|api/self) url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/ydybj.js
-# 石墨文档 (By Alex0510)
-^https://api.shimo.im/users/ url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/shimo.js
 # 百度云倍速播放
 ^https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
 # 推特图片替换原图
