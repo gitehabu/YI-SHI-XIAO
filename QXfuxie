@@ -23,8 +23,6 @@ hostname = api.vuevideo.net,api.bilibili.com, app.bilibili.com, api.rr.tv, ctrl.
 ^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/CamScanner.js
 # PicsArt美易 pro
 ^https:\/\/api\.(picsart|meiease)\.c(n|om)\/users\/show\/me\.json url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/PicsArt.js
-# PicsArt
-^https:\/\/api\.(picsart|meiease)\.c(n|om)\/users\/show\/me\.json url script-response-body https://raw.githubusercontent.com/langkhach270389/Scripting/master/picsArt.vip.js
 # VSCO滤镜VIP
 ^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
 # 网易蜗牛读书VIP (By yxiaocai and JO2EY)
