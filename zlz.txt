@@ -1,0 +1,5 @@
+hostname= api.xiaomuyu888.com
+
+
+
+https?:\/\/api\.xiaomuyu888\.com\/* url script-request-body https://raw.githubusercontent.com/DD-D1/Script/main/zoulusign.js
