@@ -1,0 +1,4 @@
+hostname= wx.10086.cn
+
+^http:\/\/wx.10086.cn\/website\/taskCenter\/index\? url script-request-header https://raw.githubusercontent.com/gitehabu/scripts-1/master/10086/10086.cookie.js
+^http:\/\/wx.10086.cn\/website\/taskCenter\/sign\? url script-request-header https://raw.githubusercontent.com/gitehabu/scripts-1/master/10086/10086.cookie.js
