@@ -1,3 +1,0 @@
-hostname= www.duokan.com
-
-^https:\/\/www\.duokan\.com\/checkin\/v0\/status url script-request-body duokan.cookie.js
