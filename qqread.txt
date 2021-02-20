@@ -1,7 +1,4 @@
-hostname= commontgw6.reader.qq.com,eventv36.reader.qq.com
+hostname= iostgw6.reader.qq.com,newios.reader.qq.com
 
 
-#QQ阅读APP获取cookie
-https:\/\/commontgw6\.reader\.qq\.com\/v7_5_2\/nativepage\/getAcctInfo url script-request-header https://raw.githubusercontent.com/ziye66666/JavaScript/master/Task/QQread.js
-#QQ阅读APP获取视频cookie
-https:\/\/eventv36\.reader\.qq\.com\/activity\/pkg11955\/watchVideo url script-request-header https://raw.githubusercontent.com/ziye66666/JavaScript/master/Task/QQread.js
+https:\/\/(iostgw6\.reader\.qq\.com\/*||newios\.reader\.qq\.com\/*) url script-request-header https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/QQread.js  
