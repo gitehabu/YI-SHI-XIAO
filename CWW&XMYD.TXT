@@ -1,4 +1,4 @@
-hostname = api.m.jd.com, draw.jdfcloud.com, jdjoy.jd.com, account.huami.com
+hostname = draw.jdfcloud.com, account.huami.com
 
 
 # 宠汪汪助力更新Token
