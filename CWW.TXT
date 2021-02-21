@@ -1,0 +1,7 @@
+hostname = draw.jdfcloud.com
+
+
+# 宠汪汪助力更新Token
+^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/api\/user\/addUser\?code= url script-response-body https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/jd_joy_run.js
+# 宠汪汪助力获取Token
+^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/api\/user\/user\/detail\?openId= url script-request-header https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/jd_joy_run.js
