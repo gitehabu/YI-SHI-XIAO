@@ -1,4 +1,4 @@
 hostname = bububao.duoshoutuan.com
 
 
-https://bububao.duoshoutuan.com/user/login? url script-request-header https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/BBBDK.js
+^https://bububao.duoshoutuan.com/user/login? url script-request-header https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/BBBDK.js
