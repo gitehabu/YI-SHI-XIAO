@@ -1,0 +1,8 @@
+hostname = *.googlevideo.com
+
+# YouTube去广告
+(^https?:\/\/[\w-]+\.googlevideo\.com\/.+)(ctier=L)(&.+) url 302 $1$3
+^https?:\/\/[\w-]+\.googlevideo\.com\/.+&(oad|ctier) url reject
+# YouTube广告时间为0
+#ctier=[A-Z] url 302 ctier=A
+#^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) url reject-200
