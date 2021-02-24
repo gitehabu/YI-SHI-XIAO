@@ -1,0 +1,8 @@
+hostname = *:443
+
+
+https:\/\/*\:443\/v1\/user(\/promote)\/info url response-body view_limit":\d+ response-body view_limit":9999
+https:\/\/*\:443\/v1\/user(\/promote)\/info url response-body download_limit":\d+ response-body download_limit":9999
+https:\/\/*\:443\/v1\/user(\/promote)\/info url response-body expiry":\d+ response-body expiry":1800000000
+https:\/\/*\:443\/v1\/user(\/promote)\/info url response-body level":\d+ response-body level":2
+https:\/\/*\:443\/v1\/user(\/promote)\/info url response-body vip_trial":\w+ response-body vip_trial":true
