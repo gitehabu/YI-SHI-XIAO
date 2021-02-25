@@ -6,9 +6,9 @@
 #new Env('获取多账号京东Cookie');//此处忽略即可，为自动生成iOS端软件配置文件所需
 
 
-hostname = wq.jd.com
+hostname = me-api.jd.com
 
 
 
 # 获取多账号京东Cookie
-https:\/\/wq\.jd\.com\/user_new\/info\/GetJDUserInfoUnion url script-request-header https://gitee.com/lxk0301/jd_scripts/raw/master/JD_extra_cookie.js
+^https:\/\/me-api\.jd\.com\/user_new\/info\/GetJDUserInfoUnion url script-request-header https://gitee.com/lxk0301/jd_scripts/raw/master/JD_extra_cookie.js
