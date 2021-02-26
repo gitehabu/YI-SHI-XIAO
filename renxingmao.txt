@@ -1,0 +1,4 @@
+hostname = cat.rxmao.net
+
+
+https://cat.rxmao.net/miner/cat.php url script-request-body https://raw.githubusercontent.com/age174/-/main/rxm.js
