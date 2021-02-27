@@ -48,14 +48,14 @@
 # tm: 天猫
 
 # ac:  Acfun
-# bli: 哔哩哔哩
+# bl: 哔哩哔哩
 # ytb: YouTube
 # ph:  PornHub 
 # gd:  Google Drive资源
 # tgd: TG搜索Google Drive资源
  
-# bd: 百度
-# gu：谷歌搜索
+# b: 百度
+# g：谷歌搜索
 # ddg：DuckDuckGo 搜索
 # 无指令则转 bing 搜索
 
@@ -166,11 +166,11 @@ hostname = duckduckgo.com
 
 # 默认搜索
 
-# bd: 百度
-^https:\/\/duckduckgo.com\/\?q=bd\+([^&]+).+ url 302  https://www.baidu.com/s?wd=$1
+# b: 百度
+^https:\/\/duckduckgo.com\/\?q=b\+([^&]+).+ url 302  https://www.baidu.com/s?wd=$1
 
-# gu: 谷歌
-^https:\/\/duckduckgo.com\/\?q=gu\+([^&]+).+ url 302 https://www.google.com/search?q=$1
+# g: 谷歌
+^https:\/\/duckduckgo.com\/\?q=g\+([^&]+).+ url 302 https://www.google.com/search?q=$1
 
 # ddg: DuckDuckGo 
 ^https:\/\/duckduckgo.com\/\?q=ddg\+([^&]+).+ url 302 https://duckduckgo.com/?ia=about&q=$1
