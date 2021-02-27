@@ -12,17 +12,17 @@
 
 ^http:\/\/t\.cn url 302 https://sinaurl.cn
 
-^http:\/\/www\.google\.cn url 302 https://www.google.com.hk
+^http:\/\/www\.google\.(cn|com) url 302 https://www.google.com.hk
 
 ^http?:\/\/(www.)?jd\.com\/ url 302 https://www.jd.com/
 
 ^http?:\/\/(www.)?yhd\.com\/ url 302 https://yhd.com/
 
-^https?:\/\/(ditu|maps).google\.cn url 302 https://maps.google.com
+^https?:\/\/(ditu|maps).google\.(cn|com) url 302 https://maps.google.com.hk
 
 ^https?:\/\/(www.)?(betterzipcn|betterzip)\.(com|net)\/ url 302 https://macitbetter.com/
 
-^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
+^https?:\/\/(www.)?(g|google)\.(cn|com) url 302 https://www.google.com.hk
 
 ^https?:\/\/(www.)?(mycleanmymac|xitongqingli)\.com\/ url 302 https://macpaw.com/
 
