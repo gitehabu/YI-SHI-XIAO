@@ -1,9 +1,5 @@
-hostname = ifac*.iqiyi.com, music.163.com, *.bilibili.com
+hostname = music.163.com, *.bilibili.com
 
-
-# 获取爱奇艺Cookie(by NobyDA)
-# 打开爱奇艺App后(AppStore中国区)，点击"我的", 通知成功获取cookie.
-^https?:\/\/iface(\d)?\.iqiyi\.com\/ url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
 
 # 获取网易云音乐Cookie(by chavyleung)
 # 先登录: https://music.163.com/m/login
