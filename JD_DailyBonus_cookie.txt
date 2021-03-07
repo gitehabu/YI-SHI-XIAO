@@ -1,4 +1,6 @@
-hostname= api.m.jd.com
+hostname = me-api.jd.com
 
 
-https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+
+# 获取多账号京东Cookie
+^https:\/\/me-api\.jd\.com\/user_new\/info\/GetJDUserInfoUnion url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
