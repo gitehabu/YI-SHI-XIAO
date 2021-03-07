@@ -1,6 +1,0 @@
-hostname = me-api.jd.com
-
-
-
-# 获取多账号京东Cookie
-^https:\/\/me-api\.jd\.com\/user_new\/info\/GetJDUserInfoUnion url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
