@@ -1,0 +1,6 @@
+hostname = api1.dobenge.cn, p3.pstatp.com
+
+
+#水印精灵拒绝联网
+^api1.dobenge.cn url reject
+^p3.pstatp.com url reject
