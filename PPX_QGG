@@ -1,0 +1,3 @@
+hostname = *.snssdk.com
+
+^https?://.*\.snssdk\.com/bds/(feed/stream|comment/cell_reply|cell/cell_comment|cell/detail|ward/list|user/favorite|user/cell_coment|user/cell_userfeed|user/publish_list) url request-header app_name=super&([\S]*)aid=\d+ request-header app_name=super_pro&$1aid=1412
