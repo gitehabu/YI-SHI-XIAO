@@ -1,19 +1,10 @@
-hostname = mubu.com, api.psy-1.com, ssl-api.itranslateapp.com, lcs-mobile-cops.adobe.io, www.xmind.cn, app.xunjiepdf.com, vipapi.jxedt.com, www.luqijianggushi.com, api1.dobenge.cn, api.vuevideo.net,api.bilibili.com, app.bilibili.com, api.rr.tv, ctrl.playcvn.com, weather-data.apple.com, api.weather.com, biz.caiyunapp.com, api.m.jd.com, trade-acs.m.taobao.com, ap*.intsig.net, api.picsart.c*, api.meiease.c*, vsco.co, p.du.163.com, vip1.kuwo.cn, mp.weixin.qq.com, account.wps.cn, *.amemv.com, *.snssdk.com, note.youdao.com, pan.baidu.com, pbs.twimg.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com
+hostname = api.psy-1.com, lcs-mobile-cops.adobe.io, www.luqijianggushi.com, api1.dobenge.cn, api.vuevideo.net,api.bilibili.com, app.bilibili.com, api.rr.tv, ctrl.playcvn.com, weather-data.apple.com, api.weather.com, biz.caiyunapp.com, api.m.jd.com, trade-acs.m.taobao.com, ap*.intsig.net, api.picsart.c*, api.meiease.c*, vsco.co, p.du.163.com, vip1.kuwo.cn, mp.weixin.qq.com, account.wps.cn, *.amemv.com, *.snssdk.com, note.youdao.com, pan.baidu.com, pbs.twimg.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com
 
-# 幕布
-http-response https:\/\/mubu\.com\/api\/app\/user\/info requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/mb.js,tag=幕布
+
 # 小睡眠
 http-response ^https:\/\/api\.psy-1\.com\/cosleep\/user\/info requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xiaoshuimian.js,tag=小睡眠
-# itranslate
-http-response ^https:\/\/ssl-api\.itranslateapp\.com\/.*\/subscriptions\/.*\/ios$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/itranslate.js,script-update-interval=0
 # photoshop
 http-response ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/photoshop.js,script-update-interval=0
-# XMind思维导图
-http-response https:\/\/www\.xmind\.cn\/\_res\/devices requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/XMind.js,tag=XMind思维导图
-# 智能证件照相机
-http-response ^https:\/\/app\.xunjiepdf\.com\/api\/v4\/virtualactregister requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/znzj.js,tag=智能证件照相机
-# 驾校一点通
-http-response ^https:\/\/vipapi\.jxedt\.com\/vip\/check requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/jxydt.js,tag=驾校一点通
 # 陆琪讲故事
 ^https:\/\/www\.luqijianggushi\.com\/api\/v2\/user\/get url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/luqi.js
 # 水印精灵 vip
