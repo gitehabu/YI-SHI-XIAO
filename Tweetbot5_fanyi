@@ -1,0 +1,5 @@
+host= www.google.com,translate.google.com
+
+
+https://www.google.com/translate_t url 307 https://translate.google.com/
+https://translate.google.com/|%3Flangpair= url request-header %3Flangpair= request-header ?langpair=
