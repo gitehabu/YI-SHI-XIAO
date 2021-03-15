@@ -1,7 +1,7 @@
 hostname = v3-dy-o.zjcdn.com, *.snssdk.com, *.amemv.com, api.psy-1.com, lcs-mobile-cops.adobe.io, www.luqijianggushi.com, api1.dobenge.cn, api.vuevideo.net,api.bilibili.com, app.bilibili.com, api.rr.tv, ctrl.playcvn.com, weather-data.apple.com, api.weather.com, api.m.jd.com, trade-acs.m.taobao.com, ap*.intsig.net, api.picsart.c*, api.meiease.c*, vsco.co, p.du.163.com, vip1.kuwo.cn, mp.weixin.qq.com, account.wps.cn, note.youdao.com, pan.baidu.com, pbs.twimg.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com
 
 # 皮皮虾 去广告去水印
-^http://v3-dy-o.zjcdn.com/*/video/tos/cn/tos-cn-ve-51/ url reject
+^http://v3-dy-o.zjcdn.com/*/video/tos/cn/tos-cn-ve-51/* url reject
 ^https?://.*\.snssdk\.com/bds/(feed/stream|comment/cell_reply|cell/cell_comment|cell/detail|ward/list|user/favorite|user/cell_coment|user/cell_userfeed|user/publish_list) url request-header app_name=super&([\S]*)aid=\d+ request-header app_name=super_pro&$1aid=1412
 ^https?://.*\.snssdk\.com/bds/(feed/stream|comment/cell_reply|cell/cell_comment|cell/detail|ward/list|user/favorite|user/cell_coment|user/cell_userfeed|user/publish_list) url script-response-body https://raw.githubusercontent.com/Liquor030/Sub_Ruleset/master/Script/Super.js
 # 抖音去广告去水印
