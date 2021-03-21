@@ -1,9 +1,33 @@
-hostname = api.shimo.im, avoscloud.com, mubu.com
+hostname = api.jiaonizuocai.com, www.xmind.cn, api.shimo.im,api.meiyan.com, mubu.com,avoscloud.com,*.youtube.com,*.googlevideo.com,youtubei.googleapis.com
 
-https://api.shimo.im/users/ url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/shimo.js
+
 
 #幕布 (by @superuv)
 https:\/\/mubu\.com\/api\/app\/user\/info url script-response-body nzw9314/Script/mb.js
 
 # 西窗烛 （By 黑黑酱）
-^https:\/\/avoscloud\.com\/1\.1\/users\/ url script-response-body nzw9314/Script/xcz.j
+^https:\/\/avoscloud\.com\/1\.1\/users\/ url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xcz.js
+
+#美颜相机一次性解锁内购（by黑黑酱）
+^https:\/\/api\.meiyan\.com\/iap\/verify\.json url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/myxj.js
+
+# 石墨文档 (By Alex0510)
+https://api.shimo.im/users/ url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/shimo.js
+
+# XMind思维导图 (by @JigsaWo)
+https:\/\/www\.xmind\.cn\/\_res\/devices url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/XMind.js
+
+#菜谱大全解锁vip (By @photonmang)
+https?:\/\/api\.jiaonizuocai\.com url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/cpdq.js
+
+# YouTube去广告
+^https?:\/\/.+\.googlevideo\.com\/.+&oad url reject-img
+^https?:\/\/.+\.googlevideo\.com\/.+ctier url reject-img
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_ url reject-img
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+log_ url reject-img
+^https?:\/\/.+\.youtube\.com\/get_midroll_ url reject-img
+^https?:\/\/premiumyva\.appspot\.com\/vmclickstoadvertisersite url reject-img
+^https?:\/\/.+\.youtube\.com\/api\/stats\/ads url reject-img
+^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat url reject-img
+^https?:\/\/.+\.youtube\.com\/pagead\/ url reject-img
+^https?:\/\/.+\.youtube\.com\/ptracking url reject-img
