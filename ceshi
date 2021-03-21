@@ -3,7 +3,7 @@ hostname = api.jiaonizuocai.com, www.xmind.cn, api.shimo.im,api.meiyan.com, mubu
 
 
 #幕布 (by @superuv)
-https:\/\/mubu\.com\/api\/app\/user\/info url script-response-body nzw9314/Script/mb.js
+https:\/\/mubu\.com\/api\/app\/user\/info url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/mb.js
 
 # 西窗烛 （By 黑黑酱）
 ^https:\/\/avoscloud\.com\/1\.1\/users\/ url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xcz.js
