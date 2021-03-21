@@ -1,0 +1,9 @@
+hostname = api.shimo.im, avoscloud.com, mubu.com
+
+https://api.shimo.im/users/ url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/shimo.js
+
+#幕布 (by @superuv)
+https:\/\/mubu\.com\/api\/app\/user\/info url script-response-body nzw9314/Script/mb.js
+
+# 西窗烛 （By 黑黑酱）
+^https:\/\/avoscloud\.com\/1\.1\/users\/ url script-response-body nzw9314/Script/xcz.j
