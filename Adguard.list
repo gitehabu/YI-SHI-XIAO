@@ -1,0 +1,6 @@
+hostname=mobile-api.adguard.com
+
+#adguardpremium
+
+^https:\/\/mobile-api\.adguard\.com\/api\/1\.0\/ios_validate_receipt$ url 302 https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/Adguard.rsp
+
