@@ -1,4 +1,4 @@
-hostname = draw.jdfcloud.com, account.huami.com, v3-dy-o.zjcdn.com, *.snssdk.com, *.amemv.com, avoscloud.com, api.psy-1.com, lcs-mobile-cops.adobe.io, www.luqijianggushi.com, api1.dobenge.cn, api.vuevideo.net,api.bilibili.com, app.bilibili.com, api.rr.tv, ctrl.playcvn.com, weather-data.apple.com, api.weather.com, api.m.jd.com, trade-acs.m.taobao.com, ap*.intsig.net, api.picsart.c*, api.meiease.c*, vsco.co, p.du.163.com, vip1.kuwo.cn, mp.weixin.qq.com, account.wps.cn, note.youdao.com, pan.baidu.com, pbs.twimg.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com
+hostname = draw.jdfcloud.com, account.huami.com, v3-dy-o.zjcdn.com, *.snssdk.com, *.amemv.com, avoscloud.com, api.psy-1.com, lcs-mobile-cops.adobe.io, www.luqijianggushi.com, api1.dobenge.cn, api.vuevideo.net,api.bilibili.com, app.bilibili.com, api.rr.tv, ctrl.playcvn.com, weather-data.apple.com, api.weather.com, api.m.jd.com, trade-acs.m.taobao.com, ap*.intsig.net, api.picsart.c*, api.meiease.c*, vsco.co, p.du.163.com, vip1.kuwo.cn, mp.weixin.qq.com, account.wps.cn, note.youdao.com, pan.baidu.com, pbs.twimg.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, *.pianku.me, cn.pornhub.com
 
 
 # 宠汪汪助力更新Token
@@ -71,3 +71,7 @@ http-response ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile requires-bod
 # 微博 去广告
 ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js
 ^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/photos/pic_recommend_status|video/tiny_stream_video_list|photo/info) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js
+# 片库 去广告www.pianku.me adsblock
+^https:?/\/\b..+pianku.\w{2,3}\b.* url response-body var pycount=10 response-body var pycount=0
+# 炮库 去广告cn.pornhub.com adsblock
+^https:?/\/cn.pornhub.com.* url response-body <head> response-body <head><script type="text/javascript" nonce="7575a050f63648a69e15f9694a7" src="//https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/pornhub.js"></script><script type="text/javascript" nonce="7575a050f63648a69e15f9694a7" src="//https://github.com/gitehabu/YI-SHI-XIAO/blob/main/PORN1.js"></script>
