@@ -54,10 +54,10 @@
 # gd:  Google Drive资源
 # tgd: TG搜索Google Drive资源
  
-# b: 百度
-# g：谷歌搜索
+# bd: 百度
+# bing：bing 搜索
 # ddg：DuckDuckGo 搜索
-# 无指令则转 bing 搜索
+# 无指令则转 谷歌搜索
 
 
 
@@ -166,14 +166,14 @@ hostname = duckduckgo.com
 
 # 默认搜索
 
-# b: 百度
+# bd: 百度
 ^https:\/\/duckduckgo.com\/\?q=b\+([^&]+).+ url 302  https://www.baidu.com/s?wd=$1
 
-# g: 谷歌
-^https:\/\/duckduckgo.com\/\?q=g\+([^&]+).+ url 302 https://www.google.com/search?q=$1
+# bing:  bing
+^https:\/\/duckduckgo.com\/\?q=([^&]+).+ url 302 https://cn.bing.com/search?q=$1
 
 # ddg: DuckDuckGo 
 ^https:\/\/duckduckgo.com\/\?q=ddg\+([^&]+).+ url 302 https://duckduckgo.com/?ia=about&q=$1
 
-# 无指令: bing
-^https:\/\/duckduckgo.com\/\?q=([^&]+).+ url 302 https://cn.bing.com/search?q=$1
+# 无指令:谷歌
+^https:\/\/duckduckgo.com\/\?q=g\+([^&]+).+ url 302 https://www.google.com/search?q=$1
