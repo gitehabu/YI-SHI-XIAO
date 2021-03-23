@@ -1,6 +1,11 @@
-hostname = www.google.com,translate.google.com, draw.jdfcloud.com, account.huami.com, v3-dy-o.zjcdn.com, *.snssdk.com, *.amemv.com, avoscloud.com, api.psy-1.com, lcs-mobile-cops.adobe.io, www.luqijianggushi.com, api1.dobenge.cn, api.vuevideo.net,api.bilibili.com, app.bilibili.com, api.rr.tv, ctrl.playcvn.com, weather-data.apple.com, api.weather.com, api.m.jd.com, trade-acs.m.taobao.com, ap*.intsig.net, api.picsart.c*, api.meiease.c*, vsco.co, p.du.163.com, vip1.kuwo.cn, mp.weixin.qq.com, account.wps.cn, note.youdao.com, pan.baidu.com, pbs.twimg.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, *.pianku.me, cn.pornhub.com
+hostname = mobile-api.adguard.com, buy.itunes.apple.com, www.google.com,translate.google.com, draw.jdfcloud.com, account.huami.com, v3-dy-o.zjcdn.com, *.snssdk.com, *.amemv.com, avoscloud.com, api.psy-1.com, lcs-mobile-cops.adobe.io, www.luqijianggushi.com, api1.dobenge.cn, api.vuevideo.net,api.bilibili.com, app.bilibili.com, api.rr.tv, ctrl.playcvn.com, weather-data.apple.com, api.weather.com, api.m.jd.com, trade-acs.m.taobao.com, ap*.intsig.net, api.picsart.c*, api.meiease.c*, vsco.co, p.du.163.com, vip1.kuwo.cn, mp.weixin.qq.com, account.wps.cn, note.youdao.com, pan.baidu.com, pbs.twimg.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, *.pianku.me, cn.pornhub.com
 
-# Tweetbot5_翻译修复
+
+#adguard premium
+^https:\/\/mobile-api\.adguard\.com\/api\/1\.0\/ios_validate_receipt$ url 302 https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/Adguard.rsp
+#Bear熊掌记 内购解锁
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/Bear.js
+# Tweetbot5 翻译修复
 https://www.google.com/translate_t url 307 https://translate.google.com/
 https://translate.google.com/|%3Flangpair= url request-header %3Flangpair= request-header ?langpair=
 # 宠汪汪助力更新Token
