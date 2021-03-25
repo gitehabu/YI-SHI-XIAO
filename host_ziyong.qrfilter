@@ -1,0 +1,12 @@
+#文华财经随身行
+host, m-log.wenhua.com.cn, reject
+host, m-count.wenhua.com.cn, reject
+host, m-news-net.wenhua.com.cn, reject
+host, m-open.wenhua.com.cn, reject
+host, m-risk.wenhua.com.cn, reject
+host, m-adphone.wenhua.com.cn, reject
+#推特视频下载https://www.downloadtwittervideo.com/zh-cn/
+host, rotumal.com, reject
+#水印精灵
+host-suffix, pstatp.com, reject
+host-suffix, dobenge.cn, reject
