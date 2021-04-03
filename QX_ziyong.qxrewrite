@@ -1,4 +1,4 @@
-hostname = mlvbdc.live.qcloud.com, lbs.netease.im, sdk.open.talk.igexin.com, cnvod.cnr.cn, *.ut.taobao.com, mobile-api.adguard.com, buy.itunes.apple.com, www.google.com,translate.google.com, draw.jdfcloud.com, account.huami.com, v3-dy-o.zjcdn.com, *.snssdk.com, *.amemv.com, avoscloud.com, api.psy-1.com, lcs-mobile-cops.adobe.io, www.luqijianggushi.com, api1.dobenge.cn, api.vuevideo.net,api.bilibili.com, app.bilibili.com, api.rr.tv, ctrl.playcvn.com, weather-data.apple.com, api.weather.com, api.m.jd.com, trade-acs.m.taobao.com, ap*.intsig.net, api.picsart.c*, api.meiease.c*, vsco.co, p.du.163.com, vip1.kuwo.cn, mp.weixin.qq.com, account.wps.cn, note.youdao.com, pan.baidu.com, pbs.twimg.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, *.pianku.me, cn.pornhub.com
+hostname = mlvbdc.live.qcloud.com, lbs.netease.im, sdk.open.talk.igexin.com, cnvod.cnr.cn, *.ut.taobao.com, mobile-api.adguard.com, buy.itunes.apple.com, www.google.com,translate.google.com, draw.jdfcloud.com, account.huami.com, v3-dy-o.zjcdn.com, *.snssdk.com, *.amemv.com, avoscloud.com, api.psy-1.com, lcs-mobile-cops.adobe.io, www.luqijianggushi.com, api1.dobenge.cn, api.vuevideo.net,api.bilibili.com, app.bilibili.com, api.rr.tv, ctrl.playcvn.com, weather-data.apple.com, api.weather.com, api.m.jd.com, trade-acs.m.taobao.com, ap*.intsig.net, api.picsart.c*, api.meiease.c*, vsco.co, p.du.163.com, vip1.kuwo.cn, mp.weixin.qq.com, account.wps.cn, note.youdao.com, pan.baidu.com, pbs.twimg.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, *.pianku.me, cn.pornhub.com, *:443
 
 # 云听
 mlvbdc.live.qcloud.com url reject
@@ -88,3 +88,9 @@ http-response ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile requires-bod
 ^https:?/\/\b..+pianku.\w{2,3}\b.* url response-body var pycount=10 response-body var pycount=0
 # 炮库 去广告cn.pornhub.com adsblock
 ^https:?/\/cn.pornhub.com.* url response-body <head> response-body <head><script type="text/javascript" nonce="7575a050f63648a69e15f9694a7" src="//https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/pornhub.js"></script><script type="text/javascript" nonce="7575a050f63648a69e15f9694a7" src="//https://github.com/gitehabu/YI-SHI-XIAO/blob/main/PORN1.js"></script>
+# Pali 试用会员www.pali.love
+https:\/\/*\:443\/v1\/user(\/promote)\/info url response-body view_limit":\d+ response-body view_limit":9999
+https:\/\/*\:443\/v1\/user(\/promote)\/info url response-body download_limit":\d+ response-body download_limit":9999
+https:\/\/*\:443\/v1\/user(\/promote)\/info url response-body expiry":\d+ response-body expiry":1800000000
+https:\/\/*\:443\/v1\/user(\/promote)\/info url response-body level":\d+ response-body level":2
+https:\/\/*\:443\/v1\/user(\/promote)\/info url response-body vip_trial":\w+ response-body vip_trial":true
