@@ -25,6 +25,18 @@
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/JD2COOKIE.TXT,tag=京东物流派件提醒_获取Cookie"
     },
     {
+      "config":"0 7-22/3 * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/caiyun.js, tag=彩云天气, img-url=https://raw.githubusercontent.com/Orz-3/task/master/caiyun.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/caiyun.qxrewrite,tag=彩云天气_获取Cookie"
+    },
+    {
+      "config":"1 0 * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/rrtv.js, tag=人人视频, img-url=https://qxzy.top/rules/QuantumultX/img/rrtv.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/rrtv.qxrewriteT,tag=人人视频_获取Cookie"
+    },
+    {
+      "config":"5 0 * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/JD_DailyBonus.js, tag=京东多合一签到, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png,enabled=true",
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/JD2COOKIE.TXT,tag=京东多合一签到_获取Cookie"
+    },
+    {
       "config":"15 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_signin.js, tag=中国联通, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/10010.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_signin.qxrewrite,tag=联通_获取Cookie"
     },
