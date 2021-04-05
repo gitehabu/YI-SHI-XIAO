@@ -1,4 +1,4 @@
-{"name":"自定义",
+{"name":"咏春茶馆",
   "task":[
     {
       "config":"30 6 * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/youth_banner.js, tag=中青看看赚, img-url=https://raw.githubusercontent.com/Orz-3/task/master/youth.png, enabled=true",
