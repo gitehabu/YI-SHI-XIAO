@@ -1,4 +1,19 @@
-
+#云听
+host, httpdns.n.netease.com, reject
+host, n.sinaimg.cn, reject
+host, mlvbdc.live.qcloud.com, reject
+host, sdk.open.talk.igexin.com, reject
+host, ytapi.radio.cn, reject
+host-suffix, mob.com, reject
+host, redirect.networkbench.com, reject
+host-keyword, aliyuncs.com, reject
+host, cnvod.cnr.cn, reject
+host, report.radio.cn, reject
+host-suffix, getui.com, reject
+host-suffix, getui.net, reject
+host, ytmedia.radio.cn, reject
+host, inappcheck.itunes.apple.com, reject
+host, mpush-api.aliyun.com, reject
 #文华财经随身行
 host, m-log.wenhua.com.cn, reject
 host, m-count.wenhua.com.cn, reject
