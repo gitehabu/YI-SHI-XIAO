@@ -1,2 +1,2 @@
 hostname=weather-data.apple.com, api.weather.com
-https:\/\/((weather-data\.apple)|(api.weather))\.com url script-request-header https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js
+https:\/\/((weather-data\.apple)|(api.weather))\.com url script-request-header https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/caiyun.js
