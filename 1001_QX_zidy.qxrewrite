@@ -2,11 +2,11 @@ hostname = /app*, mlvbdc.live.qcloud.com, lbs.netease.im, sdk.open.talk.igexin.c
 
 # 云听
 /app* url response-body isVip":\d response-body isVip":0
-mlvbdc.live.qcloud.com url reject
-lbs.netease.im url reject
-license.vod2.myqcloud.com url reject
-sdk.open.talk.igexin.com url reject
-cnvod.cnr.cn url reject
+//mlvbdc.live.qcloud.com url reject
+//lbs.netease.im url reject
+//license.vod2.myqcloud.com url reject
+//sdk.open.talk.igexin.com url reject
+//cnvod.cnr.cn url reject
 ^*.ut.taobao.com url reject
 # adguard premium
 ^https:\/\/mobile-api\.adguard\.com\/api\/1\.0\/ios_validate_receipt$ url 302 https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/Adguard.rsp
