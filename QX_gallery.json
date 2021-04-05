@@ -41,16 +41,16 @@
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_signin.qxrewrite,tag=联通_获取Cookie"
     },
     {
-      "config": "0 11 8 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js, tag=新浪微博, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/weibo.png, enabled=true", 
-      "addons": "https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/sina/qx_rewite.txt, tag=新浪微博_获取Cookie, update-interval=-1, opt-parser=false, enabled=true"
+      "config": "0 11 8 * * * https://raw.githubusercontent.com/gitehabu/Scripts/gitehabu-patch-1/Task/weibo.js, tag=新浪微博, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/weibo.png, enabled=true", 
+      "addons": "https://raw.githubusercontent.com/gitehabu/Scripts/gitehabu-patch-1/TaskConf/sina/sinaweibo.txt, tag=新浪微博_获取Cookie"
     },
     {
       "config": "30 10 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js, tag=哈罗出行, img-url=https://qxzy.top/rules/QuantumultX/img/hellbike.png, enabled=true", 
-      "addons": "https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/QX_hellobike.qxrewrite, tag=哈罗出行_获取Cookie, update-interval=-1, opt-parser=false, enabled=true"
+      "addons": "https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/QX_hellobike.qxrewrite, tag=哈罗出行_获取Cookie"
     },
     {
       "config": "30 10 8 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js, tag=京东到家, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jddj.png, enabled=true", 
-      "addons": "https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/jd/qx_rewite.txt, tag=京东到家_获取Cookie, update-interval=-1, opt-parser=false, enabled=true"
+      "addons": "https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/jd/qx_rewite.txt, tag=京东到家_获取Cookie"
     },
     {
       "config":"20 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/dingdong/dingdong_checkin.js, tag=叮咚买菜, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/dingdong/dingdong.png, enabled=true",
