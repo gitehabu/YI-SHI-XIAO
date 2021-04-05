@@ -1,0 +1,2 @@
+hostname= *.rr.tv
+^https:\/\/api\.rr\.tv\/user\/profile url script-request-header https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/rrtv.cookie.js
