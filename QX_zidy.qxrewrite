@@ -1,4 +1,4 @@
-hostname = mlvbdc.live.qcloud.com, lbs.netease.im, sdk.open.talk.igexin.com, cnvod.cnr.cn, *.ut.taobao.com, mobile-api.adguard.com, buy.itunes.apple.com, www.google.com,translate.google.com, draw.jdfcloud.com, account.huami.com, v3-dy-o.zjcdn.com, *.snssdk.com, *.amemv.com, avoscloud.com, api.psy-1.com, lcs-mobile-cops.adobe.io, www.luqijianggushi.com, api1.dobenge.cn, api.vuevideo.net,api.bilibili.com, app.bilibili.com, api.rr.tv, ctrl.playcvn.com, weather-data.apple.com, api.weather.com, api.m.jd.com, trade-acs.m.taobao.com, ap*.intsig.net, api.picsart.c*, api.meiease.c*, vsco.co, p.du.163.com, vip1.kuwo.cn, mp.weixin.qq.com, account.wps.cn, note.youdao.com, pan.baidu.com, pbs.twimg.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, *.pianku.me, cn.pornhub.com, *:443
+hostname = mlvbdc.live.qcloud.com, lbs.netease.im, sdk.open.talk.igexin.com, cnvod.cnr.cn, *.ut.taobao.com, mobile-api.adguard.com, buy.itunes.apple.com, www.google.com,translate.google.com, draw.jdfcloud.com, account.huami.com, v3-dy-o.zjcdn.com, *.snssdk.com, *.amemv.com, avoscloud.com, api.psy-1.com, lcs-mobile-cops.adobe.io, www.luqijianggushi.com, api1.dobenge.cn, api.vuevideo.net,api.bilibili.com, app.bilibili.com, api.rr.tv, ctrl.playcvn.com, weather-data.apple.com, api.weather.com, api.m.jd.com, trade-acs.m.taobao.com, ap*.intsig.net, api.picsart.c*, api.meiease.c*, vsco.co, p.du.163.com, vip1.kuwo.cn, mp.weixin.qq.com, account.wps.cn, note.youdao.com, pan.baidu.com, pbs.twimg.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, 91mjw.com, sf3-ttcdn-tos.pstatp.com, nfstar.net, mdapp2.pw, bde4.cc, www.hptoon.com, maphuahin.com, streamsb.com, ssl.p.jwpcdn.com, mc.yandex.ru, ad.pornimg.xyz, blastcahs.com, *.aliyuncs.com, pic.caihong52.com, meethanshi.com, baomitu.com, cdn.ggsfq.com, ggsfq.com, streamsb.net, *.javbus.com, www.javbus.com, www.zhenbuka.com, cluster.awmserve.com, urtirepor.com, ads.bullionyield.com, www.porntrex.com, cloudrls.com, javtsunami.com, *.cloudfront.net, 91porny.com, cdn.jsdelivr.net, s3.amazonaws.com, static.nyahentai.pw, zh.nyahentai.me, m.yhdm.io, k.wudejia.com, www.mfkhm.com, www.cocomanhua.com, fans.91p20.space, 91porn.com, *.xvideos-cdn.com, www.xvideos.com, *.realsrv.com, *.nyahentai.com, gum.criteo.com, rt.gsspat.jp, -*.nyahentai.pw, rt.gsspat.jp, img.gsspat.jp, -*.phncdn.com, www.pornhub.com, cn.pornhub.com, *.ddmax20.*, asianclub.tv, *.yabo.*, *.yabo729.com, *.wine-api.net, *.wixsite.com, *.wixstatic.com, *.dilidd.com, *.alicdn.com, *.dililitv.com, netflav.com, www.avple.video, *.imgur.*, m.mypianku.com, mypianku.com, *.pianku.*, *.xn--2qux23c9ziyrq.club, *.naifei.shop, www.nfmovies.com, *.yb463.app, *.yabet.*, *.yabet1477.*, ddrk.me, poweredbyliquidfire.mobi, *.poweredbyliquidfire.mobi, avgle.com, *.avgle.com, *.juicyads.com, *.jads.co, jable.tv, *.jable.tv, *.ackcdn.net, -*.trwl1.*, -*.trwl1.com, *.o333o.com, *.exosrv.com, asewlfjqwlflkew.com, *.asewlfjqwlflkew.com, *.tsyndicate.com, tsyndicate.com, *.uus58.com, asewlfjqwlflkew.com, *.uus58.*, *:443
 
 # 云听
 mlvbdc.live.qcloud.com url reject
@@ -86,10 +86,161 @@ http-response ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile requires-bod
 # 微博 去广告
 ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js
 ^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/photos/pic_recommend_status|video/tiny_stream_video_list|photo/info) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js
-# 片库 去广告www.pianku.me adsblock
+
+
+
+# Jable.tv Start
+# Jable gif
+^https?:\/.jable\.tv/\bassets\b.*\b.gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+^https:/?.*\.jable\.tv\b.*\.gif$ url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+\b.*\.ackcdn\.net/\blibrary\b.*\b.jpg url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+^https:?/\/\b.*\btsyndicate\b.*.gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+
+# Jable.tv ads Rewrite
+^https:/?.*\.trwl1\b.* url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+^https:/?.*\.trwl1\b.*?\SC$ url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+^a.\bo333o\b.*\=1$ url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+^<a\sclass\b.*uu-ads\b.*\</a>$ url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+
+# Jable.tv av
+\b.*\btsyndicate\b.*\.js url reject
+^https:?\b.*\bgtm.js url reject
+^https?:\/\/ads.\b.*\.js$ url reject
+^https:?\b.*ads.exosrv.com/\b.*.js url reject
+asewlfjqwlflkew url reject
+
+
+# Jable.tv av
+o333o url reject
+https:?/\/jable\.tv\/.?\b.*&action=js_stats&\b.* url reject
+https?:\/.jable\.tv\b.* url response-body <iframe .*?blank.*?</iframe>|<section.*?_blank.*?img.*?</section>|height="250"|<script data-cfasync="false"\s\b.*\.*?asewlfjqwlflkew\b.*?</script>|<div class="text-center mb-e-30"><\b.*?</iframe></div>|<a href="\b.*3_SC\b.*?</a>|<p class="sub-title">\n\W.*\n</p>|<a class="uu-ads"\s\b.*?</a> response-body <meta name="author" content="CHINA">
+https:?/\/jable\.tv\/.?\b.*&action=js_stats&rand=\d{1,13} url 302 https://jable.tv/
+
+https?:\/.jable\.tv/videos/\w{3,5}\-\d{3,4} url response-body http:?//\w{1,10}.\w{1,10} response-body https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+^https:?/\/jable\.tv/$ url 302 https://jable.tv/new-release/
+
+# Avgle.com av
+https://avgle.com/avideos.js(\?.*|) url reject
+https://avgle.com/images.php url reject
+#https://adserver.juicyads.com/js/jads.js url reject
+#https://poweredby.jads.co/js/jads.js url reject
+^https+:\/.avgle\.com url response-body 500px response-body 0px
+^https+:\/.avgle\.com url response-body 750px response-body 0px
+poweredbyliquidfire url reject
+https://avgle.com/images.php url reject
+
+# ddrk.me 
+#^https:?/\/ddrk.me.* url response-body <head> response-body <head><script type="text/javascript" nonce="ZHONGGUO" src="//raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/ddrk.js"></script><script type="text/javascript" nonce="ZHONGGUO" src="//raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/user-script.js"></script>
+^https:?/\/ddrk.me.* url response-body <head> response-body <head><link rel="stylesheet" href="https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/ddrk.css" type="text/css"><script type="text/javascript" src="//raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/ddrk.js"></script>
+https://ddrk.me/.*?(jpg|png|jpeg|webp|gif) url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+
+# nfmovies.com adsblock
+^https:?/\/www.nfmovies.com.* url response-body </body> response-body <head><link rel="stylesheet" href="https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/nfmovies.css" type="text/css">
+#<script type="text/javascript" nonce="ZHONGGUO" src="//raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/nfmovies.js"></script></body>
+
+# www.pianku.me adsblock
 ^https:?/\/\b..+pianku.\w{2,3}\b.* url response-body var pycount=10 response-body var pycount=0
-# 炮库 去广告cn.pornhub.com adsblock
-^https:?/\/cn.pornhub.com.* url response-body <head> response-body <head><script type="text/javascript" nonce="7575a050f63648a69e15f9694a7" src="//https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/pornhub.js"></script><script type="text/javascript" nonce="7575a050f63648a69e15f9694a7" src="//https://github.com/gitehabu/YI-SHI-XIAO/blob/main/PORN1.js"></script>
+^https:?/\/\b..+mypianku.\w{2,3}\b.* url response-body var pycount=10 response-body var pycount=0
+^https:?/\/m.mypianku.com.* url response-body <head> response-body <head><script type="text/javascript" nonce="ZHONGGUO" src="//raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/mypianku.js"></script><script type="text/javascript" nonce="ZHONGGUO" src="//raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/user-script.js"></script>
+
+# dilili.tv adsblock
+https:?/\/.*?dililitv\b.* url response-body (<div class="wapbox imgs_m"\s\b.*</li></ul></div>) response-body CHINA
+https://img.alicdn.com/imgextra\b.*gif url reject-img
+https:?/\/.*?dililitv\b.*.php\?ad.* url reject
+https:?/\/.*?dilidd\..*top.php url reject
+
+# netflav.com Netflav adsblock
+^https:?/\/netflav.com.* url response-body <head> response-body <head><link rel="stylesheet" href="https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/netflav.css" type="text/css">
+
+# netflav.com Netflav rewrite
+#https://\b.*wixstatic\b.*?gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+#^https://\b.*wixsite\b.*?feijibei url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+#^https:?/\/.*wine-api.* url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+
+# pornhub.hub
+^https:?/\/cn.pornhub.com.* url response-body <head> response-body <head><script type="text/javascript" nonce="ZHONGGUO" src="//raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/pornhub.js"></script><script type="text/javascript" nonce="ZHONGGUO" src="//raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/PORN1.js"></script>
+
+^https:?/\/.*?\.pornhub\.com.* url response-body <div class="to0pAdContainter">.*?(\n.*?){0,100}.*?</button>.*?(\n.*?){0,5}.*?</div>(\n.*){0,5}</div>|<div class="adContainer.*(\n.*?){1,10}.*?</button>.*?(\n.*?){0,3}.*?</div>(\n.*){0,5}</div>|<ins.*?adsbytrafficjunky.*?</ins>|<div.*ad-link.*?</div> response-body <meta name="author" content="CHINA">
+
+# www.xvideos.com
+^https:/?\/.*?.xvideos-cdn.com.*?\/js\/.*?\/header\/.*?.js url reject
+^https:/?\/.*?.xvideos.com.* url response-body <div id="ad-header-mobile-contener">.*?</div></div> response-body <meta name="author" content="CHINA">
+
+# ja.nyahentai.com
+https://img.gsspat.jp/e/142f0528ca05d54cac0e1fa6559b94c4/337d15b53b19e7639c326b5f0ac7744c.gif url reject
+^https:?/\/static.nyahentai.pw.*?ads.*?.js url reject
+^https:?/\/static.nyahentai.pw.*?check_cat*?.js.* url reject
+^https:/?\/rt.gsspat.jp.* url reject
+^https:/?\/gum.criteo.com.* url reject
+^https:/?\/rt.gsspat.jp.* url reject
+^https:/?\/a.realsrv.com.*?ads-.*?.js url reject
+
+# www.91porn.com
+^https:/?\/.*?.91porn.com.* url response-body href=.*?(http://|https://)(\d{1,10}|\w{1,20}).(\w{1,20}.\w{1,30}|\w{1,30}).*?" response-body href="https://limbopro.xyz/usr/uploads/2020/10/2091577197.png"
+https:/?\/fans.91p20.space\/fans/.*?.gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+
+# www.cocomanhua.com
+^https:?/\/www.cocomanhua.com.* url response-body <head> response-body <head><script type="text/javascript" nonce="ZHONGGUO" src="//raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/cocomanhua.js"></script><script type="text/javascript" nonce="ZHONGGUO" src="//raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/user-script.js"></script>
+^https:?/\/www\.cocomanhua\.com.* url response-body <script>__cad.cpcvm_bottom();</script>|<script.*?data-ad_frequency.*?</script>|<script type="application/javascript">(\n.*){20,30}.*?</script>|<noscript>.*?(\n.*){1,5}.*?</noscript> response-body <meta name="author" content="CHINA">
+https://s3.amazonaws.com/9e27c0d6ac7a738463aebb2faadfdc48c0de202b9fa570955c943.* url reject
+https://www.cocomanhua.com/sw.js url reject-200
+
+# www.mfkhm.com
+^https:?/\/.*?wudejia.com/.*?php.* url reject
+
+# m.yhdm.io
+http://m.yhdm.io/bar/yfgg.js url reject
+
+# zh.nyahentai.me
+^https:/?\/zh\.nyahentai\.me.* url response-body <script type="application/javascript">.*?(\n.*){1,30}.*?</script> response-body <meta name="author" content="CHINA">
+
+# 91porny.com
+^https:/?\/91porny\.com.* url response-body <tbody>.*?(\n.*){5,15}.*?</tbody>|<div class="container-fluid mb-3 p-0">.*?(\n.*){35,40}.*</div>|<div class="adv adv-g1 mb-0">.*?(\n.*){20,27}.*?</div> response-body <meta name="author" content="CHINA">
+^https:/?\/cdn\.jsdelivr\.net.*\/ad\/.*gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+
+# javtsunami.com
+^https:/?\/javtsunami\.com/steep-heart-ac21.* url reject
+^https:/?\/javtsunami\.com.* url response-body <style type="text/css".*?(ad.*?){160,200}.*?(\n.*){50,150}.*?</style> response-body <meta name="author" content="CHINA">
+^https:?/\/cloudrls\.com\/asset\/bann\.js.* url reject
+
+# www.porntrex.com
+https://ads\.bullionyield\.com/.*?slider\.min\.js url reject
+^https:?/\/www\.porntrex\.com.* url response-body <script>.*?(\n.*){15,20}.*?</script>|<iframe.*?150.*?ad.*?</iframe>|<div style.*?(\n.*){2,4}.*?250.*?(\n.*){2,4}.*?</div> response-body <meta name="author" content="CHINA">
+https://urtirepor\.com/.*?/.*?/sc/scssx/.*?/lib\.js url reject
+https://cluster\.awmserve\.com/incstage/min_exec_pt.js.* url reject
+
+# www.zhenbuka.com
+^https:/?\/www\.zhenbuka\.com.* url response-body <div class="stui-pannel stui-pannel-bg clearfix" style="margin-bottom: 0">.*?<ul><li>.*?www.zhenbuka1.com.*?</li></ul></div></div></div>|<a href="https://www.ybvip1879.vip.*?</a>|<a id="ad.*?\.*?</a> response-body <meta name="author" content="CHINA">
+https://pic.caihong52.com/img/upload/gg/gg20201229.gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+https://alime-customer-upload-cn-hangzhou.oss-cn-hangzhou.aliyuncs.com/customer-upload/1612281603650_2v32nlvhji9h.gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+#https://pic.caihong52.com/img/upload/.*?(jpg|png|gif) url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+https:/?\/www\.zhenbuka\.com.*logger.js.*?.js url reject
+https://lib.baomitu.com/layer/3.1.1/layer.js url reject
+https://meethanshi.com/.* url reject
+
+# www.javbus.com
+^https://www\.javbus\.com url response-body <div class="col-xs-12 col-md-4 text-center ptb10">|<div class="ad-list"> response-body <div style="display:none;">
+
+# www.hptoon.com
+#https://www.hptoon.com.* url response-body <wcx.*?</wcx>|<qkm.*?</qkm>|<dza.*?</dza> response-body <meta name="author" content="CHINA">
+^https://www.hptoon.com.* url response-body <head> response-body <head><script type="text/javascript" nonce="ZHONGGUO" src="//raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/hptoon.js"></script><script type="text/javascript" nonce="ZHONGGUO" src="//raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/user-script.js"></script>
+
+# bde4.cc
+^https://bde4.cc.* url response-body <head> response-body <head><script type="text/javascript" nonce="ZHONGGUO" src="//raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/bde4.js"></script><script type="text/javascript" nonce="ZHONGGUO" src="//raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/user-script.js"></script><base target="_self">
+
+# mdapp2.pw
+https://mdapp2.pw.*?gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+^https:?/\/mdapp2.pw.* url response-body <head> response-body <head><script type="text/javascript" nonce="ZHONGGUO" src="https://limbopro.xyz/usr/uploads/2020/10/2091577197.png"></script><link rel="stylesheet" href="https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/mdapp2.css" type="text/css">
+
+# https://nfstar.net/
+^https:?/\/nfstar.net.* url response-body <head> response-body <head><script type="text/javascript" nonce="ZHONGGUO" src="//raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/nfstar.js"></script><script type="text/javascript" nonce="ZHONGGUO" src="//raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/user-script.js"></script><link rel="stylesheet" href="https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/nfstar.css" type="text/css">
+
+# https://91mjw.com/
+#<script type="text/javascript" nonce="ZHONGGUO" src="//raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/91mjw.js">
+^https:?/\/91mjw.com.* url response-body <head> response-body <head></script><link rel="stylesheet" href="https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/91mjw.css" type="text/css">
+
+
+
 # Pali 试用会员www.pali.love
 https:\/\/*\:443\/v1\/user(\/promote)\/info url response-body view_limit":\d+ response-body view_limit":9999
 https:\/\/*\:443\/v1\/user(\/promote)\/info url response-body download_limit":\d+ response-body download_limit":9999
