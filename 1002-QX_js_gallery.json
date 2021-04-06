@@ -37,10 +37,6 @@
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/wps.qxrw,tag=WPS_获取Cookie"
     },
     {
-      "config":"0 8 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js, tag=航旅纵横, img-url=https://qxzy.top/rules/QuantumultX/img/umetrip.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/hlzh.qxrw,tag=航旅纵横_获取Cookie"
-    },
-    {
       "config":"30 6 * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/youth_banner.js, tag=中青看看赚, img-url=https://raw.githubusercontent.com/Orz-3/task/master/youth.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/youth_banner.plugin,tag=中青看看赚_获取Cookie"
     },
@@ -91,6 +87,10 @@
     {
       "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js, tag=中国电信, img-url=https://qxzy.top/rules/QuantumultX/img/10000.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/10000.qxrw,tag=中国电信_获取Cookie"
+    },
+    {
+      "config":"0 8 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js, tag=航旅纵横, img-url=https://qxzy.top/rules/QuantumultX/img/umetrip.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/hlzh.qxrw,tag=航旅纵横_获取Cookie"
     },
     {
       "config": "0 11 8 * * * https://raw.githubusercontent.com/gitehabu/Scripts/gitehabu-patch-1/Task/weibo.js, tag=新浪微博, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/weibo.png, enabled=true", 
