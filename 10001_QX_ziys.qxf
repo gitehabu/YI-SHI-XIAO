@@ -1,3 +1,5 @@
+#umeng
+host-keyword, umeng, reject
 #见智
 host, msg.umengcloud.com, reject
 host, eco.taobao.com, reject
