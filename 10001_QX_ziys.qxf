@@ -8,6 +8,7 @@ host, eco.taobao.com, reject
 host, applog.uc.cn, reject
 host, i.wdsou.com, reject
 #云听
+host, getway.radio.cn, reject
 host, httpdns.n.netease.com, reject
 host, n.sinaimg.cn, reject
 host, mlvbdc.live.qcloud.com, reject
