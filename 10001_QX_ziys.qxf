@@ -17,8 +17,7 @@ host, redirect.networkbench.com, reject
 host-keyword, aliyuncs.com, reject
 host, cnvod.cnr.cn, reject
 host, report.radio.cn, reject
-host-suffix, getui.com, reject
-host-suffix, getui.net, reject
+host-keyword, getui, reject
 host, ytmedia.radio.cn, reject
 host, inappcheck.itunes.apple.com, reject
 host, mpush-api.aliyun.com, reject
