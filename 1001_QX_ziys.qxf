@@ -1,3 +1,6 @@
+#见智
+host, msg.umengcloud.com, reject
+host, eco.taobao.com, reject
 #山丘阅读器
 host, applog.uc.cn, reject
 host, i.wdsou.com, reject
