@@ -67,3 +67,5 @@ host-suffix, pstatp.com, reject
 host-suffix, dobenge.cn, reject
 # wind万得
 host-suffix, myqcloud.com, reject
+# 今日头条
+host, dm.toutiao.com, reject
