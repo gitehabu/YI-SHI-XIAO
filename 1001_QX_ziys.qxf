@@ -19,10 +19,14 @@ URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4/(questions|anwsers)\/\d+/related-
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation,REJECT-TINYGIF
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner,REJECT-TINYGIF
 URL-REGEX,^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation,REJECT-TINYGIF
-# pv.sohu.com
+# 知乎夹带私货广告浪费流量
 host, pv.sohu.com, reject
-# ios.bugly.qq.com
 host, ios.bugly.qq.com, reject
+host, main.m.taobao.com, reject
+host, www.qq.com, reject
+host, client-api.itunes.apple.com, reject
+host-suffix, lncld.net, reject
+host, zhihu-web-analytics.zhihu.com, reject
 # umeng
 host-keyword, umeng, reject
 host-keyword, umsns, reject
