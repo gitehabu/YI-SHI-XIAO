@@ -73,6 +73,17 @@
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/JD2COOKIE.TXT,tag=京东多合一签到_获取Cookie"
     },
     {
+      "config": "0 8 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/moji.js, tag=墨迹天气, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/moji.png, enabled=true"
+    }, 
+    {
+      "config":"20 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/wanda/wanda_checkin.js, tag=万达电影, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/wanda/wanda.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/wanda/wanda_checkin.qxrewrite,tag=万达_获取Cookie"
+    },
+    {
+      "config":"30 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai_checkin.js, tag=美团买菜, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai_checkin.qxrewrite,tag=美团买菜_获取Cookie"
+    },
+    {
       "config":"15 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_signin.js, tag=中国联通, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/10010.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_signin.qxrewrite,tag=联通_获取Cookie"
     },
@@ -125,16 +136,16 @@
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_signin.qxrewrite,tag=什么值得买_获取Cookie"
     },
     {
+      "config": "*/30 */5 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/baidu_speed.js, tag=百度极速版, img-url=https://raw.githubusercontent.com/Sunert/Profiles/master/QuantumultX/Rules/Images/icon/baiduspeed.png, enabled=true",
+      "addons": "https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/baidu/qx_rewite.txt, tag=百度极速, update-interval=-1, opt-parser=false, enabled=true"
+    },
+    {
       "config":"30 0 * * *  https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.js, tag=百度贴吧, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.qxrewrite,tag=贴吧_获取Cookie"
     },
     {
-      "config":"20 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/wanda/wanda_checkin.js, tag=万达电影, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/wanda/wanda.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/wanda/wanda_checkin.qxrewrite,tag=万达_获取Cookie"
-    },
-    {
-      "config":"30 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai_checkin.js, tag=美团买菜, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai_checkin.qxrewrite,tag=美团买菜_获取Cookie"
+      "config": "0 0 7,22 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/dianshijia.js, tag=电视家, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/dianshijia.png, enabled=true", 
+      "addons": "https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/dianshijia/qx_rewite.txt, tag=电视家, update-interval=-1, opt-parser=false, enabled=true"
     }
   ],
   "description":"Script Gallery"
