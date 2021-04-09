@@ -1,0 +1,61 @@
+# 知乎去广告
+DOMAIN,118.89.204.198,REJECT-DROP
+IP-CIDR,118.89.204.198/32,REJECT-DROP,no-resolve
+IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT-DROP,no-resolve
+DOMAIN,appcloud2.in.zhihu.com,REJECT
+DOMAIN,appcloud.in.zhihu.com,REJECT
+DOMAIN,mqtt.zhihu.com,REJECT
+DOMAIN,sugar.zhihu.com,REJECT
+USER-AGENT,AVOS*,REJECT
+# 拦截知乎品牌提问广告
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\?,REJECT
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJECT
+# 拦截知乎回答下的广告
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations,REJECT
+# 知乎拦截部分预加载
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/appview\/(p|v2\/answer|zvideo)\/.*entry=(preload-topstory|preload-search|preload-subscription),REJECT
+# 知乎网页版去广告
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4/(questions|anwsers)\/\d+/related-readings,REJECT-TINYGIF
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation,REJECT-TINYGIF
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner,REJECT-TINYGIF
+URL-REGEX,^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation,REJECT-TINYGIF
+# pv.sohu.com
+host, pv.sohu.com, reject
+# ios.bugly.qq.com
+host, ios.bugly.qq.com, reject
+# umeng
+host-keyword, umeng, reject
+host-keyword, umsns, reject
+# 见智
+host, msg.umengcloud.com, reject
+host, eco.taobao.com, reject
+# 山丘阅读器
+host-suffix, uc.cn, reject
+host-suffix, wdsou.com, reject
+# 云听
+host, httpdns.n.netease.com, reject
+host, n.sinaimg.cn, reject
+host, mlvbdc.live.qcloud.com, reject
+host, sdk.open.talk.igexin.com, reject
+host, ytapi.radio.cn, reject
+host-suffix, mob.com, reject
+host, redirect.networkbench.com, reject
+host-keyword, aliyuncs.com, reject
+host, cnvod.cnr.cn, reject
+host, report.radio.cn, reject
+host-keyword, getui, reject
+host, ytmedia.radio.cn, reject
+host, inappcheck.itunes.apple.com, reject
+host, mpush-api.aliyun.com, reject
+# 文华财经随身行
+host, m-log.wenhua.com.cn, reject
+host, m-count.wenhua.com.cn, reject
+host, m-news-net.wenhua.com.cn, reject
+host, m-open.wenhua.com.cn, reject
+host, m-risk.wenhua.com.cn, reject
+host, m-adphone.wenhua.com.cn, reject
+# 推特视频下载https://www.downloadtwittervideo.com/zh-cn/
+host, rotumal.com, reject
+# 水印精灵
+host-suffix, pstatp.com, reject
+host-suffix, dobenge.cn, reject
