@@ -46,4 +46,4 @@
 ^https?:\/\/hd\.mina\.mi\.com\/splashscreen\/alert url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js
 
-hostname = api.bilibili.com,api.live.bilibili.com,api.smzdm.com,api.vc.bilibili.com,api.zhihu.com,app-api.smzdm.com,app.bilibili.com,appcloud2.zhihu.com,article-api.smzdm.com,capis*.didapinche.com,fmapp.chinafamilymart.com.cn,haojia-api.smzdm.com,haojia.m.smzdm.com,homepage-api.smzdm.com,manga.bilibili.com,s-api.smzdm.com,wmapi.meituan.com,www.zhihu.com,zhuanlan.zhihu.com, hd.mina.mi.com, api.m.jd.com
+hostname = api.bilibili.com,api.live.bilibili.com,api.smzdm.com,api.vc.bilibili.com,app-api.smzdm.com,app.bilibili.com,article-api.smzdm.com,capis*.didapinche.com,fmapp.chinafamilymart.com.cn,haojia-api.smzdm.com,haojia.m.smzdm.com,homepage-api.smzdm.com,manga.bilibili.com,s-api.smzdm.com,wmapi.meituan.com,*.zhihu.com,hd.mina.mi.com,api.m.jd.com
