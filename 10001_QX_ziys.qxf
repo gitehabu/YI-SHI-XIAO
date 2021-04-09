@@ -1,3 +1,5 @@
+#ios.bugly.qq.com
+host, ios.bugly.qq.com, reject
 #umeng
 host-keyword, umeng, reject
 host-keyword, umsns, reject
