@@ -25,7 +25,8 @@ host, ios.bugly.qq.com, reject
 host, main.m.taobao.com, reject
 host, www.qq.com, reject
 host, client-api.itunes.apple.com, reject
-host-suffix, lncld.net, reject
+host-keyword, lncld, reject
+host-keyword, mqtt, reject
 host, zhihu-web-analytics.zhihu.com, reject
 # umeng
 host-keyword, umeng, reject
