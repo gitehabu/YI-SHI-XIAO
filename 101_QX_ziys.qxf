@@ -65,3 +65,5 @@ host, rotumal.com, reject
 # 水印精灵
 host-suffix, pstatp.com, reject
 host-suffix, dobenge.cn, reject
+# wind万得
+host-suffix, myqcloud.com, reject
