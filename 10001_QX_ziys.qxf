@@ -1,3 +1,5 @@
+#pv.sohu.com
+host, pv.sohu.com, reject
 #ios.bugly.qq.com
 host, ios.bugly.qq.com, reject
 #umeng
