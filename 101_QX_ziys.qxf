@@ -20,6 +20,7 @@ URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation,REJECT-TINYGI
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner,REJECT-TINYGIF
 URL-REGEX,^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation,REJECT-TINYGIF
 # 知乎夹带私货广告浪费流量
+host, lens.zhihu.com, reject
 host, pv.sohu.com, reject
 host, ios.bugly.qq.com, reject
 host, main.m.taobao.com, reject
