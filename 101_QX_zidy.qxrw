@@ -3,9 +3,9 @@ hostname = */ImageWeb, */smartad, *.myqcloud.com, ios.bugly.qq.com, savoscloud.c
 # Wind万得
 ^*/ImageWeb url reject
 ^*/smartad url reject
-^*.myqcloud.com url reject
+#^*.myqcloud.com url reject
 # ios.bugly.qq.com
-ios.bugly.qq.com url reject
+#ios.bugly.qq.com url reject
 # 汉字的故事
 http://savoscloud.com/1.1/users/* url response-body unlock":\w+ response-body unlock":true
 http://savoscloud.com/1.1/users/* url response-body mobilePhoneVerified":\w+ response-body mobilePhoneVerified":true
