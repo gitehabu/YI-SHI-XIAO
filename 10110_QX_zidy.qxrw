@@ -10,9 +10,6 @@ https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/user\/index url respons
 https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/user\/index url response-body viptime":"(.*?)" response-body viptime":"2970-01-01 08:00:00"
 https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/ver\/change url response-body playTimes":\d+ response-body playTimes":0
 https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/vod\/show url response-body CT_App_Show_Vod_Time1":"\d response-body CT_App_Show_Vod_Time1":"0
-
-
-
 # Wind万得
 ^*/ImageWeb url reject
 ^*/smartad url reject
@@ -142,8 +139,8 @@ https?:\/.jable\.tv/videos/\w{3,5}\-\d{3,4} url response-body http:?//\w{1,10}.\
 # Avgle.com av
 https://avgle.com/avideos.js(\?.*|) url reject
 https://avgle.com/images.php url reject
-#https://adserver.juicyads.com/js/jads.js url reject
-#https://poweredby.jads.co/js/jads.js url reject
+https://adserver.juicyads.com/js/jads.js url reject
+https://poweredby.jads.co/js/jads.js url reject
 ^https+:\/.avgle\.com url response-body 500px response-body 0px
 ^https+:\/.avgle\.com url response-body 750px response-body 0px
 poweredbyliquidfire url reject
@@ -173,9 +170,9 @@ https:?/\/.*?dilidd\..*top.php url reject
 ^https:?/\/netflav.com.* url response-body <head> response-body <head><link rel="stylesheet" href="https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/netflav.css" type="text/css">
 
 # netflav.com Netflav rewrite
-#https://\b.*wixstatic\b.*?gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
-#^https://\b.*wixsite\b.*?feijibei url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
-#^https:?/\/.*wine-api.* url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+https://\b.*wixstatic\b.*?gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+^https://\b.*wixsite\b.*?feijibei url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+^https:?/\/.*wine-api.* url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
 
 # pornhub.hub
 ^https:?/\/cn.pornhub.com.* url response-body <head> response-body <head><script type="text/javascript" nonce="ZHONGGUO" src="//raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/pornhub.js"></script><script type="text/javascript" nonce="ZHONGGUO" src="//raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/PORN1.js"></script>
@@ -233,7 +230,7 @@ https://cluster\.awmserve\.com/incstage/min_exec_pt.js.* url reject
 ^https:/?\/www\.zhenbuka\.com.* url response-body <div class="stui-pannel stui-pannel-bg clearfix" style="margin-bottom: 0">.*?<ul><li>.*?www.zhenbuka1.com.*?</li></ul></div></div></div>|<a href="https://www.ybvip1879.vip.*?</a>|<a id="ad.*?\.*?</a> response-body <meta name="author" content="CHINA">
 https://pic.caihong52.com/img/upload/gg/gg20201229.gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
 https://alime-customer-upload-cn-hangzhou.oss-cn-hangzhou.aliyuncs.com/customer-upload/1612281603650_2v32nlvhji9h.gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
-#https://pic.caihong52.com/img/upload/.*?(jpg|png|gif) url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+https://pic.caihong52.com/img/upload/.*?(jpg|png|gif) url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
 https:/?\/www\.zhenbuka\.com.*logger.js.*?.js url reject
 https://lib.baomitu.com/layer/3.1.1/layer.js url reject
 https://meethanshi.com/.* url reject
@@ -256,7 +253,7 @@ https://mdapp2.pw.*?gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577
 ^https:?/\/nfstar.net.* url response-body <head> response-body <head><script type="text/javascript" nonce="ZHONGGUO" src="//raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/nfstar.js"></script><script type="text/javascript" nonce="ZHONGGUO" src="//raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/user-script.js"></script><link rel="stylesheet" href="https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/nfstar.css" type="text/css">
 
 # https://91mjw.com/
-#<script type="text/javascript" nonce="ZHONGGUO" src="//raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/91mjw.js">
+<script type="text/javascript" nonce="ZHONGGUO" src="//raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/91mjw.js">
 ^https:?/\/91mjw.com.* url response-body <head> response-body <head></script><link rel="stylesheet" href="https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/91mjw.css" type="text/css">
 
 
