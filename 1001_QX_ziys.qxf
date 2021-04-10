@@ -29,6 +29,97 @@ host, client-api.itunes.apple.com, reject
 host-keyword, lncld, reject
 host-keyword, mqtt, reject
 host, zhihu-web-analytics.zhihu.com, reject
+
+
+
+#####Jable.tv av吃到饱
+DOMAIN-SUFFIX, asewlfjqwlflkew.com, reject
+DOMAIN-SUFFIX, uus52.com, reject
+DOMAIN-SUFFIX, uus58.com, reject
+DOMAIN-SUFFIX, ddmax20.xyz, reject
+DOMAIN-SUFFIX, ads.exosrv.com, reject
+DOMAIN-KEYWORD, exosrv, reject
+DOMAIN-KEYWORD, asewlfjqwlflkew, reject
+DOMAIN-SUFFIX, tyrantdb.com, reject
+DOMAIN-SUFFIX, adserve.work, reject
+
+#####nfmovies.com 奈菲影视
+DOMAIN-SUFFIX, s96.cnzz.com, reject
+DOMAIN-SUFFIX, yabo729.com, reject
+
+######m.pianku.me/ 手机片库网
+DOMAIN-SUFFIX, xn--xhq9mt12cf5v.xn--io0a7i:4443, reject
+DOMAIN-KEYWORD, xn--2qux23c9ziyrq, reject
+DOMAIN-SUFFIX, xn--3bs795g.zone, reject
+DOMAIN-SUFFIX, xn--2qux23c9ziyrq.plus, reject
+DOMAIN-SUFFIX, xn--2qux23c9ziyrq.club, reject
+DOMAIN-SUFFIX, xn--xhq9mt12cf5v.xn--io0a7i, reject
+DOMAIN-SUFFIX, ddmax20.xyz, reject
+DOMAIN-SUFFIX, www.avple.video, reject
+DOMAIN-SUFFIX, xn--3bs795g.link, reject
+
+#####netflav.com Netflav
+DOMAIN-SUFFIX, maphuahin.com, reject
+DOMAIN-SUFFIX, ggsfq.com, reject
+DOMAIN-SUFFIX, ad.pornimg.xyz, reject
+DOMAIN-SUFFIX, yandex.ru, reject
+DOMAIN-SUFFIX, awaitcola.com, reject
+DOMAIN-SUFFIX, jsdelivr.net, reject
+DOMAIN-SUFFIX, wine-api.net, reject
+#DOMAIN-KEYWORD, wixsite.com, reject
+DOMAIN-SUFFIX, exosrv.com, reject
+DOMAIN-SUFFIX, juicyads.com, reject
+DOMAIN-SUFFIX, wixstatic.com, reject
+DOMAIN-SUFFIX, thumb.fvs.io, reject
+DOMAIN-SUFFIX, itnuzleafan.com, reject
+DOMAIN-SUFFIX, oawhaursaith.com, reject
+DOMAIN-SUFFIX, unreshiramor.com, reject
+
+#####avgle.me
+DOMAIN-SUFFIX, jads.co, reject
+DOMAIN-SUFFIX, adxadserv.com, reject
+DOMAIN-SUFFIX, moatads.com, reject
+DOMAIN-SUFFIX, juicyads.in, reject
+DOMAIN-SUFFIX, dtscout.com, reject
+
+#####dilili.tv
+DOMAIN-SUFFIX, 51.la, reject
+DOMAIN-SUFFIX, 51daeka.com, reject
+
+######porn
+DOMAIN-SUFFIX, trafficjunky.com, reject
+
+#####xvideos
+
+
+##### ja.nyahentai.com
+DOMAIN-SUFFIX, adserver.juicyads.com, reject
+DOMAIN-SUFFIX, poweredby.jads.co, reject
+DOMAIN-SUFFIX, jads.co, reject
+
+##### www.cocomanhua.com
+DOMAIN-SUFFIX, exdynsrv.com, reject
+DOMAIN-SUFFIX, cloudfront.net, reject
+DOMAIN-SUFFIX, d227cncaprzd7y.cloudfront.net, reject
+DOMAIN-SUFFIX, d10lumateci472.cloudfront.net, reject
+
+##### www.mfkhm.com
+DOMAIN-SUFFIX, new.xiongzhangad.com, reject
+
+##### m.yhdm.io
+DOMAIN-SUFFIX, dvzk66.cn, reject
+DOMAIN-SUFFIX, pu0glv.cn, reject
+
+##### www.porntrex.com/
+DOMAIN-SUFFIX, ads.bullionyield.com, reject
+
+##### https://www.zhenbuka.com/
+DOMAIN, 2785.dlads.cn, reject
+DOMAIN, dagonghuzhu.com, reject
+DOMAIN-SUFFIX, byteimg.com, reject
+
+
+
 # umeng
 host-keyword, umeng, reject
 host-keyword, umsns, reject
