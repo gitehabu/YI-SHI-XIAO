@@ -41,7 +41,7 @@ host-suffix, myqcloud.com, reject
 # 今日头条
 host, dm.toutiao.com, reject
 host, dm.bytedance.com, reject
-# 人人影视
+# 人人视频
 host, eleven.bayescom.cn, reject
 host, adash-emas.cn-hangzhou.aliyuncs.com, reject
 host, qcloud.rr.tv, reject
