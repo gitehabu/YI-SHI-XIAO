@@ -39,6 +39,9 @@ host, eco.taobao.com, reject
 host-suffix, uc.cn, reject
 host-suffix, wdsou.com, reject
 # 云听
+host, beacon-api.aliyuncs.com, reject
+host, oss-bj-radio-client.oss-cn-beijing.aliyuncs.com, reject
+host, adash.man.aliyuncs.com, reject
 host, httpdns.n.netease.com, reject
 host, n.sinaimg.cn, reject
 host, mlvbdc.live.qcloud.com, reject
