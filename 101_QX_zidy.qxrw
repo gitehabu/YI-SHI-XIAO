@@ -4,12 +4,11 @@ hostname = api.bjxkhc.com,*/ImageWeb, */smartad, savoscloud.com,beacon-api.aliyu
 https:\/\/api.bjxkhc.com\/index.php/app/ios/ads/index url reject
 https:\/\/api.bjxkhc.com\/index.php/app/ios/ver/index_ios url reject
 https:\/\/api.bjxkhc.com\/index.php/app/ios/pay/ok url reject
-https:\/\/api.bjxkhc.com\/index.php/* url response-body cion":\d+ response-body cion":9999
-https:\/\/api.bjxkhc.com\/index.php/* url response-body vip":\d response-body vip":1
-https:\/\/api.bjxkhc.com\/index.php/* url response-body vip_num":\d response-body vip":1
-https:\/\/api.bjxkhc.com\/index.php/* url response-body viptime":"(.*?)" response-body viptime":"2970-01-01 08:00:00"
-https:\/\/api.bjxkhc.com\/index.php/* url response-body playTimes":\d+ response-body playTimes":0
-https:\/\/api.bjxkhc.com\/index.php/* url response-body CT_App_Show_Vod_Time1":\d response-body CT_App_Show_Vod_Time1":0
+https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/user\/index url response-body cion":"\d+ response-body cion":"9999
+https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/user\/index url response-body vip":"\d response-body vip":"1
+https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/user\/index url response-body viptime":"(.*?)" response-body viptime":"2970-01-01 08:00:00"
+https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/ver\/change url response-body playTimes":\d+ response-body playTimes":0
+https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/vod\/show url response-body CT_App_Show_Vod_Time1":"\d response-body CT_App_Show_Vod_Time1":"0
 
 
 
