@@ -46,7 +46,7 @@ host, sdk.open.talk.igexin.com, reject
 host, ytapi.radio.cn, reject
 host-suffix, mob.com, reject
 host, redirect.networkbench.com, reject
-#host-keyword, aliyuncs.com, reject
+host-keyword, aliyuncs.com, reject
 host, cnvod.cnr.cn, reject
 host, report.radio.cn, reject
 host-keyword, getui, reject
