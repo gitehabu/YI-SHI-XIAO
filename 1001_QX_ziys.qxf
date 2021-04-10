@@ -75,3 +75,12 @@ host, dm.bytedance.com, reject
 # 人人影视
 host, eleven.bayescom.cn, reject
 host, adash-emas.cn-hangzhou.aliyuncs.com, reject
+host, qcloud.rr.tv, reject
+host-suffix, pglstatp-toutiao.com, reject
+host-keyword, snssdk, reject
+host, dm-hl.toutiao.com, reject
+host-suffix, netease.im, reject
+host-keyword, fengkongcloud, reject
+host, qzs.qq.com, reject
+host-keyword, hpplay, reject
+host-keyword, wostore, reject
