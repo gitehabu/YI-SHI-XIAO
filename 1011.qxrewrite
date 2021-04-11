@@ -16,10 +16,10 @@ https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/vod\/show url response-
 https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/vod\/show url response-body ad":"\d response-body ad":"0
 https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/vod\/show url response-body time":"\d response-body time":"0
 
-*/uploads/190218 url reject
-*/uploads/201016 url reject
-*/uploads/allimg url reject
-*.alicdn.com/kf url reject
+^*/uploads/190218 url reject
+^*/uploads/201016 url reject
+^*/uploads/allimg url reject
+^*.alicdn.com/kf url reject
 
 
 # Wind万得
