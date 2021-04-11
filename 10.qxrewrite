@@ -11,7 +11,7 @@ https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/ver\/change url respons
 https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/vod\/show url response-body CT_App_Show_Vod_Time1":"\d response-body CT_App_Show_Vod_Time1":"0
 
 
-https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/vod\/show url response-body advertising":"[\s\S] response-body advertising":"0
+https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/vod\/show url response-body advertising":"[\s\S] response-body advertising":"[0]
 https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/vod\/show url response-body CT_App_Show_Vod_must_Time1":"\d response-body CT_App_Show_Vod_must_Time1":"0
 https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/vod\/show url response-body ad":"\d response-body ad":"0
 https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/vod\/show url response-body time":"\d response-body time":"0
