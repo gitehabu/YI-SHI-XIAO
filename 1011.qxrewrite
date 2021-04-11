@@ -4,6 +4,8 @@ hostname = api.bjxkhc.com,*.mjomj.*,*.qishenga.*,*.jianshu.*,*.minsutx.*,*.511.*
 https:\/\/api.bjxkhc.com\/index.php/app/ios/ads/index url reject
 https:\/\/api.bjxkhc.com\/index.php/app/ios/ver/index_ios url reject
 https:\/\/api.bjxkhc.com\/index.php/app/ios/pay/ok url reject
+https:\/\/api.bjxkhc.com\/index.php/app/ios/danmu/index url reject
+https:\/\/api.bjxkhc.com\/index.php/app/ios/task/done url reject
 
 https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/user\/index url response-body cion":"\d+ response-body cion":"9999
 https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/user\/index url response-body vip":"\d response-body vip":"1
