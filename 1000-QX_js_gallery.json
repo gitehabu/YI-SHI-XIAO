@@ -17,7 +17,7 @@
       "addons":"https://github.com/gitehabu/YI-SHI-XIAO/blob/main/nmm.qxr,tag=牛蒙蒙_获取Cookie"
     },
     {
-      "config":"15 5 * * * https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, tag=爱奇艺, img-url=img-url=https://qxzy.top/rules/QuantumultX/img/iQIYI.png, enabled=true",
+      "config":"15 5 * * * https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, tag=爱奇艺, img-url=https://qxzy.top/rules/QuantumultX/img/iQIYI.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/external/QuantumultX/iQIYI/iQIYI.conf,tag=爱奇艺_获取Cookie"
     },
     {
