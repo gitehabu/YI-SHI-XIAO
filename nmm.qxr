@@ -1,0 +1,3 @@
+hostname = nmmapis.mengniu.com.cn
+
+https://nmmapis.mengniu.com.cn/api/sign url script-request-body https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/nmm.js
