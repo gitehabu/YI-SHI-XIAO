@@ -99,7 +99,7 @@ DOMAIN-SUFFIX, jads.co, reject
 
 ##### www.cocomanhua.com
 DOMAIN-SUFFIX, exdynsrv.com, reject
-//DOMAIN-SUFFIX, cloudfront.net, reject
+#DOMAIN-SUFFIX, cloudfront.net, reject
 DOMAIN-SUFFIX, d227cncaprzd7y.cloudfront.net, reject
 DOMAIN-SUFFIX, d10lumateci472.cloudfront.net, reject
 
@@ -127,8 +127,8 @@ host-keyword, umsns, reject
 host, msg.umengcloud.com, reject
 host, eco.taobao.com, reject
 # 山丘阅读器
-host-suffix, uc.*, reject
-host-suffix, wdsou.com, reject
+host-keyword, uc, reject
+host-keyword, wdsou, reject
 # 云听
 host, beacon-api.aliyuncs.com, reject
 host, oss-bj-radio-client.oss-cn-beijing.aliyuncs.com, reject
