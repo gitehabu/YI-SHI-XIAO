@@ -179,3 +179,4 @@ host, ued.rr.tv, reject
 # 啪哩啪哩
 host, imgs.smxwhcm.cn, reject
 host, encimgf.cchzkj.cn, reject
+host, 7418665.com, reject
