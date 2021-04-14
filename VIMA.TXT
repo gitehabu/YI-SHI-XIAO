@@ -1,4 +1,4 @@
 hostname=api.sxsjyzm.com
 
 
-https:\/\/api\.sxsjyzm\.com\/* url script-request-body https://raw.githubusercontent.com/ziye11/JavaScript/main/Task/zhima.js
+https:\/\/api\.sxsjyzm\.com\/* url script-request-body https://raw.githubusercontent.com/gitehabu/PAT/ZIYE/Task/zhima.js
