@@ -443,30 +443,7 @@ https://mdapp2.pw.*?gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577
 
 
 
-# 人人视频极简版
-^https?://qcloud.rr.tv url reject
-^https?://ued.rr.tv url reject
-^https?://img.rr.tv/barSelpag url reject
-^https?://img.rr.tv/openPage url reject
-^https?://img.rr.tv/seasonCover url reject
-^https?://img.rr.tv/album url reject
-^https?://img.rr.tv/cover url reject
-^https?://img.rr.tv/video url reject
-^https?://img.rr.tv/head url reject
-^https?://api.rr.tv/video url reject
-^https?://img.rr.tv/ugc url reject
-^https?://img.rr.tv/season url reject
-^https?://img.rr.tv/argus url reject
-^https?://api.rr.tv/app/v4/navigation/direct/broadcast url reject
-^https?://api.rr.tv/vip/prompt url reject
-^https?://api.rr.tv/v3plus/index/category url reject
-^https?://api.rr.tv/v3plus/index/channel url reject
-^https?://api.rr.tv/v3plus/info/getTiebaHotDiscussion url reject
-^https?://api.rr.tv/rrtv-comment/comment/mergeList url reject
-^https?://api.rr.tv/drama/app/get_recommended_drama url reject
-^https?://api.rr.tv/drama/app/guess_user_like url reject
-^https?://api.rr.tv/storage/business url reject
-^https?://api.rr.tv/watch/get_video_info url reject
+
 # Pali 去广告www.pali.love
 ^https://imgs.smxwhcm.cn/img/btn_cta_first_paying.png url reject
 ^https://encimgf.cchzkj.cn/javapp_img/1080x1920_pali_0408.png url reject
