@@ -165,16 +165,6 @@ host-suffix, myqcloud.com, reject
 host-keyword, toutiao, reject
 host-keyword, bytedance, reject
 host-keyword, snssdk, reject
-# 人人影视极简版
-host, eleven.bayescom.cn, reject
-host, adash-emas.cn-hangzhou.aliyuncs.com, reject
-host, qcloud.rr.tv, reject
-host-suffix, netease.im, reject
-host-keyword, fengkongcloud, reject
-host, qzs.qq.com, reject
-host-keyword, hpplay, reject
-host-keyword, wostore, reject
-host, ued.rr.tv, reject
 # 啪哩啪哩去广告
 host, imgs.smxwhcm.cn, reject
 host, encimgf.cchzkj.cn, reject
