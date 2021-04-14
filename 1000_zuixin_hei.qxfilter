@@ -183,3 +183,5 @@ host, 7418665.com, reject
 # 旧版看书神器极简版
 host-suffix, pysmei.com, reject
 host-suffix, chinadegi.com, reject
+host-suffix, app-measurement.com, reject
+host-suffix, pigqq.com, reject
