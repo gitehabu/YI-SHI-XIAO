@@ -127,7 +127,8 @@ host-keyword, umsns, reject
 host, msg.umengcloud.com, reject
 host, eco.taobao.com, reject
 # 山丘阅读器
-host-keyword, uc, reject
+host-suffix, uc.cn, reject
+host-suffix, uc.com, reject
 host-keyword, wdsou, reject
 # 云听
 host, beacon-api.aliyuncs.com, reject
