@@ -163,7 +163,7 @@ host-suffix, myqcloud.com, reject
 # 今日头条
 host, dm.toutiao.com, reject
 host, dm.bytedance.com, reject
-# 人人影视
+# 人人影视极简版
 host, eleven.bayescom.cn, reject
 host, adash-emas.cn-hangzhou.aliyuncs.com, reject
 host, qcloud.rr.tv, reject
@@ -176,11 +176,11 @@ host, qzs.qq.com, reject
 host-keyword, hpplay, reject
 host-keyword, wostore, reject
 host, ued.rr.tv, reject
-# 啪哩啪哩
+# 啪哩啪哩去广告
 host, imgs.smxwhcm.cn, reject
 host, encimgf.cchzkj.cn, reject
 host, 7418665.com, reject
-# 旧版看书神奇极简版
+# 旧版看书神器极简版
 host-suffix, pysmei.com, reject
 host-suffix, chinadegi.com, reject
 host-suffix, cdn.bcebos.com, reject
