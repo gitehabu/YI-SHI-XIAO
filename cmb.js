@@ -2,10 +2,10 @@
 招商银行信用卡微信公众号：“领积分 - 🎁签到领积分” 获取 Cookie
 
 [task_local]
-8 0 * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/cmbchina.js
+8 0 * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/cmb.js
 
 [rewrite_local]
-https://weclub\.ccc\.cmbchina.com/SCRMCustomActivityFront/checkin/request/get-home-data\.json\?activityCode=checkin url script-request-header https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/cmbchina.js
+https://weclub\.ccc\.cmbchina.com/SCRMCustomActivityFront/checkin/request/get-home-data\.json\?activityCode=checkin url script-request-header https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/cmb.js
 
 [mitm]
 hostname = weclub.ccc.cmbchina.com
