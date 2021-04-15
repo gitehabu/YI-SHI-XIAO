@@ -1,0 +1,4 @@
+hostname = m.weibo.cn
+
+
+^https:\/\/m\.weibo\.cn\/feed\/ url script-request-header https://raw.githubusercontent.com/zZPiglet/Task/master/Weibo/Weibo.js
