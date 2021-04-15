@@ -174,3 +174,12 @@ host-suffix, pysmei.com, reject
 host-suffix, chinadegi.com, reject
 host-suffix, app-measurement.com, reject
 host-suffix, pigqq.com, reject
+#人人视频 极简版
+host, eleven.bayescom.cn, reject
+host, adash-emas.cn-hangzhou.aliyuncs.com, reject
+host, qcloud.rr.tv, reject
+host-suffix, netease.im, reject
+host, qzs.qq.com, reject
+host-keyword, hpplay, reject
+host-keyword, wostore, reject
+host, ued.rr.tv, reject
