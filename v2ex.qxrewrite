@@ -1,0 +1,5 @@
+hostname= *.v2ex.com
+
+#浏览器访问并登录: https://www.v2ex.com
+#打开浏览器访问: https://www.v2ex.com/mission/daily
+^https:\/\/www\.v2ex\.com\/mission\/daily url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/quanx/v2ex.cookie.js
