@@ -60,7 +60,7 @@
     },
     {
       "config":"30 6 * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/youth_banner.js, tag=中青看看赚, img-url=https://raw.githubusercontent.com/Orz-3/task/master/youth.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/youth_banner.plugin,tag=中青看看赚_获取Cookie"
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/zqkkz.qxr,tag=中青看看赚_获取Cookie"
     },
     {
       "config":"*/20 7-23 * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/youth.js, tag=中青签到转盘, img-url=https://raw.githubusercontent.com/Orz-3/task/master/youth.png, enabled=true",
@@ -123,7 +123,7 @@
     },
     {
       "config":"0 8 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js, tag=航旅纵横, img-url=https://qxzy.top/rules/QuantumultX/img/umetrip.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/hlzh.qxrw,tag=航旅纵横_获取Cookie"
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/hlzh.qxr,tag=航旅纵横_获取Cookie"
     },
     {
       "config": "0 11 8 * * * https://raw.githubusercontent.com/gitehabu/Scripts/gitehabu-patch-1/Task/weibo.js, tag=新浪微博, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/weibo.png, enabled=true", 
