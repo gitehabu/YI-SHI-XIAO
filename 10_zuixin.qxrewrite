@@ -495,3 +495,5 @@ https:\/\/*\/v1\/user(\/promote)\/info url response-body download_limit":\d+ res
 https:\/\/*\\/v1\/user(\/promote)\/info url response-body expiry":\d+ response-body expiry":1800000000
 https:\/\/*\/v1\/user(\/promote)\/info url response-body level":\d+ response-body level":2
 https:\/\/*\/v1\/user(\/promote)\/info url response-body vip_trial":\w+ response-body vip_trial":true
+# 新浪微博网页版去广告
+^https://wx3.sinaimg.cn/large/53b515f0ly1gnlu3cynfmj20t306owhf.jpg url reject
