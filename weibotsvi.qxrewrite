@@ -1,4 +1,6 @@
 hostname = m.weibo.cn
 
+# 进入 https://m.weibo.cn 并登陆
+# 获取cookie后进入boxjs配置 https://raw.githubusercontent.com/zZPiglet/Task/master/zZPiglet.boxjs.json
 
 ^https:\/\/m\.weibo\.cn\/feed\/ url script-request-header https://raw.githubusercontent.com/zZPiglet/Task/master/Weibo/Weibo.js
