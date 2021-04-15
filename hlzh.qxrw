@@ -1,8 +1,0 @@
-/*
-"航旅纵横(Pro)" app 自动签到，支持 Quantumult X（理论上也支持 Surge、Loon、shadowrocket，未尝试）。
-请先按下述方法进行配置，进入"航旅纵横(Pro)" - "出行有礼" - "每日签到"，若弹出"首次写入 umetrip id 成功"即可正常食用，其他提示或无提示请发送日志信息至 issue。
-到 cron 设定时间自动签到时，若弹出"航旅纵横 - 签到成功"即完成签到，其他提示或无提示请发送日志信息至 issue。
-*/
-hostname = cloud.umetrip.com
-
-^https:\/\/cloud\.umetrip\.com\/gateway\/api\/web\/rest\/polite\/app\/sign\/signpageinitdata url script-request-header https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js
