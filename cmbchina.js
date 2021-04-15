@@ -1,10 +1,11 @@
 /*
 招商银行信用卡微信公众号：“领积分 - 🎁签到领积分” 获取 Cookie
 
-[Script]
-cron "* 9 * * *" debug=1,script-path=https://raw.githubusercontent.com/cyqlegend/Breaker/master/script/cmb/cmbchina.js,script-update-interval=0
-http-request ^https:\/\/weclub\.ccc\.cmbchina.com\/SCRMCustomActivityFront\/checkin\/request\/get-home-data\.json\?activityCode=checkin debug=1,script-path=https://raw.githubusercontent.com/cyqlegend/Breaker/master/script/cmb/cmbchina.js,script-update-interval=0
-https:\/\/weclub\.ccc\.cmbchina.com\/SCRMCustomActivityFront\/checkin\/request\/get-home-data\.json\?activityCode=checkin max-size=0,script-path=https://raw.githubusercontent.com/cyqlegend/Breaker/master/script/cmb/cmbchina.js,script-update-interval=0
+[task_local]
+8 0 * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/cmbchina.js
+
+[rewrite_local]
+https://weclub\.ccc\.cmbchina.com/SCRMCustomActivityFront/checkin/request/get-home-data\.json\?activityCode=checkin url script-request-header https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/cmbchina.js
 
 [mitm]
 hostname = weclub.ccc.cmbchina.com
@@ -21,42 +22,37 @@ if (isGetCookie) {
     if ($request.headers['Cookie']) {
         var cookie = $request.headers['Cookie'];
         var userAgent = $request.headers['User-Agent'];
-        $persistentStore.write(cookie, cookieKey);
-        //$prefs.setValueForKey(cookie, cookieKey);
-        $persistentStore.write(userAgent, userAgentKey);
-        //$prefs.setValueForKey(userAgent, userAgentKey);
-        $notification.post("成功获取招商银行信用卡 cookie 🎉", "", "");
-    } else {
-        $notification.post("获取招商银行信用卡 cookie 失败😭", "", "");
+        $prefs.setValueForKey(cookie, cookieKey);
+        $prefs.setValueForKey(userAgent, userAgentKey);
+        $notify("成功获取招商银行信用卡 cookie 🎉", "", "请禁用该脚本")
     }
     $done({});
 } else {
     // 签到
     var request = {
         url: checkinURL,
+        method: 'POST',
         headers: {
-            'Cookie': $persistentStore.read(cookieKey),
-            'User-Agent': $persistentStore.read(userAgentKey),
+            'Cookie': $prefs.valueForKey(cookieKey),
+            'User-Agent': $prefs.valueForKey(userAgentKey),
             'Content-type' : 'application/json; charset=utf-8'
         },
         body: JSON.stringify({'activityCode' : 'checkin'})
     };
 
-    $httpClient.post(request, function(error, response, data){
-        if (error) {
-            $notification.post("招商银行信用卡签到，请求失败", "", error);
+    $task.fetch(request).then(response => {
+        const result = JSON.parse(response.body);
+        if (result.respCode == 1000) {
+            $notify("招商银行信用卡", "", "签到成功，获得 " + result.data.awardValue + " 积分🎁");
+        } else if (result.respCode == 1452) {
+            $notify("招商银行信用卡", "", "签到失败，请获取 cookie");
+        } else if (result.respCode == 'custom_8500') {
+            $notify("招商银行信用卡", "", "签到失败，" + result.respMsg);
         } else {
-            const result = JSON.parse(data);
-            if (result.respCode == 1000) {
-                $notification.post("招商银行信用卡", "", "签到成功，获得 " + result.data.awardValue + " 积分🎁");
-            } else if (result.respCode == 1452) {
-                $notification.post("招商银行信用卡", "", "签到失败，请获取 cookie");
-            } else if (result.respCode == 'custom_8500') {
-                $notification.post("招商银行信用卡", "", "签到失败，" + result.respMsg);
-            } else {
-                $notification.post("招商银行信用卡", "", "签到失败，请查看日志");
-                console.log(result);
-            }
+            $notify("招商银行信用卡", "", "签到失败，请查看日志");
+            console.log(response.body)
         }
+    }, reason => {
+        $notify("招商银行信用卡", "", reason.error)
     });
 }
