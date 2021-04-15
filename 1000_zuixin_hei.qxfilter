@@ -182,5 +182,5 @@ host-suffix, netease.im, reject
 host, qzs.qq.com, reject
 host-keyword, hpplay, reject
 host-keyword, wostore, reject
-host-keyword, fengkongcloud, reject
+#host-keyword, fengkongcloud, reject
 host, ued.rr.tv, reject
