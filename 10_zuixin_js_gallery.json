@@ -25,7 +25,7 @@
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/weibotsvi.qxrewrite,tag=微博通知_获取Cookie"
     },
     {
-      "config":"10 6 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/v2ex.js, tag=V2EX, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/task/v2ex.png, enabled=true",
+      "config":"10 6 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/quanx/v2ex.js, tag=V2EX, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/task/v2ex.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/v2ex.qxrewrite,tag=V2EX_获取Cookie"
     },
     {
