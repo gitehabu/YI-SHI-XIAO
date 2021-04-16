@@ -64,7 +64,7 @@ DOMAIN-SUFFIX, ggsfq.com, reject
 DOMAIN-SUFFIX, ad.pornimg.xyz, reject
 DOMAIN-SUFFIX, yandex.ru, reject
 DOMAIN-SUFFIX, awaitcola.com, reject
-DOMAIN-SUFFIX, jsdelivr.net, reject
+#DOMAIN-SUFFIX, jsdelivr.net, reject
 DOMAIN-SUFFIX, wine-api.net, reject
 #DOMAIN-KEYWORD, wixsite.com, reject
 DOMAIN-SUFFIX, exosrv.com, reject
