@@ -139,7 +139,7 @@ function ParseWeibo(obj) {
             let Title = '@'
             if (wbs[i].user) Title += wbs[i].user.screen_name
             let releaseTime = new Date(wbs[i].created_at).getTime()
-            let subTitile = '⌚️ ' + new Date(wbs[i].created_at).Format("MM/dd hh:mm:ss")
+            let subTitile = '⏰ ' + new Date(wbs[i].created_at).Format("MM/dd hh:mm:ss")
             let open = $.openlink + wbs[i].bid
             let showimg = wbs[i].user ? wbs[i].user.profile_image_url : 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/task/tgpic.png'
             let detail = ''
