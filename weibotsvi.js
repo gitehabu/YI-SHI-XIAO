@@ -141,7 +141,7 @@ function ParseWeibo(obj) {
             let releaseTime = new Date(wbs[i].created_at).getTime()
             let subTitile = '⌚️ ' + new Date(wbs[i].created_at).Format("MM/dd hh:mm:ss")
             let open = $.openlink + wbs[i].bid
-            let showimg = wbs[i].user ? wbs[i].user.profile_image_url : 'https://tvax2.sinaimg.cn/crop.0.0.1006.1006.1024/4242e8adly8gdirb4e9q2j20ry0rytbp.jpg'
+            let showimg = wbs[i].user ? wbs[i].user.profile_image_url : 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/task/tgpic.png'
             let detail = ''
             let newlineReg = /<br \/>/g
             let ignoreReg = /<[^>]+>/g
