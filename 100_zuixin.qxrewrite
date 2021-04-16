@@ -496,4 +496,4 @@ https:\/\/*\\/v1\/user(\/promote)\/info url response-body expiry":\d+ response-b
 https:\/\/*\/v1\/user(\/promote)\/info url response-body level":\d+ response-body level":2
 https:\/\/*\/v1\/user(\/promote)\/info url response-body vip_trial":\w+ response-body vip_trial":true
 # 新浪微博网页版去广告
-^https://wx3.sinaimg.cn/large/53b515f0ly1gnlu3cynfmj20t306owhf.jpg url 302 https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/666.jpeg'
+^https://wx3.sinaimg.cn/large/53b515f0ly1gnlu3cynfmj20t306owhf.jpg url 302 https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/777.jpeg
