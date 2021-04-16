@@ -3,7 +3,7 @@
   "name": "zZPiglet 应用订阅",
   "author": "@zZPiglet",
   "icon": "https://raw.githubusercontent.com/zZPiglet/Task/master/img/fly.gif",
-  "repo": "https://github.com/zZPiglet/Task",
+  "repo": "https://github.com/gitehabu/YI-SHI-XIAO",
   "apps": [
     {
       "id": "zZ.DiDi",
@@ -275,7 +275,6 @@
             { "key": "Safari", "label": "Safari" },
             { "key": "Sinaweibo", "label": "微博" },
             { "key": "Weibointernational", "label": "微博国际版" },
-            { "key": "VVebo", "label": "VVebo" }
             { "key": "jidian", "label": "jidian" }
           ]
         }
