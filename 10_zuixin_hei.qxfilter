@@ -3,7 +3,9 @@ DOMAIN,118.89.204.198,REJECT-DROP
 IP-CIDR,118.89.204.198/32,REJECT-DROP,no-resolve
 IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT-DROP,no-resolve
 DOMAIN,appcloud2.in.zhihu.com,REJECT
+host, appcloud2.zhihu.com, reject
 DOMAIN,appcloud.in.zhihu.com,REJECT
+host, appcloud.zhihu.com, reject
 DOMAIN,mqtt.zhihu.com,REJECT
 DOMAIN,sugar.zhihu.com,REJECT
 USER-AGENT,AVOS*,REJECT
@@ -183,3 +185,8 @@ host, qzs.qq.com, reject
 host-keyword, hpplay, reject
 host-keyword, wostore, rejectt
 host, ued.rr.tv, reject
+# 皮皮喵
+host, gentle.coding.net, reject
+host, img.alicdn.com, reject
+host-suffix, zyiis.net, reject
+host-suffix, lrswl.com, reject
