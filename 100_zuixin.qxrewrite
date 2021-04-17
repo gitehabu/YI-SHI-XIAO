@@ -4,7 +4,6 @@ hostname = */splash_store.json, */app_ios_store_free.json, gentle.coding.net, im
 # 皮皮喵
 ^*/splash_store.json url reject
 ^*/app_ios_store_free.json url reject
-^https://cdn.jsdelivr.net url reject
 ^https://gentle.coding.net url reject
 ^https://img.alicdn.com url reject
 ^https://*.zyiis.net url reject
