@@ -1,4 +1,4 @@
-{"name":"上善若水",
+{"name":"快速离场",
   "task":[
     {
       "config":"9 8 * * * https://raw.githubusercontent.com/id77/QuantumultX/master/task/yiLi.js, tag=伊利乳品小程序, img-url=https://raw.githubusercontent.com/id77/QuantumultX/master/icon/yiLi.png, enabled=true",
