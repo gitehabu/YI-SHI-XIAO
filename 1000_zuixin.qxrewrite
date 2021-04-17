@@ -4,10 +4,11 @@ hostname = */splash_store.json, */app_ios_store_free.json, gentle.coding.net, im
 # 皮皮喵
 ^*/splash_store.json url reject
 ^*/app_ios_store_free.json url reject
-^https://gentle.coding.net url reject
-^https://img.alicdn.com url reject
 ^https://*.zyiis.net url reject
 ^https://*.lrswl.com url reject
+^https://gentle.coding.net url reject
+^https://img.alicdn.com url reject
+^https://cdn.jsdelivr.net/gh/ghostgzt url reject
 # 韩剧TV去除开屏广告
 ^http:\/\/api\.hanju\.koudaibaobao\.com\/api\/carp\/kp.*? url reject
 # 韩剧TV
