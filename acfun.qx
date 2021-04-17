@@ -1,0 +1,3 @@
+hostname= *.acfun.cn
+
+^https:\/\/api\-new\.app\.acfun\.cn\/rest\/app\/user\/personalInfo url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/acfun/acfun.cookie.js
