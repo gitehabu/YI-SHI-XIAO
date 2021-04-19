@@ -1,4 +1,4 @@
-{"name":"快速离场",
+{"name":"快进快出",
   "task":[
     {
       "config":"9 8 * * * https://raw.githubusercontent.com/id77/QuantumultX/master/task/yiLi.js, tag=伊利乳品, img-url=https://raw.githubusercontent.com/id77/QuantumultX/master/icon/yiLi.png, enabled=true",
