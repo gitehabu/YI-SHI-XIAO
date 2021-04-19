@@ -103,8 +103,8 @@
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/jd_jx.qx,tag=京喜工厂_获取Cookie"
     },
     {
-      "config":"1 9 * * * https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_products_detail.js, tag=工厂商品, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxgc.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/jd_jx.qx,tag=京喜工厂_获取Cookie"
+      "config":"1 9 * * * https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_products_detail.js, tag=京喜工厂商品, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdgc.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/jd_jx.qx,tag=京喜工厂商品_获取Cookie"
     },
     {
       "config":"30 1 * * * * https://raw.githubusercontent.com/whyour/hundun/master/quanx/dd_factory.js, tag=东东工厂, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_factory.png, enabled=true",
