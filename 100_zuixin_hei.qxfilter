@@ -190,3 +190,11 @@ host, gentle.coding.net, reject
 host, img.alicdn.com, reject
 host-suffix, zyiis.net, reject
 host-suffix, lrswl.com, reject
+# 迅雷
+host-suffix, 88cdn.com, reject
+host-suffix, sandai.net, reject
+host-keyword, sjzhushou, reject
+host-keyword, xunlei, reject
+host, res.res.res.res:80, reject
+# 绕过企业证书过期
+host, ocsp.apple.com, reject
