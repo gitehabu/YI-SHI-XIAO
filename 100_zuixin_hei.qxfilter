@@ -198,3 +198,5 @@ host-keyword, xunlei, reject
 host, res.res.res.res:80, reject
 # 绕过企业证书过期
 host, ocsp.apple.com, reject
+# 各种去广告
+host-keyword, admobile, reject
