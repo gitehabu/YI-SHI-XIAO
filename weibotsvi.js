@@ -148,7 +148,7 @@ function ParseWeibo(obj) {
             detail += wbs[i].text.replace(newlineReg, '\n').replace(ignoreReg, '').trim()
             if (wbs[i].retweeted_status) {
                 detail += '\n\n'
-                if (wbs[i].retweeted_status.user) detail += '↪️ 转发自 @' + wbs[i].retweeted_status.user.screen_name + '：\n' 
+                if (wbs[i].retweeted_status.user) detail += '👙 转发自 @' + wbs[i].retweeted_status.user.screen_name + '：\n' 
                 detail += wbs[i].retweeted_status.text.replace(newlineReg, '\n').replace(ignoreReg, '').trim()
                 if (wbs[i].retweeted_status.live_photo) {
                     showimg = wbs[i].retweeted_status.live_photo[0]
@@ -182,7 +182,7 @@ function ParseWeibo(obj) {
                     }
                 }
             }
-            detail += '\n\n👉🏼 点击跳转至全文及原微博。'
+            detail += '\n\n📌 点击跳转至全文及原微博。'
             if (releaseTime > $.update) $.notify(Title, subTitile, detail, open, showimg)
         //})
     }
