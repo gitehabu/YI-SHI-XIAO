@@ -182,7 +182,7 @@ function ParseWeibo(obj) {
                     }
                 }
             }
-            detail += '\n\n📌 点击跳转至全文及原微博。'
+            detail += '\n\n👠 点击跳转至全文及原微博。'
             if (releaseTime > $.update) $.notify(Title, subTitile, detail, open, showimg)
         //})
     }
