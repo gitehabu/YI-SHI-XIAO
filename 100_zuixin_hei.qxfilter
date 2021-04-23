@@ -1,3 +1,5 @@
+# 哔哩哔哩 无图
+host-keyword, hdslb, reject
 # 知乎去广告
 DOMAIN,118.89.204.198,REJECT-DROP
 IP-CIDR,118.89.204.198/32,REJECT-DROP,no-resolve
