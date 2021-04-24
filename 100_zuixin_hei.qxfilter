@@ -1,5 +1,6 @@
 # 哔哩哔哩 无图
 host-keyword, hdslb, reject
+host, api.vc.bilibili.com, reject
 # 滴滴打车 去广告
 host-keyword, didistatic, reject
 # 知乎去广告
@@ -135,6 +136,7 @@ host, eco.taobao.com, reject
 # 山丘阅读器
 host-suffix, uc.cn, reject
 host-suffix, uc.com, reject
+host-keyword, ucweb, reject
 host-keyword, wdsou, reject
 # 云听
 host, beacon-api.aliyuncs.com, reject
