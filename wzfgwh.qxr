@@ -1,0 +1,3 @@
+hostname= 49.234.36.200:9091
+
+^http:\/\/49.234.36.200:9091\/v1\/auth\/signin url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.cookie.js
