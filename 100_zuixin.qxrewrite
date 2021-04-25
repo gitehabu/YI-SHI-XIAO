@@ -522,4 +522,4 @@ https:\/\/*\/v1\/user(\/promote)\/info url response-body vip_trial":\w+ response
 # 新浪微博网页版去广告
 ^https://wx3.sinaimg.cn/large/53b515f0ly1gnlu3cynfmj20t306owhf.jpg url 302 https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/666.jpeg
 # 微博网页版加载原图
-https://wx\d.sinaimg.cn/(orj360|orj480|orj960|orj1080|or360|or480|or960|or1080)/ url 302 https://wx1.sinaimg.cn/large/
+^https://wx\d.sinaimg.cn/(orj360|orj480|orj960|orj1080|or360|or480|or960|or1080|bmiddle)/ url 302 https://wx1.sinaimg.cn/large/
