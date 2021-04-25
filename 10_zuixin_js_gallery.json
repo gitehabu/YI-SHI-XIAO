@@ -24,8 +24,8 @@
       "config":"0 9 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/nCov.js, tag=新冠疫情, img-url=https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/nCOV~1.png, enabled=true"
     },
     {
-      "config":"10 6 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/quanx/v2ex.js, tag=V2EX, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/task/v2ex.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/v2ex.qxrewrite,tag=V2EX_获取Cookie"
+      "config":"0 8 * * * https://raw.githubusercontent.com/xl2101200/-/main/smyj.js, tag=圣牧有机, img-url=https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/smyj.jpg, enabled=true",
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/smyj.qxr,tag=圣牧有机_获取Cookie"
     },
     {
       "config":"*/1 * * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/weibotsvi.js, tag=微博通知, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/weibo.png, enabled=true",
@@ -39,8 +39,8 @@
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/jzb.qxrw,tag=家长帮_获取Cookie"
     },
     {
-      "config":"6 6 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.js, tag=喜马拉雅, img-url=https://qxzy.top/rules/QuantumultX/img/ximalaya.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/ximalaya.qxrw,tag=喜马拉雅_获取Cookie"
+      "config":"10 6 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/quanx/v2ex.js, tag=V2EX, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/task/v2ex.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/v2ex.qxrewrite,tag=V2EX_获取Cookie"
     },
     {
       "config":"30 7 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/quanx/neteasemusic.js, tag=网易云音乐, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/task/neteasemusic.png, enabled=true",
