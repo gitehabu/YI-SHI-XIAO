@@ -24,7 +24,7 @@
       "config":"0 9 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/nCov.js, tag=新冠疫情, img-url=https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/nCOV~1.png, enabled=true"
     },
     {
-      "config":"0 8 * * * https://raw.githubusercontent.com/xl2101200/-/main/smyj.js, tag=圣牧有机, img-url=https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/smyj.jpg, enabled=true",
+      "config":"0 8 * * * https://raw.githubusercontent.com/xl2101200/-/main/smyj.js, tag=圣牧有机, img-url=https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/smyj.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/smyj.qxr,tag=圣牧有机_获取Cookie"
     },
     {
