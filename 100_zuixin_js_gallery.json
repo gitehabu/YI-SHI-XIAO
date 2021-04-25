@@ -138,7 +138,7 @@
       "addons": "https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/jd/qx_rewite.txt, tag=京东到家_获取Cookie"
     },
     {
-      "config":"0 9 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js, tag=滴滴出行, img-url=https://raw.githubusercontent.com/Orz-3/task/master/didi.png, enabled=true",
+      "config":"0 1,20,21 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js, tag=滴滴出行, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.qxrewrite,tag=滴滴出行_获取Cookie"
     },
     {
