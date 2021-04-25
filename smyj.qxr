@@ -1,0 +1,4 @@
+hostname = h5.youzan.com
+
+
+https://h5.youzan.com/wscump/checkin/checkin.json? url script-request-header https://raw.githubusercontent.com/xl2101200/-/main/smyj.js
