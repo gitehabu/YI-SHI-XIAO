@@ -1,4 +1,4 @@
-hostname = as.xiaojukeji.com, common.diditaxi.com.cn // 前者为 App 获取，或者为微信小程序获取
+hostname = as.xiaojukeji.com, common.diditaxi.com.cn // 前为 App 获取，后为微信小程序获取
 
 
 # APP
