@@ -11,9 +11,7 @@ hostname = *.youth.cn, ios.baertt.com
 ^https?://\w+\.youth\.cn/(TaskCenter|WebApi/NewTaskIos)/(sign|getSign)(\?.+)?$ url script-request-header https://raw.githubusercontent.com/ztxtop/x/main/zqread.js
 
 # Loon 定时任务配置
-# cron "8/30 * 1-6 * * *" script-path=https://raw.githubusercontent.com/ztxtop/x/main/zqread.js, enabled=true, tag=中青阅读
 # cron "15/30 * * * *" script-path=https://raw.githubusercontent.com/ztxtop/x/main/youth.js, enabled=true, tag=中青签到、宝箱
 
 # QX构造请求配置
-# 8/30 * 1-6 * * * https://raw.githubusercontent.com/ztxtop/x/main/zqread.js, tag=中青阅读, img-url=https://raw.githubusercontent.com/Orz-3/task/master/youth.png, enabled=true
 # 15/30 * * * * https://raw.githubusercontent.com/ztxtop/x/main/youth.js, tag=中青签到、宝箱, img-url=https://raw.githubusercontent.com/Orz-3/task/master/youth.png, enabled=true
