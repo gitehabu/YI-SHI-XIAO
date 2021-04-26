@@ -1,0 +1,7 @@
+hostname = ios.baertt.com
+
+
+
+# 中青自动阅读抓包
+# 获取阅读所需数据：配置好此重写规则，进入app待阅读的文章视频页面，获取完阅读数据后返回，进入下一个阅读页面
+^https?://ios\.baertt\.com/v5/article/info/get\.json url script-request-header https://raw.githubusercontent.com/ztxtop/x/main/zqread.js
