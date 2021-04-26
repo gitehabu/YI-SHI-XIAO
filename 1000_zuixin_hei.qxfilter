@@ -1,0 +1,197 @@
+# 哔哩哔哩 无图
+host-keyword, hdslb, reject
+host, api.vc.bilibili.com, reject
+# 滴滴打车 去广告
+host-keyword, didistatic, reject
+# umeng
+host-keyword, umeng, reject
+host-keyword, umsns, reject
+# 见智
+host, msg.umengcloud.com, reject
+host, eco.taobao.com, reject
+# 山丘阅读器
+host-suffix, uc.cn, reject
+host-suffix, uc.com, reject
+host-keyword, ucweb, reject
+host-keyword, wdsou, reject
+# 云听
+host, beacon-api.aliyuncs.com, reject
+host, oss-bj-radio-client.oss-cn-beijing.aliyuncs.com, reject
+host, adash.man.aliyuncs.com, reject
+host, httpdns.n.netease.com, reject
+host, n.sinaimg.cn, reject
+host, mlvbdc.live.qcloud.com, reject
+host, sdk.open.talk.igexin.com, reject
+host, ytapi.radio.cn, reject
+host-suffix, mob.com, reject
+host, redirect.networkbench.com, reject
+host, cnvod.cnr.cn, reject
+host, report.radio.cn, reject
+host-keyword, getui, reject
+host, ytmedia.radio.cn, reject
+host, inappcheck.itunes.apple.com, reject
+host, mpush-api.aliyun.com, reject
+# 文华财经随身行
+host, m-log.wenhua.com.cn, reject
+host, m-count.wenhua.com.cn, reject
+host, m-news-net.wenhua.com.cn, reject
+host, m-open.wenhua.com.cn, reject
+host, m-risk.wenhua.com.cn, reject
+host, m-adphone.wenhua.com.cn, reject
+# 推特视频下载https://www.downloadtwittervideo.com/zh-cn/
+host, rotumal.com, reject
+# 水印精灵
+host-suffix, pstatp.com, reject
+host-suffix, dobenge.cn, reject
+# Wind万得
+host-suffix, myqcloud.com, reject
+# 今日头条
+host-keyword, toutiao, reject
+host-keyword, bytedance, reject
+host-keyword, snssdk, reject
+# 啪哩啪哩去广告
+host, imgs.smxwhcm.cn, reject
+host, encimgf.cchzkj.cn, reject
+host, 7418665.com, reject
+# 旧版看书神器极简版
+host-suffix, pysmei.com, reject
+host-suffix, chinadegi.com, reject
+host-suffix, app-measurement.com, reject
+host-suffix, pigqq.com, reject
+#人人视频 极简版
+host, eleven.bayescom.cn, reject
+host, adash-emas.cn-hangzhou.aliyuncs.com, reject
+host, qcloud.rr.tv, reject
+host-suffix, netease.im, reject
+host, qzs.qq.com, reject
+host-keyword, hpplay, reject
+host-keyword, wostore, rejectt
+host, ued.rr.tv, reject
+# 皮皮喵
+host, gentle.coding.net, reject
+host, img.alicdn.com, reject
+host-suffix, zyiis.net, reject
+host-suffix, lrswl.com, reject
+# 迅雷
+host-suffix, 88cdn.com, reject
+host-suffix, sandai.net, reject
+host-keyword, sjzhushou, reject
+host-keyword, xunlei, reject
+host, res.res.res.res:80, reject
+# 绕过企业证书过期
+host, ocsp.apple.com, reject
+# 各种去广告
+host-keyword, admobile, reject
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#####Jable.tv av吃到饱
+DOMAIN-SUFFIX, asewlfjqwlflkew.com, reject
+DOMAIN-SUFFIX, uus52.com, reject
+DOMAIN-SUFFIX, uus58.com, reject
+DOMAIN-SUFFIX, ddmax20.xyz, reject
+DOMAIN-SUFFIX, ads.exosrv.com, reject
+DOMAIN-KEYWORD, exosrv, reject
+DOMAIN-KEYWORD, asewlfjqwlflkew, reject
+DOMAIN-SUFFIX, tyrantdb.com, reject
+DOMAIN-SUFFIX, adserve.work, reject
+
+#####nfmovies.com 奈菲影视
+DOMAIN-SUFFIX, s96.cnzz.com, reject
+DOMAIN-SUFFIX, yabo729.com, reject
+
+######m.pianku.me/ 手机片库网
+DOMAIN-SUFFIX, xn--xhq9mt12cf5v.xn--io0a7i:4443, reject
+DOMAIN-KEYWORD, xn--2qux23c9ziyrq, reject
+DOMAIN-SUFFIX, xn--3bs795g.zone, reject
+DOMAIN-SUFFIX, xn--2qux23c9ziyrq.plus, reject
+DOMAIN-SUFFIX, xn--2qux23c9ziyrq.club, reject
+DOMAIN-SUFFIX, xn--xhq9mt12cf5v.xn--io0a7i, reject
+DOMAIN-SUFFIX, ddmax20.xyz, reject
+DOMAIN-SUFFIX, www.avple.video, reject
+DOMAIN-SUFFIX, xn--3bs795g.link, reject
+
+#####netflav.com Netflav
+DOMAIN-SUFFIX, maphuahin.com, reject
+DOMAIN-SUFFIX, ggsfq.com, reject
+DOMAIN-SUFFIX, ad.pornimg.xyz, reject
+DOMAIN-SUFFIX, yandex.ru, reject
+DOMAIN-SUFFIX, awaitcola.com, reject
+#DOMAIN-SUFFIX, jsdelivr.net, reject
+DOMAIN-SUFFIX, wine-api.net, reject
+#DOMAIN-KEYWORD, wixsite.com, reject
+DOMAIN-SUFFIX, exosrv.com, reject
+DOMAIN-SUFFIX, juicyads.com, reject
+DOMAIN-SUFFIX, wixstatic.com, reject
+DOMAIN-SUFFIX, thumb.fvs.io, reject
+DOMAIN-SUFFIX, itnuzleafan.com, reject
+DOMAIN-SUFFIX, oawhaursaith.com, reject
+DOMAIN-SUFFIX, unreshiramor.com, reject
+
+#####avgle.me
+DOMAIN-SUFFIX, jads.co, reject
+DOMAIN-SUFFIX, adxadserv.com, reject
+DOMAIN-SUFFIX, moatads.com, reject
+DOMAIN-SUFFIX, juicyads.in, reject
+DOMAIN-SUFFIX, dtscout.com, reject
+
+#####dilili.tv
+DOMAIN-SUFFIX, 51.la, reject
+DOMAIN-SUFFIX, 51daeka.com, reject
+
+######porn
+DOMAIN-SUFFIX, trafficjunky.com, reject
+
+#####xvideos
+
+
+##### ja.nyahentai.com
+DOMAIN-SUFFIX, adserver.juicyads.com, reject
+DOMAIN-SUFFIX, poweredby.jads.co, reject
+DOMAIN-SUFFIX, jads.co, reject
+
+##### www.cocomanhua.com
+DOMAIN-SUFFIX, exdynsrv.com, reject
+#DOMAIN-SUFFIX, cloudfront.net, reject
+DOMAIN-SUFFIX, d227cncaprzd7y.cloudfront.net, reject
+DOMAIN-SUFFIX, d10lumateci472.cloudfront.net, reject
+
+##### www.mfkhm.com
+DOMAIN-SUFFIX, new.xiongzhangad.com, reject
+
+##### m.yhdm.io
+DOMAIN-SUFFIX, dvzk66.cn, reject
+DOMAIN-SUFFIX, pu0glv.cn, reject
+
+##### www.porntrex.com/
+DOMAIN-SUFFIX, ads.bullionyield.com, reject
+
+##### https://www.zhenbuka.com/
+DOMAIN, 2785.dlads.cn, reject
+DOMAIN, dagonghuzhu.com, reject
+DOMAIN-SUFFIX, byteimg.com, reject
+
+
