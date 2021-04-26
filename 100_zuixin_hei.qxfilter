@@ -1,16 +1,8 @@
-# 哔哩哔哩 无图
-host-keyword, hdslb, reject
-host, api.vc.bilibili.com, reject
-# 滴滴打车 去广告
-host-keyword, didistatic, reject
 # 知乎去广告
 DOMAIN,118.89.204.198,REJECT-DROP
 IP-CIDR,118.89.204.198/32,REJECT-DROP,no-resolve
 IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT-DROP,no-resolve
 DOMAIN,appcloud2.in.zhihu.com,REJECT
-host, appcloud2.zhihu.com, reject
-DOMAIN,appcloud.in.zhihu.com,REJECT
-host, appcloud.zhihu.com, reject
 DOMAIN,mqtt.zhihu.com,REJECT
 DOMAIN,sugar.zhihu.com,REJECT
 USER-AGENT,AVOS*,REJECT
@@ -26,16 +18,16 @@ URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4/(questions|anwsers)\/\d+/related-
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation,REJECT-TINYGIF
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner,REJECT-TINYGIF
 URL-REGEX,^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation,REJECT-TINYGIF
-# 知乎夹带私货广告浪费流量
-host, lens.zhihu.com, reject
-host, pv.sohu.com, reject
-host, ios.bugly.qq.com, reject
-host, main.m.taobao.com, reject
-host, www.qq.com, reject
-host, client-api.itunes.apple.com, reject
-host-keyword, lncld, reject
-host-keyword, mqtt, reject
-host, zhihu-web-analytics.zhihu.com, reject
+
+
+
+
+# 哔哩哔哩 无图
+host-keyword, hdslb, reject
+host, api.vc.bilibili.com, reject
+# 滴滴打车 去广告
+host-keyword, didistatic, reject
+
 
 
 
