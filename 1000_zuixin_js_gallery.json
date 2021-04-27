@@ -122,7 +122,6 @@
       "config":"15 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.js, tag=Fa米家, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.qxrewrite,tag=Fa米家_获取Cookie"
     },
-   
     {
       "config": "30 10 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js, tag=哈啰出行, img-url=https://qxzy.top/rules/QuantumultX/img/hellbike.png, enabled=true", 
       "addons": "https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/QX_hellobike.qxrewrite, tag=哈啰出行_获取Cookie"
@@ -170,7 +169,7 @@
     {
       "config":"30 0 * * *  https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.js, tag=百度贴吧, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.qxrewrite,tag=贴吧_获取Cookie"
-    }
+    },
     {
       "config":"1 0 * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/rrtv.js, tag=人人视频, img-url=https://qxzy.top/rules/QuantumultX/img/rrtv.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/rrtv.qxrewrite,tag=人人视频_获取Cookie"
