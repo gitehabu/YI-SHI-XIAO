@@ -37,10 +37,6 @@
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/jzb.qxrw,tag=家长帮_获取Cookie"
     },
     {
-      "config":"15 5 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/duokan/duokan.js, tag=多看阅读, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/duokan.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/duokan.qxrw,tag=多看阅读_获取Cookie"
-    },
-    {
       "config":"0 7-22/3 * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/caiyun.js, tag=彩云天气, img-url=https://raw.githubusercontent.com/Orz-3/task/master/caiyun.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/caiyun.qxrewrite,tag=彩云天气_获取Cookie"
     },
@@ -51,6 +47,10 @@
     {
       "config":"10 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didachuxing/didachuxing_plus.js, tag=嘀嗒出行, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didachuxing/didachuxing.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didachuxing/didachuxing_plus.qxrewrite,tag=嘀嗒出行_获取Cookie"
+    },
+    {
+      "config":"15 5 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/duokan/duokan.js, tag=多看阅读, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/duokan.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/duokan.qxrw,tag=多看阅读_获取Cookie"
     },
     {
       "config":"*/1 * * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/weibotsvi.js, tag=微博通知, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/weibo.png, enabled=true",
