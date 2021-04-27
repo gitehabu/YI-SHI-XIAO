@@ -125,8 +125,8 @@
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/dingdong/dingdong_checkin.qxrewrite,tag=叮咚买菜_获取Cookiee"
     },  
     {
-      "config": "30 10 8 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js, tag=京东到家, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jddj.png, enabled=true", 
-      "addons": "https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/jd/qx_rewite.txt, tag=京东到家_获取Cookie"
+      "config": "30 10 8 * * * https://raw.githubusercontent.com/gitehabu/Scripts-3/master/Task/jddj.js, tag=京东到家, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jddj.png, enabled=true", 
+      "addons": "https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/jddj.qxr, tag=京东到家_获取Cookie"
     },
     {
       "config":"0 8 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js, tag=航旅纵横, img-url=https://qxzy.top/rules/QuantumultX/img/umetrip.png, enabled=true",
@@ -142,7 +142,7 @@
       "config":"52 59 9 * * 0,5,6 https://raw.githubusercontent.com/zZPiglet/Task/master/Alipay/Alipay_voucher.js, tag=支付宝优惠券, img-url=https://raw.githubusercontent.com/gitehabu/ios_rule_script/master/icon/task/alipay.png,enabled=true"
     },
     {
-      "config": "0 8 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/moji.js, tag=墨迹天气, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/moji.png, enabled=true"
+      "config": "0 8 * * * https://raw.githubusercontent.com/gitehabu/Scripts-3/master/Task/moji.js, tag=墨迹天气, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/moji.png, enabled=true"
     },
     {
       "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.js, tag=威锋网, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/task/feng.png, enabled=true",
@@ -150,11 +150,11 @@
     },
     {
       "config": "0 0 7,22 * * * https://raw.githubusercontent.com/gitehabu/Scripts-3/master/Task/dianshijia.js, tag=电视家, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/dianshijia.png, enabled=true", 
-      "addons": "https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/dianshijia/qx_rewite.txt, tag=电视家, update-interval=-1, opt-parser=false, enabled=true"
+      "addons": "https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/dianshijia.qxr, tag=电视家_获取Cookie"
     },
     {
       "config":"30 0 * * *  https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.js, tag=百度贴吧, img-url=https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/%E7%99%BE%E5%BA%A6%E8%B4%B4%E5%90%A7~1.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.qxrewrite,tag=贴吧_获取Cookie"
+      "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.qxrewrite,tag=百度贴吧_获取Cookie"
     },
     {
       "config":"0 9 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/telegram.js, tag=电报图片推送, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/task/tgpic.png,enabled=true"
@@ -164,8 +164,8 @@
       "addons": "https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/QX_hellobike.qxrewrite, tag=哈啰出行_获取Cookie"
     },
     {
-      "config": "*/30 */5 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/baidu_speed.js, tag=百度极速版, img-url=https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/IMG_8540~1.png, enabled=true",
-      "addons": "https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/baidu/qx_rewite.txt, tag=百度极速, update-interval=-1, opt-parser=false, enabled=true"
+      "config": "*/30 */5 * * * https://raw.githubusercontent.com/gitehabu/Scripts-3/master/Task/baidu_speed.js, tag=百度极速版, img-url=https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/IMG_8540~1.png, enabled=true",
+      "addons": "https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/baidu_speed.qxr, tag=百度极速版_获取Cookie"
     },
     {
       "config":"0 9 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/nCov.js, tag=新冠疫情推送, img-url=https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/covid19_logo~1.png, enabled=true"
