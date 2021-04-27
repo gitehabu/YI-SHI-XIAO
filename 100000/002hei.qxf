@@ -2,6 +2,8 @@
 host, appcloud2.zhihu.com, reject
 DOMAIN,appcloud.in.zhihu.com,REJECT
 host, appcloud.zhihu.com, reject
+# facebook 禁止一切相关
+host-keyword, facebook, reject
 # 哔哩哔哩 无图
 host-keyword, hdslb, reject
 host, api.vc.bilibili.com, reject
