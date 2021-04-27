@@ -95,20 +95,17 @@
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/external/QuantumultX/JDDailyBonus/JDDailyBonus.conf,tag=京东多合一_获取Cookie"
     },
     {
+      "config":"15 18 * * * https://raw.githubusercontent.com/whyour/hundun/master/quanx/donate-step.js, tag=支付宝步数, img-url=https://raw.githubusercontent.com/gitehabu/ios_rule_script/master/icon/task/alipay.png, enabled=true"
+    },
+    {
+      "config":"0 7 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/Alipay/Alipay.js, tag=支付宝到分树, img-url=https://raw.githubusercontent.com/gitehabu/ios_rule_script/master/icon/task/alipay.png, enabled=true"
+    },
+    {
+      "config":"52 59 9 * * 0,5,6 https://raw.githubusercontent.com/zZPiglet/Task/master/Alipay/Alipay_voucher.js, tag=支付宝优惠券, img-url=https://raw.githubusercontent.com/gitehabu/ios_rule_script/master/icon/task/alipay.png,enabled=true"
+    },
+    {
       "config":"6 6 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.js, tag=喜马拉雅, img-url=https://qxzy.top/rules/QuantumultX/img/ximalaya.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/ximalaya.qxrw,tag=喜马拉雅_获取Cookie"
-    },
-    {
-      "config":"10 1,6,10 * * * https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_factory_component.js, tag=京喜工厂plus, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdgc.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/jd_jx.qx,tag=京喜工厂plus_获取Cookie"
-    },
-    {
-      "config":"1 9 * * * https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_products_detail.js, tag=京喜工厂商品, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdgc.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/jd_jx.qx,tag=京喜工厂商品_获取Cookie"
-    },
-    {
-      "config":"30 1 * * * * https://raw.githubusercontent.com/whyour/hundun/master/quanx/dd_factory.js, tag=东东工厂, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_factory.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/external/QuantumultX/JDDailyBonus/JDDailyBonus.conf,tag=东东工厂_获取Cookie"
     },
     {
       "config":"15 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_signin.js, tag=中国联通, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/10010.png, enabled=true",
