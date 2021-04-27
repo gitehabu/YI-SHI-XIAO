@@ -168,7 +168,7 @@
       "addons": "https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/baidu/qx_rewite.txt, tag=百度极速, update-interval=-1, opt-parser=false, enabled=true"
     },
     {
-      "config":"0 9 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/nCov.js, tag=新冠疫情日报, img-url=https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/covid19_logo~1.png, enabled=true"
+      "config":"0 9 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/nCov.js, tag=新冠疫情推送, img-url=https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/covid19_logo~1.png, enabled=true"
     },
     {
       "config":"1 0 * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/rrtv.js, tag=人人视频, img-url=https://qxzy.top/rules/QuantumultX/img/rrtv.png, enabled=true",
