@@ -2,6 +2,7 @@
 host, appcloud2.zhihu.com, reject
 DOMAIN,appcloud.in.zhihu.com,REJECT
 host, appcloud.zhihu.com, reject
+host, datasink.canva.sensorsdatavip.com, reject
 # facebook 禁止一切相关
 host-keyword, facebook, reject
 # 哔哩哔哩 无图
@@ -9,9 +10,10 @@ host-keyword, hdslb, reject
 host, api.vc.bilibili.com, reject
 # 滴滴打车 去广告
 host-keyword, didistatic, reject
-# umeng
+# umeng 广告联盟 去广告
 host-keyword, umeng, reject
 host-keyword, umsns, reject
+host-keyword, umtrack, reject
 # 见智
 host, msg.umengcloud.com, reject
 host, eco.taobao.com, reject
