@@ -533,7 +533,7 @@ https://mdapp2.pw.*?gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577
 ^https:\/\/encimgf.fjyuxin.cn\/javapp_img\/750x375_3_pali_0408.png url reject
 ^https:\/\/encimgf.cchzkj.cn\/javapp_img\/1080x1920_pali_0408.png url reject
 ^https:\/\/encimgf.cchzkj.cn\/javapp_img\/1080x1920_pali_1125.png url reject
-#^*/javapp_img url reject
+^*/javapp_img url reject
 
 # Pali 试用会员www.pali.love
 https:\/\/*\/v1\/user(\/promote)\/info url response-body view_limit":\d+ response-body view_limit":9999
