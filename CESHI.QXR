@@ -1,0 +1,13 @@
+hostname = api*.tiktokv.com, *.musical.ly, *.amemv.com, getuserinfo.321mh.com
+
+# tiktok封区解锁
+(.*video_id=\w{32})(.*watermark=)(.*) url 302 $1
+(?<=(carrier|account|sys)_region=)CN url 307 JP
+# 看漫画极速版vip (By HoGer)
+^https?:\/\/getuserinfo\.321mh\.com\/app_api\/v5\/getuserinfo\/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/kmh.js
+# 爱美剧 VIP (官网：app.meiju2018.com)
+^https?:\/\/api.bjxkhc.com\/index\.php\/app\/ios\/(vod\/show|(user|vod|topic|type)\/index) url script-response-body https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/aimeiju.js
+# 爱美剧 去广告 (官网：app.meiju2018.com)
+^https?://api.bjxkhc.com/index.php/app/ios/ads/index url reject-dict
+^https?://api.bjxkhc.com/index.php/app/ios/ver/index_ios$ url reject
+^https?://api.bjxkhc.com/index.php/app/ios/pay/ok$ url reject-di
