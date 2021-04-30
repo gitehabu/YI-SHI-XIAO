@@ -11,7 +11,10 @@
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/xmSports.txt,tag=小米运动_获取Cookie"
     },
     
-    
+    {
+      "config":"40 8,20,9-19/2 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_drink.js, tag=滴滴出行喝水, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/didi.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/didi_new.qxrewrite,tag=滴滴出行喝水_获取Cookie"
+    },
     
     
     {
