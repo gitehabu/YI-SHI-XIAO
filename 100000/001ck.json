@@ -41,7 +41,7 @@
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/hlzh.qxr,tag=航旅纵横_获取Cookie"
     },
     {
-      "0 9 * * * https://raw.githubusercontent.com/iepngs/Script/master/lxhealth/manual.js, tag=乐心步数上传, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/lxhealth.png, enabled=true",
+      "config":"0 9 * * * https://raw.githubusercontent.com/iepngs/Script/master/lxhealth/manual.js, tag=乐心步数上传, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/lxhealth.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/lxhealthStep.qxr,tag=乐心步数上传_获取Cookie"
     },
     {
