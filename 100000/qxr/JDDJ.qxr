@@ -1,0 +1,6 @@
+hostname= daojia.jd.com
+
+
+#passerby-b
+#京东到家
+daojia.jd.com/html/index.html url script-request-header https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_getck.js 
