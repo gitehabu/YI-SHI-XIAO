@@ -153,8 +153,8 @@
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/dingdongnongchang.qxr,tag=叮咚农场_获取Cookiee"
     },
     {
-      "config":"7 0 * * * script-path=https://raw.githubusercontent.com/iepngs/Script/master/dingdong/activitySign.js,tag=叮咚网红, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/mcdd.png, enabled=true",
-      "addons":"https://github.com/gitehabu/YI-SHI-XIAO/blob/main/100000/qxr/dingdongdaka.qxr,tag=叮咚网红_获取Cookiee"
+      "config":"7 0 * * * https://raw.githubusercontent.com/iepngs/Script/master/dingdong/activitySign.js,tag=叮咚网红, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/mcdd.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/dingdongdaka.qxr,tag=叮咚网红_获取Cookiee"
     },
     {
       "config": "10 0,8,11,17 * * * https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_fruit.js, tag=京东到家果园任务, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jddj.png, enabled=true", 
