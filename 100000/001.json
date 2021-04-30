@@ -121,18 +121,6 @@
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/zqread_autoread.qxr,tag=中青自动阅读_获取Cookie"
     },
     {
-      "config":"20 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/dingdong/dingdong_checkin.js, tag=叮咚买菜, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/dingdong/dingdong.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/dingdong/dingdong_checkin.qxrewrite,tag=叮咚买菜_获取Cookiee"
-    },  
-    {
-      "config":"1 8,12,17 * * * https://raw.githubusercontent.com/iepngs/Script/master/dingdong/index.js, tag=叮咚农场, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/mcdd.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/dingdongnongchang.qxr,tag=叮咚农场_获取Cookiee"
-    },
-    {
-      "config": "10 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/pagoda/pagoda.js, tag=百果园, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/pagoda.png, enabled=true", 
-      "addons": "https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/baiguoyuan.qxr, tag=百果园_获取Cookie"
-    },
-    {
       "config": "10 0,8,11,17 * * * https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_fruit.js, tag=京东到家果园任务, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jddj.png, enabled=true", 
       "addons": "https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/JDDJ.qxr, tag=京东到家果园任务_获取Cookie"
     },
@@ -151,6 +139,18 @@
     {
       "config": "*/5 * * * * https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_getPoints.js, tag=京东到家庄园水滴, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jddj.png, enabled=true", 
       "addons": "https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/JDDJ.qxr, tag=京东到家庄园水滴_获取Cookie"
+    },
+    {
+      "config": "10 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/pagoda/pagoda.js, tag=百果园, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/pagoda.png, enabled=true", 
+      "addons": "https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/baiguoyuan.qxr, tag=百果园_获取Cookie"
+    },
+    {
+      "config":"20 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/dingdong/dingdong_checkin.js, tag=叮咚买菜, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/dingdong/dingdong.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/dingdong/dingdong_checkin.qxrewrite,tag=叮咚买菜_获取Cookiee"
+    },  
+    {
+      "config":"1 8,12,17 * * * https://raw.githubusercontent.com/iepngs/Script/master/dingdong/index.js, tag=叮咚农场, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/mcdd.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/dingdongnongchang.qxr,tag=叮咚农场_获取Cookiee"
     },
     {
       "config":"0 8 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js, tag=航旅纵横, img-url=https://qxzy.top/rules/QuantumultX/img/umetrip.png, enabled=true",
@@ -189,6 +189,15 @@
       "addons": "https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/QX_hellobike.qxrewrite, tag=哈啰出行_获取Cookie"
     },
     {
+      "config":"30 0 8-22/2 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/hotsearch/hot.js, tag=各种热门监控, img-url=https://qxzy.top/rules/QuantumultX/img/tgpic.png, enabled=true"
+    },
+    {
+      "config":"5 0 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/wechatsubs/wechatsubs.js, tag=公众号监控, img-url=https://qxzy.top/rules/QuantumultX/img/tgpic.png, enabled=true"
+    },
+    {
+      "config":"0 9 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/telegram.js, tag=电报图片推送, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/task/tgpic.png,enabled=true"
+    }
+    {
       "config": "*/30 */5 * * * https://raw.githubusercontent.com/gitehabu/Scripts-3/master/Task/baidu_speed.js, tag=百度极速版, img-url=https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/IMG_8540~1.png, enabled=true",
       "addons": "https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/baidu_speed.qxr, tag=百度极速版_获取Cookie"
     },
@@ -198,16 +207,8 @@
     {
       "config":"1 0 * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/rrtv.js, tag=人人视频, img-url=https://qxzy.top/rules/QuantumultX/img/rrtv.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/rrtv.qxrewrite,tag=人人视频_获取Cookie"
-    },
-    {
-      "config":"30 0 8-22/2 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/hotsearch/hot.js, tag=各种热门监控, img-url=https://qxzy.top/rules/QuantumultX/img/tgpic.png, enabled=true"
-    },
-    {
-      "config":"5 0 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/wechatsubs/wechatsubs.js, tag=公众号监控, img-url=https://qxzy.top/rules/QuantumultX/img/tgpic.png, enabled=true"
-    },
-    {
-      "config":"0 9 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/telegram.js, tag=电报图片推送, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/task/tgpic.png,enabled=true"
     }
+    
   ],
   "description":"看懂    做对    坚持"
 }
