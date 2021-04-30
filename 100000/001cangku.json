@@ -125,8 +125,8 @@
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/dingdong/dingdong_checkin.qxrewrite,tag=叮咚买菜_获取Cookiee"
     },  
     {
-      "config": "30 10 8 * * * https://raw.githubusercontent.com/gitehabu/Scripts-3/master/Task/jddj.js, tag=京东到家, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jddj.png, enabled=true", 
-      "addons": "https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/jddj.qxr, tag=京东到家_获取Cookie"
+      "config": "10 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/pagoda/pagoda.js, tag=百果园, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/pagoda.png, enabled=true", 
+      "addons": "https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/baiguoyuan.qxr, tag=百果园_获取Cookie"
     },
     {
       "config":"0 8 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js, tag=航旅纵横, img-url=https://qxzy.top/rules/QuantumultX/img/umetrip.png, enabled=true",
