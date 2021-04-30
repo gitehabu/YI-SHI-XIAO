@@ -1,0 +1,4 @@
+hostname = maicai.api.ddxq.mobi
+
+
+^https:\/\/maicai\.api\.ddxq\.mobi\/user\/checkLogin url script-request-header https://raw.githubusercontent.com/iepngs/Script/master/dingdong/index.js
