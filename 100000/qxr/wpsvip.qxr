@@ -1,0 +1,4 @@
+hostname = account.wps.cn
+
+
+^https://account.wps.*/api/users/ url script-response-body https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/wpsvip.js
