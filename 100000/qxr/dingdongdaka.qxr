@@ -1,0 +1,4 @@
+hostname=gw.api.ddxq.mobi
+
+
+^https:\/\/gw\.api\.ddxq\.mobi\/promocore-service\/client\/maicai\/mcActivityTrigger\/v1\/trigger url script-request-body https://raw.githubusercontent.com/iepngs/Script/master/dingdong/activitySign.js
