@@ -41,12 +41,24 @@
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/caiyun.qxrewrite,tag=彩云天气_获取Cookie"
     },
     {
-      "config":"0 1,20,21 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js, tag=滴滴出行, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/didi_new.qxrewrite,tag=滴滴出行_获取Cookie"
+      "config":"0 0 * * * https://share.r2ray.com/dust/normal/monk_inter_shop_sign.js, tag=京东店铺签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jddj.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/external/QuantumultX/JDDailyBonus/JDDailyBonus.conf,tag=京东多合一_获取Cookie"
     },
     {
       "config":"10 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didachuxing/didachuxing_plus.js, tag=嘀嗒出行, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didachuxing/didachuxing.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didachuxing/didachuxing_plus.qxrewrite,tag=嘀嗒出行_获取Cookie"
+    },
+    {
+      "config":"15 17 * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/xmSports.js, tag=小米运动, img-url=https://raw.githubusercontent.com/58xinian/icon/master/xmyd.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/xmSports.txt,tag=小米运动_获取Cookie"
+    },
+    {
+      "40 8,20,9-19/2 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_drink.js, tag=滴滴出行喝水, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/didi.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/didi_new.qxrewrite,tag=滴滴出行喝水_获取Cookie"
+    },
+    {
+      "config":"0 1,20,21 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js, tag=滴滴出行签到, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/didi_new.qxrewrite,tag=滴滴出行签到_获取Cookie"
     },
     {
       "config":"15 5 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/duokan/duokan.js, tag=多看阅读, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/duokan.png, enabled=true",
