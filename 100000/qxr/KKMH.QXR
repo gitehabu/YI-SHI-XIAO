@@ -1,0 +1,4 @@
+hostname= api.kkmh.com
+
+
+^https:\/\/api\.kkmh\.com\/v\d\/passport\/user url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/KuaiKan-DailyBonus/KKMH.js
