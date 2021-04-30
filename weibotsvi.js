@@ -47,8 +47,8 @@ const uidURL = 'https://m.weibo.cn/profile/info?uid='
 const searchURL = 'https://m.weibo.cn/api/container/getIndex?containerid=100103type%3D3%26t%3D1%26q%3D'
 const listURL = configURL + 'list'
 const groupURL = mainURL + 'group?gid='
-// const circleURL = mainURL + 'circle' // 好友圈，待做，🐦  
-// const timelineURL = mainURL + 'friends //时间线，待做，🐦
+// const circleURL = mainURL + 'circle' // 好友圈，待做，🧨  
+// const timelineURL = mainURL + 'friends //时间线，待做，🧨
 
 const $ = new API('Weibo')
 $.debug = [true, 'true'].includes($.read('debug')) || false
@@ -182,7 +182,7 @@ function ParseWeibo(obj) {
                     }
                 }
             }
-            detail += '\n\n👠 点击跳转至全文及原微博。'
+            detail += '\n\n🧲 点击跳转至全文及原微博。'
             if (releaseTime > $.update) $.notify(Title, subTitile, detail, open, showimg)
         //})
     }
