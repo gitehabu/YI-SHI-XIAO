@@ -189,8 +189,10 @@ http-response ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile requires-bod
 ^https://account.wps.*/api/users/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
 # 有道云笔记 vip
 ^https://note.youdao.com/yws/(mapi/payment|api/self) url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/ydybj.js
-# 百度云倍速播放
-^https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
+#解锁百度云盘会员（byddgksf2013）
+https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/bdcloud.js
+#百度云盘解锁视频在线播放和倍速(by nobyda)
+https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
 # 推特图片替换原图tweetbot
 ^https://pbs.twimg.com/media/\?|format=jpg&name=small url request-header format=jpg&name=small request-header format=jpg&name=orig
 ^https://pbs.twimg.com/media/\?|format=jpg&name=medium url request-header format=jpg&name=medium request-header format=jpg&name=orig
