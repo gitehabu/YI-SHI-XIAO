@@ -53,7 +53,7 @@
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/bilizb.qxrw,tag=Bili直播_获取Cookie"
     },
     {
-      "config":"0 0 0,1 * * ? https://raw.githubusercontent.com/lowking/Scripts/master/bilibili/bangumiMonitor.js, tag=Bili番剧监控, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/bilibili.png, enabled=true",
+      "config":"1 0 * * * https://raw.githubusercontent.com/lowking/Scripts/master/bilibili/bangumiMonitor.js, tag=Bili番剧监控, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/bilibili.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/bilibiliMonitor.qxr,tag=Bili番剧监控_获取Cookie"
     },
     {
