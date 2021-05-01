@@ -32,10 +32,7 @@
       "config":"10 6 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/quanx/v2ex.js, tag=V2EX, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/task/v2ex.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/v2ex.qxrewrite,tag=V2EX_获取Cookie"
     },
-    {
-      "config":"0 9 * * * https://raw.githubusercontent.com/iepngs/Script/master/lxhealth/manual.js, tag=乐心步数上传, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/lxhealth.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/lxhealthStep.qxr,tag=乐心步数上传_获取Cookie"
-    },
+   
     {
       "config":"0 7-22/3 * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/caiyun.js, tag=彩云天气, img-url=https://raw.githubusercontent.com/Orz-3/task/master/caiyun.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/caiyun.qxrewrite,tag=彩云天气_获取Cookie"
@@ -48,10 +45,7 @@
       "config":"10 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didachuxing/didachuxing_plus.js, tag=嘀嗒出行, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didachuxing/didachuxing.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didachuxing/didachuxing_plus.qxrewrite,tag=嘀嗒出行_获取Cookie"
     },
-    {
-      "config":"12 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js, tag=Bili直播, img-url=https://qxzy.top/rules/QuantumultX/img/bilibili.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/bilizb.qxrw,tag=Bili直播_获取Cookie"
-    },
+    
     {
       "config":"40 8,20,9-19/2 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_drink.js, tag=滴滴出行喝水, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/didi.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/didi_new.qxrewrite,tag=滴滴出行喝水_获取Cookie"
