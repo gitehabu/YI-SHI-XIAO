@@ -111,7 +111,7 @@
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.qxrewrite,tag=慢慢买_获取Cookie"
     },
     {
-      "config":"0 0 * * * https://share.r2ray.com/dust/normal/monk_inter_shop_sign.js, tag=京东店铺签到, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png, enabled=true",
+      "config":"5 0 * * * https://raw.githubusercontent.com/toulanboy/scripts/master/jd_price_detect/jd_price_detect.js, tag=京东价格提醒, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/external/QuantumultX/JDDailyBonus/JDDailyBonus.conf,tag=京东多合一_获取Cookie"
     },
     {
