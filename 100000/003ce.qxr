@@ -161,24 +161,8 @@ http-response ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile requires-bod
 ^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll|\/rrtv-video\/v4plus\/season\/detail) url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/rrtv.js
 # 人人影视字幕组(商店版)去广告,保留轮播推荐影片
 ^http://ctrl.playcvn.com/app/(init|ads) url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/YYeTs.js
-
-
 ## 京东比价 ##
-#^https?://api\.m\.jd\.com/(client\.action)\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
-
-# 京东极速版 需要在 functionId 后添加 lite_wareBusiness，即：
-^https?://api\.m\.jd\.com/client\.action\?functionId=lite_wareBusiness url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
-
-# 京喜 需要在 functionId 后添加 pingou_item，即：
-^https?://api\.m\.jd\.com/api\?functionId=pingou_item url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
-
-# 京东健康 需要补充一个 api 的path，即：
-^https?://api\.m\.jd\.com/(client\.action|api)\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
-
-## 所有 ##
-#^https?://api\.m\.jd\.com/(client\.action|api)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness|pingou_item) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
-
-
+#^https?://api\.m\.jd\.com/(client\.action)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
 # 淘宝比价
 ^http://.+/amdc/mobileDispatch url script-request-body https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
 ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
