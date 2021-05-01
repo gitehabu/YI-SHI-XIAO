@@ -58,7 +58,7 @@
     },
     {
       "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/csdn/csdn.js, tag=CSDN, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/csdn.png, enabled=true",
-      "addons":"https://github.com/gitehabu/YI-SHI-XIAO/blob/main/100000/qxr/csdn.qxr,tag=CSDN_获取Cookie"
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/csdn.qxr,tag=CSDN_获取Cookie"
     },
     {
       "config":"40 8,20,9-19/2 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_drink.js, tag=滴滴出行喝水, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/didi.png, enabled=true",
