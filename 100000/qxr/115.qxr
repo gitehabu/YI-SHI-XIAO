@@ -1,0 +1,4 @@
+hostname = proapi.115.com
+
+
+^https?:\/\/proapi\.115\.com\/ios\/user\/takespc\? url script-request-header https://raw.githubusercontent.com/zZPiglet/Task/master/115/115.j
