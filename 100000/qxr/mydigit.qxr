@@ -1,0 +1,6 @@
+hostname = www.mydigit.cn
+
+
+#登陆数码之家电脑版网页，签到一次,即可获取Cookie，获取后请禁用或注释掉❗️ 签过到的需次日获取
+
+https:\/\/www\.mydigit\.cn\/plugin\.php\?id=k_misign:sign&operation=qiandao url script-request-header https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/mydigit.js
