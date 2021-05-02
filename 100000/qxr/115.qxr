@@ -1,4 +1,5 @@
 hostname = proapi.115.com
 
 
+#进入"115"并摇一摇，若弹出"首次写入115 Cookie 成功"即可。
 ^https?:\/\/proapi\.115\.com\/ios\/user\/takespc\? url script-request-header https://raw.githubusercontent.com/zZPiglet/Task/master/115/115.j
