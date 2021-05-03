@@ -1,6 +1,6 @@
 {
   "id": "sunert.app.sub",
-  "name": "Sunert 签到应用订阅",
+  "name": "Sunert 精简",
   "author": "@Sunert",
   "icon": "https://avatars2.githubusercontent.com/u/47924389?s=460&u=5152f048a9e8aaa45102763a578172407c40fcc8&v=4",
   "repo": "https://gitee.com/Sunert/Scripts/tree/master",
@@ -47,7 +47,7 @@
       "settings": [{ 
          "id": "city", 
          "name": "城市", 
-         "val": "北京", 
+         "val": "郑州", 
          "type": "text", 
          "desc": "请填写中文地区"
          },
@@ -68,7 +68,7 @@
         }],
       "author": "@sunert",
       "repo": "https://gitee.com/Sunert/Scripts/blob/master/Task/moji.js",
-      "icons": ["https://gitee.com/Sunert/ProxyConfig/raw/master/QuantumultX/Rules/Images/ICON/moji_mini.png", "https://gitee.com/Sunert/ProxyConfig/raw/master/QuantumultX/Rules/Images/ICON/moji.png"],
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Color/moji.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/moji.png"],
       "script": "https://gitee.com/Sunert/Scripts/raw/master/Task/moji.js"
     },
     {
@@ -78,7 +78,7 @@
       "author": "@sunert",
       "repo": "https://gitee.com/Sunert/Scripts/blob/master/Task/jingxi.js",
       "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/jingxi.png", "https://raw.githubusercontent.com/Orz-3/task/master/jingxi.png"],
-       "script": "https://gitee.com/Sunert/Scripts/raw/master/Task/jingxi.js"
+      "script": "https://gitee.com/Sunert/Scripts/raw/master/Task/jingxi.js"
     }
   ]
 }
