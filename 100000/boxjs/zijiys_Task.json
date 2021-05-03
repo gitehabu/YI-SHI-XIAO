@@ -1,7 +1,7 @@
 {
   "id": "sunert.app.sub",
-  "name": "Sunert 精简",
-  "author": "@Sunert",
+  "name": "自己用 精简",
+  "author": "自己用",
   "icon": "https://avatars2.githubusercontent.com/u/47924389?s=460&u=5152f048a9e8aaa45102763a578172407c40fcc8&v=4",
   "repo": "https://gitee.com/Sunert/Scripts/tree/master",
   "apps": [
@@ -9,7 +9,7 @@
       "id": "weibo",
       "name": "新浪微博",
       "keys": ["sy_payheader_wb", "sy_token_wb"],
-      "author": "@sunert",
+      "author": "自己用",
       "repo": "https://gitee.com/Sunert/Scripts/blob/master/Task/weibo.js",
       "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/weibo.png", "https://raw.githubusercontent.com/Orz-3/task/master/weibo.png"],
       "script": "https://gitee.com/Sunert/Scripts/raw/master/Task/weibo.js"
@@ -18,7 +18,7 @@
       "id": "dianshijia",
       "name": "电视家",
       "keys": ["sy_signheader_dsj", "drawal_dsj"],
-      "author": "@sunert",
+      "author": "自己用",
       "settings": [{
         "id": "REWARD",
         "name": "额外签到奖励",
@@ -66,7 +66,7 @@
           "placeholder": "默认1 (点击以展开说明)",
           "desc": "选择地区，请填写日志内冒号前的数字序号"
         }],
-      "author": "@sunert",
+      "author": "自己用",
       "repo": "https://gitee.com/Sunert/Scripts/blob/master/Task/moji.js",
       "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Color/moji.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/moji.png"],
       "script": "https://gitee.com/Sunert/Scripts/raw/master/Task/moji.js"
@@ -75,7 +75,7 @@
       "id": "jingxi",
       "name": "京喜",
       "keys": ["CookieJD", "CookieJD2"],
-      "author": "@sunert",
+      "author": "自己用",
       "repo": "https://gitee.com/Sunert/Scripts/blob/master/Task/jingxi.js",
       "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/jingxi.png", "https://raw.githubusercontent.com/Orz-3/task/master/jingxi.png"],
       "script": "https://gitee.com/Sunert/Scripts/raw/master/Task/jingxi.js"
