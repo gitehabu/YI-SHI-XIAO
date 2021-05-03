@@ -190,7 +190,7 @@
       "config":"52 59 9 * * 0,5,6 https://raw.githubusercontent.com/zZPiglet/Task/master/Alipay/Alipay_voucher.js, tag=支付宝优惠券, img-url=https://raw.githubusercontent.com/gitehabu/ios_rule_script/master/icon/task/alipay.png,enabled=true"
     },
     {
-      "config": "0 8 * * * https://raw.githubusercontent.com/gitehabu/Scripts-3/master/Task/moji.js, tag=墨迹天气, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/moji.png, enabled=true"
+      "config": "0 8 * * * https://gitee.com/Sunert/Scripts/raw/master/Task/moji.js, tag=墨迹天气, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/moji.png, enabled=true"
     },
     {
       "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.js, tag=威锋网, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/task/feng.png, enabled=true",
