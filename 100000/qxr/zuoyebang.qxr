@@ -1,0 +1,6 @@
+hostname = napi.zuoyebang.com
+
+
+
+https://napi.zuoyebang.com/napi/signin/signinpage url script-request-body https://raw.githubusercontent.com/photonmang/quantumultX/master/Task/zyb.js
+
