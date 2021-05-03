@@ -13,7 +13,8 @@
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/wanda/wanda_checkin.qxrewrite,tag=万达_获取Cookie"
     },
     {
-      "config": "0 0 8 * * * https://raw.githubusercontent.com/Sunert/Script/master/Task/tvpreview.js, tag=节目预告, img-url=https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/tvpreview.png, enabled=true"
+      "config":"10 8 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/jiazhangbang/jiazhangbang_checkin.js, tag=家长帮, img-url=https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/jiazhangbang.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/jzb.qxrw,tag=家长帮_获取Cookie"
     },
     {
       "config":"15 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.js, tag=Fa米家, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia.png, enabled=true",
@@ -32,8 +33,7 @@
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/v2ex.qxrewrite,tag=V2EX_获取Cookie"
     },
     {
-      "config":"10 8 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/jiazhangbang/jiazhangbang_checkin.js, tag=家长帮, img-url=https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/jiazhangbang.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/jzb.qxrw,tag=家长帮_获取Cookie"
+      "config": "0 0 8 * * * https://raw.githubusercontent.com/Sunert/Script/master/Task/tvpreview.js, tag=节目预告, img-url=https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/tvpreview.png, enabled=true"
     },
     {
       "config":"15 17 * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/xmSports.js, tag=小米运动, img-url=https://raw.githubusercontent.com/58xinian/icon/master/xmyd.png, enabled=true",
