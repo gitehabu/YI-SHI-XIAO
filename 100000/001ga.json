@@ -1,8 +1,8 @@
 {"name":"知行合一",
   "task":[
     {
-      "config":"0 8 * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/nmm.js, tag=牛蒙蒙, img-url=https://qxzy.top/rules/QuantumultX/img/nmm.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/nmm.qxr,tag=牛蒙蒙_获取Cookie"
+      "config":"1 0 * * * https://raw.githubusercontent.com/photonmang/quantumultX/master/Task/zyb.js, tag=作业帮签到, img-url=https://raw.githubusercontent.com/sngxpro/QuanX/master/icons/zuoyebang.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/zuoyebang.qxr,tag=作业帮_获取Cookie"
     },
     {
       "config":"17 8 * * * https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js, tag=Bili漫画, img-url=https://qxzy.top/rules/QuantumultX/img/manga.png, enabled=true",
@@ -13,8 +13,7 @@
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/wanda/wanda_checkin.qxrewrite,tag=万达_获取Cookie"
     },
     {
-      "config":"9 8 * * * https://raw.githubusercontent.com/id77/QuantumultX/master/task/yiLi.js, tag=伊利乳品, img-url=https://raw.githubusercontent.com/id77/QuantumultX/master/icon/yiLi.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/yiLi.cookie.qxrewrite,tag=伊利乳品_获取Cookie"
+      "config": "0 0 8 * * * https://raw.githubusercontent.com/Sunert/Script/master/Task/tvpreview.js, tag=节目预告, img-url=https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/tvpreview.png, enabled=true"
     },
     {
       "config":"15 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.js, tag=Fa米家, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia.png, enabled=true",
@@ -25,8 +24,8 @@
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_signin.qxrewrite,tag=中国联通_获取Cookie"
     },
     {
-      "config":"0 8 * * * https://raw.githubusercontent.com/xl2101200/-/main/smyj.js, tag=圣牧有机, img-url=https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/smyj.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/smyj.qxr,tag=圣牧有机_获取Cookie"
+      "config":"0 9 * * * https://raw.githubusercontent.com/iepngs/Script/master/lxhealth/manual.js, tag=乐心步数上传, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/lxhealth.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/lxhealthStep.qxr,tag=乐心步数上传_获取Cookie"
     },
     {
       "config":"10 6 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/quanx/v2ex.js, tag=V2EX, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/task/v2ex.png, enabled=true",
