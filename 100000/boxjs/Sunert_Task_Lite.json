@@ -1,0 +1,109 @@
+{
+  "id": "sunert.app.sub",
+  "name": "Sunert 签到应用订阅",
+  "author": "@Sunert",
+  "icon": "https://avatars2.githubusercontent.com/u/47924389?s=460&u=5152f048a9e8aaa45102763a578172407c40fcc8&v=4",
+  "repo": "https://gitee.com/Sunert/Scripts/tree/master",
+  "apps": [
+    {
+      "id": "weibo",
+      "name": "新浪微博",
+      "keys": ["sy_payheader_wb", "sy_token_wb"],
+      "author": "@sunert",
+      "repo": "https://gitee.com/Sunert/Scripts/blob/master/Task/weibo.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/weibo.png", "https://raw.githubusercontent.com/Orz-3/task/master/weibo.png"],
+      "script": "https://gitee.com/Sunert/Scripts/raw/master/Task/weibo.js"
+    },
+    {
+      "id": "youth",
+      "name": "中青看点",
+      "keys": ["youthheader_zq", "read_zq", "red_zq", "readtime_zq"],
+      "author": "@sunert",
+      "settings": [
+        {
+         "id": "notifytimes",
+         "name": "通知频率 (点击查看设置说明)",
+         "val": "",
+         "type": "number",
+         "desc": "设定通知频率，前三次为全部通知，之后转盘次数/设定频率整除时通知，如设置0为无通知，设置1为全部通知，设置其他数可整除余0时通知，默认值50"
+         },
+         {
+          "id": "zqlogs",
+          "name": "调试日志",
+          "val": false,
+          "type": "boolean",
+          "desc": "调试日志开关，默认关闭"
+         }
+       ],
+      "repo": "https://gitee.com/Sunert/Scripts/blob/master/Task/youth.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/youth.png", "https://raw.githubusercontent.com/Orz-3/task/master/youth.png"],
+      "script": "https://gitee.com/Sunert/Scripts/raw/master/Task/youth.js"
+    },
+    {
+      "id": "dianshijia",
+      "name": "电视家",
+      "keys": ["sy_signheader_dsj", "drawal_dsj"],
+      "author": "@sunert",
+      "settings": [{
+        "id": "REWARD",
+        "name": "额外签到奖励",
+        "val": "55",
+        "type": "radios",
+        "desc": "",
+        "items": [{
+          "key": "55",
+          "label": "提现额度"
+        }, {
+          "key": "44",
+          "label": "1天VIP"
+        }, {
+          "key": "42",
+          "label": "1888金币"
+       }]
+      }],
+      "repo": "https://gitee.com/Sunert/Scripts/blob/master/Task/dianshijia.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/dianshijia.png", "https://raw.githubusercontent.com/Orz-3/task/master/dianshijia.png"],
+      "script": "https://gitee.com/Sunert/Scripts/raw/master/Task/dianshijia.js"
+    },
+    {
+      "id": "moji",
+      "name": "墨迹天气",
+      "keys": ["city","citynum"],
+      "settings": [{ 
+         "id": "city", 
+         "name": "城市", 
+         "val": "北京", 
+         "type": "text", 
+         "desc": "请填写中文地区"
+         },
+         {
+          "id": "cut",
+          "name": "精简模式",
+          "val": true,
+          "type": "boolean",
+          "desc": "取消详情描述，默认打开"
+         },
+         {
+          "id": "citynum",
+          "name": "城市序号",
+          "val": "",
+          "type": "number",
+          "placeholder": "默认1 (点击以展开说明)",
+          "desc": "选择地区，请填写日志内冒号前的数字序号"
+        }],
+      "author": "@sunert",
+      "repo": "https://gitee.com/Sunert/Scripts/blob/master/Task/moji.js",
+      "icons": ["https://gitee.com/Sunert/ProxyConfig/raw/master/QuantumultX/Rules/Images/ICON/moji_mini.png", "https://gitee.com/Sunert/ProxyConfig/raw/master/QuantumultX/Rules/Images/ICON/moji.png"],
+      "script": "https://gitee.com/Sunert/Scripts/raw/master/Task/moji.js"
+    },
+    {
+      "id": "jingxi",
+      "name": "京喜",
+      "keys": ["CookieJD", "CookieJD2"],
+      "author": "@sunert",
+      "repo": "https://gitee.com/Sunert/Scripts/blob/master/Task/jingxi.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/jingxi.png", "https://raw.githubusercontent.com/Orz-3/task/master/jingxi.png"],
+       "script": "https://gitee.com/Sunert/Scripts/raw/master/Task/jingxi.js"
+    }
+  ]
+}
