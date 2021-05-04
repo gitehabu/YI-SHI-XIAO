@@ -911,6 +911,160 @@
         "https://raw.githubusercontent.com/Orz-3/mini/master/Color/alipay.png"
       ]
     },
+     {
+      "id": "appmonitor",
+      "name": "AppMonitor",
+      "descs_html": [
+        "点此直达【<a href=\"https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/appstore/AppMonitor.js\">脚本地址</a>】",
+        "修改自Quantumult X群友分享，支持BoxJs。",
+        "填写App ID可通过AppStore分享按钮拷贝想要监控App的链接，在链接最后有id，复制到监控ID内即可；未单独设置区域，则采用reg默认区域",
+        "关于ID，例如：https://apps.apple.com/cn/app/nplayer-plus/id<font class=\"error--text\">539397400</font>",
+        "@App价格监控.app_monitor为本地记录的监控相关信息，可以忽略"
+      ],
+      "keys": [
+        "@App价格监控.apps",
+        "@App价格监控.reg",
+        "@App价格监控.app_monitor"
+      ],
+      "settings": [
+        {
+          "id": "@App价格监控.apps",
+          "name": "监控ID",
+          "val": "",
+          "placeholder": "例如，1312014438 cn，1282297037_au",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 2,
+          "desc": "ID与区域分隔符支持 空格/:|_-，但不同App之间请用中文逗号\"，\"分隔。"
+        },
+        {
+          "id": "@App价格监控.reg",
+          "name": "默认区域",
+          "val": "",
+          "placeholder": "例如，cn/us/au",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 1,
+          "desc": "请填写一个默认区域"
+        }
+      ],
+      "author": "@t.me/QuanXApp群友",
+      "repo": "https://github.com/evilbutcher/Quantumult_X/tree/master/check_in/appstore",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Apple.png",
+        "https://raw.githubusercontent.com/Orz-3/task/master/appstore.png"
+      ],
+      "script": "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/appstore/AppMonitor.js"
+    },
+    {
+      "id": "nasapic",
+      "name": "NASA每日一图",
+      "descs_html": [
+        "点此直达【<a href=\"https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/nasa/nasapic.js\">脚本地址</a>】",
+        "首先前往<a href=\"https://api.nasa.gov\">NASA</a>申请一个API，申请流程非常简单，把得到的API填入脚本即可"
+      ],
+      "keys": ["@NASA.nasaapi"],
+      "settings": [
+        {
+          "id": "@NASA.translate",
+          "name": "翻译",
+          "val": false,
+          "type": "boolean",
+          "desc": "是否进行翻译"
+        },
+        {
+          "id": "@NASA.nasaapi",
+          "name": "API",
+          "val": "",
+          "placeholder": "686BJ2YbpY****************Op8gaVTeVs0t",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 1,
+          "desc": "请填入API"
+        }
+      ],
+      "author": "@evilbutcher",
+      "repo": "https://github.com/evilbutcher/Quantumult_X/tree/master/check_in/nasa",
+      "icons": [
+        "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/nasa_tran.png",
+        "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/nasa.png"
+      ],
+      "script": "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/nasa/nasapic.js"
+    },
+     {
+      "id": "idaily",
+      "name": "iDaily",
+      "descs_html": [
+        "点此直达【<a href=\"https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/idaily/idaily.js\">脚本地址</a>】"
+      ],
+      "keys": ["@iDaily.random"],
+      "settings": [
+        {
+          "id": "@iDaily.random",
+          "name": "随机获取",
+          "val": false,
+          "type": "boolean",
+          "desc": "打开将会随机获取内容"
+        }
+      ],
+      "author": "@evilbutcher",
+      "repo": "https://github.com/evilbutcher/Quantumult_X/tree/master/check_in/idaily",
+      "icons": [
+        "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/idaily_tran.png",
+        "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/idaily.png"
+      ],
+      "script": "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/idaily/idaily.js"
+    },
+     {
+      "id": "wechatsubs",
+      "name": "公众号监控",
+      "descs_html": [
+        "点此直达【<a href=\"https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/wechatsubs/wechatsubs.js\">脚本地址</a>】"
+      ],
+      "keys": [
+        "@Wechatsubs.wechatkeyword1",
+        "@Wechatsubs.wechatkeyword2",
+        "@Wechatsubs.wechatsavedtime",
+        "@Wechatsubs.wechatrefreshtime",
+        "@Wechatsubs.wechatsaveditem"
+      ],
+      "settings": [
+        {
+          "id": "@Wechatsubs.wechatkeyword1",
+          "name": "关键词-1",
+          "val": "",
+          "placeholder": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 2,
+          "desc": "请填入要监控的第一组关键词，多个词用中文逗号“，”分隔。"
+        },
+        {
+          "id": "@Wechatsubs.wechatkeyword2",
+          "name": "关键词-2",
+          "val": "",
+          "placeholder": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 2,
+          "desc": "请填入要监控的第二组关键词，多个词用中文逗号“，”分隔。"
+        },
+        {
+          "id": "@Wechatsubs.wechatrefreshtime",
+          "name": "刷新时间（时）",
+          "val": 6,
+          "type": "number",
+          "desc": "重复内容默认在6小时内不再通知，之后清空，可自行修改"
+        }
+      ],
+      "author": "@evilbutcher",
+      "repo": "https://github.com/evilbutcher/Quantumult_X/tree/master/check_in/wechatsubs",
+      "icons": [
+        "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/wechat_tran.png",
+        "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/wechat.png"
+      ],
+      "script": "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/wechatsubs/wechatsubs.js"
+    },
     {
       "id": "hot",
       "name": "热门监控",
@@ -1281,160 +1435,6 @@
         "https://raw.githubusercontent.com/58xinian/icon/master/hot.png"
       ],
       "script": "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/hotsearch/hot.js"
-    },
-     {
-      "id": "appmonitor",
-      "name": "AppMonitor",
-      "descs_html": [
-        "点此直达【<a href=\"https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/appstore/AppMonitor.js\">脚本地址</a>】",
-        "修改自Quantumult X群友分享，支持BoxJs。",
-        "填写App ID可通过AppStore分享按钮拷贝想要监控App的链接，在链接最后有id，复制到监控ID内即可；未单独设置区域，则采用reg默认区域",
-        "关于ID，例如：https://apps.apple.com/cn/app/nplayer-plus/id<font class=\"error--text\">539397400</font>",
-        "@App价格监控.app_monitor为本地记录的监控相关信息，可以忽略"
-      ],
-      "keys": [
-        "@App价格监控.apps",
-        "@App价格监控.reg",
-        "@App价格监控.app_monitor"
-      ],
-      "settings": [
-        {
-          "id": "@App价格监控.apps",
-          "name": "监控ID",
-          "val": "",
-          "placeholder": "例如，1312014438 cn，1282297037_au",
-          "type": "textarea",
-          "autoGrow": true,
-          "rows": 2,
-          "desc": "ID与区域分隔符支持 空格/:|_-，但不同App之间请用中文逗号\"，\"分隔。"
-        },
-        {
-          "id": "@App价格监控.reg",
-          "name": "默认区域",
-          "val": "",
-          "placeholder": "例如，cn/us/au",
-          "type": "textarea",
-          "autoGrow": true,
-          "rows": 1,
-          "desc": "请填写一个默认区域"
-        }
-      ],
-      "author": "@t.me/QuanXApp群友",
-      "repo": "https://github.com/evilbutcher/Quantumult_X/tree/master/check_in/appstore",
-      "icons": [
-        "https://raw.githubusercontent.com/Orz-3/mini/master/Apple.png",
-        "https://raw.githubusercontent.com/Orz-3/task/master/appstore.png"
-      ],
-      "script": "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/appstore/AppMonitor.js"
-    },
-    {
-      "id": "nasapic",
-      "name": "NASA每日一图",
-      "descs_html": [
-        "点此直达【<a href=\"https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/nasa/nasapic.js\">脚本地址</a>】",
-        "首先前往<a href=\"https://api.nasa.gov\">NASA</a>申请一个API，申请流程非常简单，把得到的API填入脚本即可"
-      ],
-      "keys": ["@NASA.nasaapi"],
-      "settings": [
-        {
-          "id": "@NASA.translate",
-          "name": "翻译",
-          "val": false,
-          "type": "boolean",
-          "desc": "是否进行翻译"
-        },
-        {
-          "id": "@NASA.nasaapi",
-          "name": "API",
-          "val": "",
-          "placeholder": "686BJ2YbpY****************Op8gaVTeVs0t",
-          "type": "textarea",
-          "autoGrow": true,
-          "rows": 1,
-          "desc": "请填入API"
-        }
-      ],
-      "author": "@evilbutcher",
-      "repo": "https://github.com/evilbutcher/Quantumult_X/tree/master/check_in/nasa",
-      "icons": [
-        "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/nasa_tran.png",
-        "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/nasa.png"
-      ],
-      "script": "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/nasa/nasapic.js"
-    },
-     {
-      "id": "idaily",
-      "name": "iDaily",
-      "descs_html": [
-        "点此直达【<a href=\"https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/idaily/idaily.js\">脚本地址</a>】"
-      ],
-      "keys": ["@iDaily.random"],
-      "settings": [
-        {
-          "id": "@iDaily.random",
-          "name": "随机获取",
-          "val": false,
-          "type": "boolean",
-          "desc": "打开将会随机获取内容"
-        }
-      ],
-      "author": "@evilbutcher",
-      "repo": "https://github.com/evilbutcher/Quantumult_X/tree/master/check_in/idaily",
-      "icons": [
-        "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/idaily_tran.png",
-        "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/idaily.png"
-      ],
-      "script": "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/idaily/idaily.js"
-    },
-     {
-      "id": "wechatsubs",
-      "name": "公众号监控",
-      "descs_html": [
-        "点此直达【<a href=\"https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/wechatsubs/wechatsubs.js\">脚本地址</a>】"
-      ],
-      "keys": [
-        "@Wechatsubs.wechatkeyword1",
-        "@Wechatsubs.wechatkeyword2",
-        "@Wechatsubs.wechatsavedtime",
-        "@Wechatsubs.wechatrefreshtime",
-        "@Wechatsubs.wechatsaveditem"
-      ],
-      "settings": [
-        {
-          "id": "@Wechatsubs.wechatkeyword1",
-          "name": "关键词-1",
-          "val": "",
-          "placeholder": "",
-          "type": "textarea",
-          "autoGrow": true,
-          "rows": 2,
-          "desc": "请填入要监控的第一组关键词，多个词用中文逗号“，”分隔。"
-        },
-        {
-          "id": "@Wechatsubs.wechatkeyword2",
-          "name": "关键词-2",
-          "val": "",
-          "placeholder": "",
-          "type": "textarea",
-          "autoGrow": true,
-          "rows": 2,
-          "desc": "请填入要监控的第二组关键词，多个词用中文逗号“，”分隔。"
-        },
-        {
-          "id": "@Wechatsubs.wechatrefreshtime",
-          "name": "刷新时间（时）",
-          "val": 6,
-          "type": "number",
-          "desc": "重复内容默认在6小时内不再通知，之后清空，可自行修改"
-        }
-      ],
-      "author": "@evilbutcher",
-      "repo": "https://github.com/evilbutcher/Quantumult_X/tree/master/check_in/wechatsubs",
-      "icons": [
-        "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/wechat_tran.png",
-        "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/wechat.png"
-      ],
-      "script": "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/wechatsubs/wechatsubs.js"
     },
     {
       "id": "jdAllck",
