@@ -303,6 +303,1140 @@
       "script": "https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js"
     },
     {
+      "id": "Telegram",
+      "name": "Telegram 频道媒体推送",
+      "keys": ["@telegram.channels", "@telegram.maxMedias"],
+      "settings": [
+        {
+          "id": "@telegram.channels",
+          "name": "频道列表",
+          "val": "[\"ABCD\"]",
+          "type": "textarea",
+          "autoGrow": false,
+          "rows": 2,
+          "desc": "频道列表，比如说一个频道的链接为https://t.me/s/ABCD，那么将\"ABCD\"加到列表中。"
+        },
+        {
+          "id": "@telegram.maxMedias",
+          "name": "每个频道最多显示视频和图片的数量",
+          "val": 3,
+          "type": "text",
+          "rows": 1,
+          "desc": "每个频道最多显示视频和图片的数量, 默认为3"
+        }
+      ],
+      "author": "@Peng-YM",
+      "repo": "https://github.com/Peng-YM/QuanX",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/telegram_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/telegram.png"
+      ],
+      "script": "https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/telegram.js"
+    },
+    {
+      "id": "Caiyun",
+      "name": "彩云天气",
+      "keys": [
+        "@caiyun.token.caiyun",
+        "@caiyun.token.tencent",
+        "@caiyun.display_location",
+        "@caiyun.location.latitude",
+        "@caiyun.location.longitude",
+        "@caiyun.address"
+      ],
+      "settings": [
+        {
+          "id": "@caiyun.token.caiyun",
+          "name": "彩云天气API Token",
+          "val": null,
+          "type": "text",
+          "autoGrow": false,
+          "rows": 2,
+          "desc": "彩云天气的Token，可以自行申请或者前往频道获取"
+        },
+        {
+          "id": "@caiyun.token.tencent",
+          "name": "腾讯地图API Token",
+          "val": "AHEBZ-ASTWX-CIW4P-7TV7T-AWKLS-7CFWP",
+          "type": "text",
+          "rows": 1,
+          "desc": ""
+        },
+        {
+          "id": "@caiyun.display_location",
+          "name": "是否在日志中显示经纬度",
+          "val": false,
+          "type": "boolean",
+          "desc": ""
+        },
+        {
+          "id": "@caiyun.location.latitude",
+          "name": "纬度",
+          "val": null,
+          "type": "text",
+          "desc": "纬度，可以关闭MITM获取位置，手动设置"
+        },
+        {
+          "id": "@caiyun.location.longitude",
+          "name": "经度",
+          "val": null,
+          "type": "text",
+          "desc": "经度，可以关闭MITM获取位置，手动设置"
+        }
+      ],
+      "author": "@Peng-YM",
+      "repo": "https://github.com/Peng-YM/QuanX",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/caiyun.png",
+        "https://raw.githubusercontent.com/Orz-3/task/master/caiyun.png"
+      ],
+      "script": "https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js"
+    },
+    {
+    "id": "多合一签到",
+    "name": "京东",
+    "keys": ["CookieJD", "CookieJD2", "CookiesJD"],
+    "descs_html": [
+      "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js\">脚本注释</a></h4>",
+      "<br />",
+      "<h3 align=\"center\">签到相关教程</h3>",
+      "<p align=\"center\"><iframe src=\"https://www.youtube.com/embed/6vMz1LKF1-8\" width=\"100%\" height=\"100%\"></iframe></p>"
+    ],
+    "settings": [{
+      "id": "JD_DailyBonusLog",
+      "name": "详细响应日志",
+      "val": false,
+      "type": "boolean",
+      "desc": "打印原始签到结果, 用于调试脚本, 一般用户建议关闭."
+    }, {
+      "id": "JD_Crash_disable",
+      "name": "崩溃自动禁用",
+      "val": true,
+      "type": "boolean",
+      "desc": "脚本运行崩溃时(如VPN断连), 下次运行时将自动禁用相关崩溃接口(仅部分接口启用), 注: 崩溃时可能会误禁用正常接口."
+    }, {
+      "id": "JD_Retry_disable",
+      "name": "签到接口增强",
+      "val": true,
+      "type": "boolean",
+      "desc": "用于部分接口提示\"不含活动数据\"问题, 开启后会进行二次查询, 注: 可能会导致崩溃(小概率)."
+    }, {
+      "id": "JD_Follow_disable",
+      "name": "自动关注店铺",
+      "val": true,
+      "type": "boolean",
+      "desc": "部分接口签到过程可能需要关注店铺, 如介意可选择关闭."
+    }, {
+      "id": "JD_DailyBonusDisables",
+      "name": "签到接口禁用",
+      "val": "",
+      "type": "checkboxes",
+      "desc": "",
+      "items": [{
+        "key": "SpeedUp",
+        "label": "天天加速"
+      }, {
+        "key": "JDBean",
+        "label": "京东京豆"
+      }, {
+        "key": "JDEsports",
+        "label": "京东电竞"
+      }, {
+        "key": "JRDoll",
+        "label": "金融签壹"
+      }, {
+        "key": "JRTwoDoll",
+        "label": "金融签贰"
+      }, {
+        "key": "JRThreeDoll",
+        "label": "金融签叁"
+      }, {
+        "key": "JRFourDoll",
+        "label": "金融签肆"
+      }, {
+        "key": "JRFiveDoll",
+        "label": "金融签伍"
+      }, {
+        "key": "XJDouble",
+        "label": "现金双签"
+      }, {
+        "key": "JRSteel",
+        "label": "金融钢镚"
+      }, {
+        "key": "JDTurn",
+        "label": "京东转盘"
+      }, {
+        "key": "JDGStore",
+        "label": "京东超市"
+      }, {
+        "key": "JDComputer",
+        "label": "京东电脑"
+      }, {
+        "key": "JDCard",
+        "label": "京东卡包"
+      }, {
+        "key": "JD3C",
+        "label": "京东数码"
+      }, {
+        "key": "JDClothing",
+        "label": "京东服饰"
+      }, {
+        "key": "JDSuitcase",
+        "label": "京东箱包"
+      }, {
+        "key": "JDChild",
+        "label": "京东童装"
+      }, {
+        "key": "JDBaby",
+        "label": "京东母婴"
+      }, {
+        "key": "JDCash",
+        "label": "京东红包"
+      }, {
+        "key": "JDFSale",
+        "label": "京东闪购"
+      }, {
+        "key": "JDBook",
+        "label": "京东图书"
+      }, {
+        "key": "JDSchool",
+        "label": "京东校园"
+      }, {
+        "key": "JDUndies",
+        "label": "京东内衣"
+      }, {
+        "key": "JDShoes",
+        "label": "京东鞋靴"
+      }, {
+        "key": "JDShand",
+        "label": "京东二手"
+      }, {
+        "key": "JDHealth",
+        "label": "京东健康"
+      }, {
+        "key": "JDWomen",
+        "label": "京东女装"
+      }, {
+        "key": "JDSecKill",
+        "label": "京东秒杀"
+      }, {
+        "key": "JTDouble",
+        "label": "金贴双签"
+      }, {
+        "key": "JDMakeup",
+        "label": "京东美妆"
+      }, {
+        "key": "JDVege",
+        "label": "京东菜场"
+      }, {
+        "key": "JDLive",
+        "label": "京东生活"
+      }, {
+        "key": "JDClean",
+        "label": "京东清洁"
+      }, {
+        "key": "JDCare",
+        "label": "京东个护"
+      }, {
+        "key": "JDJewels",
+        "label": "京东珠宝"
+      }, {
+        "key": "JDCube",
+        "label": "京东魔方"
+      }, {
+        "key": "JDBuyCar",
+        "label": "京东汽车"
+      }, {
+        "key": "JDDouble",
+        "label": "京豆双签"
+      }, {
+        "key": "subsidy",
+        "label": "京东金贴"
+      }, {
+        "key": "JDGetCash",
+        "label": "京东现金"
+      },{
+        "key": "JDJingCai",
+        "label": "京东精彩"
+      }, {
+        "key": "JDShake",
+        "label": "京东摇一摇"
+      }, {
+        "key": "Qbear",
+        "label": "总京豆查询"
+      }, {
+        "key": "TCash",
+        "label": "总红包查询"
+      }, {
+        "key": "TSteel",
+        "label": "总钢镚查询"
+      }, {
+        "key": "TotalSubsidy",
+        "label": "总金贴查询"
+      }, {
+        "key": "TotalMoney",
+        "label": "总现金查询"
+      }]
+    }, {
+      "id": "JD_DailyBonusTimeOut",
+      "name": "超时退出 (毫秒)",
+      "val": "",
+      "type": "number",
+      "placeholder": "默认无超时 (点击以展开说明)",
+      "desc": "按需填写, 用于由网络不稳定引起的脚本中断, 正常或越狱用户建议留空. 如QX日志出现大量\"JS Context timeout\"后脚本中断时, 建议填写6000"
+    }, {
+      "id": "JD_DailyBonusDelay",
+      "name": "接口延迟 (毫秒)",
+      "val": "",
+      "type": "number",
+      "placeholder": "默认并发无延迟 (点击以展开说明)",
+      "desc": "延迟作用于每个签到接口, 该参数接受随机或指定延迟(例: '2000'则表示延迟2秒; '2000-5000'则表示延迟最小2秒,最大5秒内的随机延迟), 如填入延迟则切换顺序签到(耗时较长); VPN重启或越狱用户建议填写1(顺序执行), Surge用户请注意在SurgeUI界面调整脚本超时."
+    }],
+    "scripts": [{
+      "name": "京东签到",
+      "script": "https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js"
+    }, {
+      "name": "初始化设置",
+      "script": "https://gist.githubusercontent.com/NobyDa/91cbe57dd50b3588a975af8922507a72/raw/JD_initial.js"
+    }],
+    "author": "@NobyDa",
+    "repo": "https://github.com/NobyDa/Script/tree/master/JD-DailyBonus",
+    "icons": ["https://raw.githubusercontent.com/NobyDa/mini/master/Alpha/jd.png", "https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png"]
+    },
+    {
+		"id": "txstockapp",
+		"name": "自选羊毛股",
+		"keys": ["signheader", "signkey", "taskheader", "taskkey", "userheader", "userkey", "wxtaskkey","cash","cashheader"],
+		"settings": [
+			{
+				"id": "cash",
+				"name": "提现开关:0,不自动提现;1，提现1元；5，提现5元",
+				"val": "",
+				"type": "number",
+				"desc": "默认为0,不自动提现"
+			}
+		],
+		"author": "@cenbomin",
+		"repo": ["https://raw.githubusercontent.com/CenBoMin/GithubSync"],
+		"script": "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txstockqx.js",
+		"icons": ["https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txzxg.png","https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txzxg.png"
+		]
+	},
+    {
+      "id": "jdWulLiu",
+      "name": "京东物流",
+      "keys": ["id77_jdWulLiu_pageMax"],
+      "descs_html": [
+        "<p>查询条目只能设置「整十」的数字。</p>",
+        "<p>10条/页，要查多少页就填写相应条目</p>"
+      ],
+      "settings": [
+        {
+          "id": "id77_jdWulLiu_pageMax",
+          "name": "查询条目",
+          "val": "",
+          "type": "number",
+          "placeholder": "10",
+          "desc": "整十数字。比如：10，20，30..."
+        }
+      ],
+      "script": "https://raw.githubusercontent.com/id77/QuantumultX/master/task/jdWuLiu.js",
+      "author": "@id77",
+      "repo": "https://raw.githubusercontent.com/id77/QuantumultX/master/task/jdWuLiu.js",
+      "icons": [
+        "https://raw.githubusercontent.com/id77/QuantumultX/master/icon/jdWuLiu.png",
+        "https://raw.githubusercontent.com/id77/QuantumultX/master/icon/jdWuLiu.png"
+      ]
+    },
+     {
+      "id": "zZ.DiDi",
+      "name": "滴滴出行",
+      "descs_html": [
+        "请先按<a href=\"https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js\">脚本注释</a>进行配置，然后进入\"滴滴出行\"，若弹出\"首次写入滴滴出行 Token 成功\"即可正常食用。",
+        "若无法通过上述方法获取 Token，可使用<a href=\"https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_ticket.js\">此脚本脚本</a>获取 Token，并按照此脚本注释进行配置。",
+        "如需使用抢券功能，请设置好抢券时间，同时在抢券前运行一次脚本存储券编号，如不知如何操作请勿修改建议的 cron 设置，请参考 <a href=\"https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/README.md\">README</a> 。"
+      ],
+      "keys": ["DiDi", "DiDi_city", "@Didi.drawdelay", "@Didi.actIdPM"],
+      "settings": [
+        {
+          "id": "@Didi.debug",
+          "name": "测试环境",
+          "val": false,
+          "type": "boolean",
+          "desc": "如未出现特殊报错等问题请保持关闭。"
+        },
+        {
+          "id": "@Didi.noaff",
+          "name": "不支持作者",
+          "val": false,
+          "type": "boolean",
+          "desc": "开启后不使用内置的邀请码，但无法获得需要持续维护的活动编号。"
+        },
+        {
+          "id": "@Didi.isFinance",
+          "name": "滴滴金融",
+          "val": false,
+          "type": "boolean",
+          "desc": "钱包 - 金融服务 - 天天有奖自动签到，即使开启也只自动领取奖品，不使用奖品不会开启滴滴金融服务。由于需要持续维护活动编号，需开启支持作者后使用。"
+        },
+        {
+          "id": "@Didi.isExpenddrawlids",
+          "name": "可能亏损的抽奖",
+          "val": false,
+          "type": "boolean",
+          "desc": "开启后，会参与可能亏损的抽奖。由于需要持续维护活动编号，需开启支持作者后使用。"
+        },
+        {
+          "id": "DiDi",
+          "name": "Token",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 7,
+          "desc": "Token 可同时存在多个，可使用不同日期获取的 Token 进行测试。"
+        },
+        {
+          "id": "DiDi_city",
+          "name": "城市编号",
+          "val": "",
+          "type": "number",
+          "desc": "滴滴出行城市编号，可更改至别的城市进行测试。"
+        },
+        {
+          "id": "@Didi.drawdelay",
+          "name": "抽奖延迟",
+          "val": "",
+          "type": "number",
+          "placeholder": "2000", 
+          "desc": "每次抽奖之间的间隔，单位为毫秒，不填默认为 2000 毫秒。如提示抽奖过快请加大延迟。"
+        },
+        {
+          "id": "@Didi.actIdPM",
+          "name": "晚八点券",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 1,
+          "desc": "晚八点的优惠券编号组（如果有）。"
+        }
+      ],
+      "author": "@zZPiglet",
+      "repo": "https://github.com/zZPiglet/Task/blob/master/DiDi/README.md",
+      "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/didi.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/didi.png"
+      ]
+    },
+     {
+      "id": "zZ.115",
+      "name": "115 网盘",
+      "descs_html": [
+        "请先按<a href=\"https://raw.githubusercontent.com/zZPiglet/Task/master/115/115.js\">脚本注释</a>进行配置，然后进入\"115\"并摇一摇，若弹出\"首次写入 115 Cookie 成功\"即可正常食用。",
+        "请注意：此<font class=\"red--text\">摇一摇</font>指摇手机。"
+      ],
+      "keys": ["wp115", "uid115"],
+      "settings": [
+        {
+          "id": "wp115",
+          "name": "Cookie",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true, 
+          "rows": 7,
+          "desc": "Cookie，其中有效数据为 CID、SEID、UID。"
+        },
+        {
+          "id": "uid115",
+          "name": "115 号",
+          "val": "",
+          "type": "text",
+          "desc": "115 -> 相伴 -> 账号名下方即可查看。"
+        }
+      ],
+      "author": "@wangfei021325, @zZPiglet",
+      "repo": "https://github.com/zZPiglet/Task/blob/master/115/115.js",
+      "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/115/115.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/115.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/115.png"
+      ]
+    },
+    {
+      "id": "zZ.Weibo",
+      "name": "微博通知",
+      "descs_html": [
+        "请先进入<a href=\"https://m.weibo.cn\">手机网页版微博</a>并登陆按，再按<a href=\"https://raw.githubusercontent.com/zZPiglet/Task/master/Weibo/Weibo.js\">脚本注释</a>进行配置，然后回到网页刷新即可获取 Cookie。",
+        "请注意：一定要<font class=\"red--text\">先登录</font>，否则获取的为游客 Cookie，无法通知「特别关注」及有查看限制的微博。",
+        "运行后通知为「上一次」运行到「本次」运行之间的微博，其中「第零次」运行及「测试环境」默认为「很久很久很久···」以前（时间戳为0），所以第一次运行为接口返回的所有信息，之后有新微博才会通知。",
+        "需要注意的是：即便因配置错误运行之后有错误信息，此次运行时间戳也已经记录，若想还原到「第零次」的状态，请清空下面的时间戳。",
+        "注意：「特别管组」、「用户 ID」、「用户昵称」三者的通知均<font class=\"red--text\">独立</font>，请勿填写重复，以避免通知重复。",
+        "若有希望添加的点击跳转的客户端，请提供该客户端打开指定微博的 URL Scheme，反馈至 <a href=\"https://t.me/zZPiglet_bot\">@zZPiglet_bot</a>。"
+      ],
+      "keys": ["@Weibo.WeiboNotice", "@Weibo.interval", "@Weibo.Group", "@Weibo.Weibo_uids", "@Weibo.Weibo_nicknames", "@Weibo.chooseClient"],
+      "settings": [
+        {
+          "id": "@Weibo.debug",
+          "name": "测试环境",
+          "val": false,
+          "type": "boolean",
+          "desc": "如未出现特殊报错等问题请保持关闭。"
+        },
+        {
+          "id": "@Weibo.interval",
+          "name": "间隔",
+          "val": "",
+          "type": "number",
+          "placeholder": "1000", 
+          "desc": "运行时多通知之间时间间隔，单位为毫秒，不填默认为 1000 毫秒。"
+        },
+        {
+          "id": "@Weibo.update",
+          "name": "时间戳",
+          "val": "",
+          "type": "number", 
+          "desc": "上次运行时保存的时间戳，十三位。"
+        }, 
+        {
+          "id": "@Weibo.WeiboNotice",
+          "name": "Cookie",
+          "val": "",
+          "type": "textarea",
+          "rows": 2,
+          "autoGrow": true, 
+          "desc": "微博 Cookie，若抓包填入，只需填入 Cookie 中「SUB=」后至「;」中间的值。"
+        },
+        {
+          "id": "@Weibo.Group",
+          "name": "通知分组",
+          "val": ["Special"],
+          "type": "checkboxes",
+          "desc": "选择需要通知的分组",
+          "items": [
+            { "key": "Special", "label": "特别关注" },
+            { "key": "Spider", "label": "指定用户" }
+          ]
+        },
+        {
+          "id": "@Weibo.Weibo_uids",
+          "name": "用户 ID",
+          "val": "",
+          "type": "textarea",
+          "placeholder": "1111681197,\n7099422177", 
+          "autoGrow": true, 
+          "rows": 2,
+          "desc": "填入需订阅的用户 uid，如不填入 uid 及昵称请取消上一项「指定用户」勾选。以英文逗号分隔多个 uid，可加回车。微博 uid 的获取方法：如「来去之间」微博主页为「https://weibo.com/wflanker」，需查看页面源码，找到「$CONFIG['oid'] = '1111681197'」即可得知 uid 为「1111681197」，切记不是「$CONFIG['uid']」，或直接访问手机端，其主页为「https://m.weibo.cn/u/1111681197?uid=1111681197」亦可得知。再如「外交部发言人办公室」微博主页为「https://weibo.com/u/7099422177」，则其 uid 为「7099422177」。"
+        },
+        {
+          "id": "@Weibo.Weibo_nicknames",
+          "name": "用户昵称",
+          "val": "",
+          "type": "textarea",
+          "placeholder": "央视新闻,\n搜狐娱乐", 
+          "autoGrow": true, 
+          "rows": 2,
+          "desc": "填入需订阅的用户昵称，如不填入 uid 及昵称请取消上一项「指定用户」勾选。以英文逗号分隔多个昵称，可加回车。请勿重复填写。"
+        },
+        {
+          "id": "@Weibo.chooseClient",
+          "name": "客户端",
+          "val": "Safari",
+          "type": "radios",
+          "desc": "选择点击跳转的客户端，如需加入想要的客户端，请提供该客户端打开指定微博的 URL Scheme，反馈至 @zZPiglet_bot，或提交 issue，或进行 PR。",
+          "items": [
+            { "key": "Safari", "label": "Safari" },
+            { "key": "Sinaweibo", "label": "微博" },
+            { "key": "Weibointernational", "label": "微博国际版" },
+            { "key": "VVebo", "label": "VVebo" }
+          ]
+        }
+      ],
+      "author": "@zZPiglet",
+      "repo": "https://github.com/zZPiglet/Task/blob/master/Weibo/Weibo.js",
+      "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/Weibo/Weibo.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/weibo.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/weibo.png"
+      ]
+    },
+    {
+      "id": "zZ.umetrip",
+      "name": "航旅纵横(pro)",
+      "desc_html": "请先按<a href=\"https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js\">脚本注释</a>进行配置，然后进入\"航旅纵横(Pro)\" - \"出行有礼\" - \"每日签到\"，若弹出\"首次写入 umetrip id 成功\"即可正常食用。",
+      "keys": ["@umetrip.id"],
+      "settings": [
+        {
+          "id": "@umetrip.id",
+          "name": "rsid",
+          "val": "",
+          "type": "text",
+          "autoGrow": true,
+          "rows": 2,
+          "desc": "用户验证信息。若抓包填入请填写 rsid 中「$$」之前的部分。"
+        }
+      ],
+      "author": "@zZPiglet",
+      "repo": "https://github.com/zZPiglet/Task/blob/master/umetrip/umetrip.js",
+      "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/umetrip.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/umetrip.png"
+      ]
+    },
+    {
+      "id": "zZ.Alipay",
+      "name": "支付宝 - 积分能量",
+      "keys": ["Alipay_wait_family","Alipay_wait_mayi"],
+      "settings": [
+        {
+          "id": "Alipay_wait_family",
+          "name": "等待跳转至领家庭积分时间",
+          "val": "",
+          "type": "number",
+          "desc": "从「领积分」通知到「领家庭积分」通知之间间隔时间，单位为秒，不填默认 5 秒"
+        },
+        {
+          "id": "Alipay_wait_mayi",
+          "name": "等待跳转至收能量时间",
+          "val": "",
+          "type": "number",
+          "desc": "从「领家庭积分」通知到「收能量」通知之间间隔时间，单位为秒，不填默认 5 秒"
+        }
+      ],
+      "author": "@zZPiglet",
+      "repo": "https://github.com/zZPiglet/Task/tree/master/Alipay/Alipay.js",
+      "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/Alipay/Alipay.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/alipay.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/alipay.png"
+      ]
+    },
+    {
+      "id": "hot",
+      "name": "热门监控",
+      "descs_html": [
+        "点此直达【<a href=\"https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/hotsearch/hot.js\">脚本地址</a>】",
+        "只有关闭<font class=\"error--text\">关键词匹配</font>才会通知最新内容，否则没匹配关键词不会通知。 ",
+        "<font class=\"error--text\">Quantumult X</font>用户：B站、豆瓣榜单独立推送时可显示封面；关闭附带跳转链接点击通知也可跳转。"
+      ],
+      "keys": ["evil_saveditem", "evil_savedtime"],
+      "settings": [
+        {
+          "id": "evil_wb_keyword",
+          "name": "监控关键词",
+          "val": "",
+          "placeholder": "万茜",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 2,
+          "desc": "请输入监控关键词，以中文逗号分隔（请指定一个关键词，避免消息爆炸式推送）"
+        },
+        {
+          "id": "evil_refreshtime",
+          "name": "刷新时间（时）",
+          "val": 6,
+          "type": "number",
+          "desc": "重复内容默认在6小时内不再通知，之后清空，可自行修改"
+        },
+        {
+          "id": "evil_rsslink",
+          "name": "RSS订阅",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 2,
+          "desc": "请输入RSS订阅链接，以中文逗号分隔"
+        },
+        {
+          "id": "evil_rss",
+          "name": "rss订阅",
+          "val": false,
+          "type": "boolean",
+          "desc": "打开则会监控rss订阅"
+        },
+        {
+          "id": "evil_splitpushrss",
+          "name": "分开推送rss内容",
+          "val": false,
+          "type": "boolean",
+          "desc": "打开则会独立推送每条更新"
+        },
+        {
+          "id": "evil_pushnewrss",
+          "name": "忽略关键词推送rss最新内容",
+          "val": false,
+          "type": "boolean",
+          "desc": "打开则会忽略关键词，自动推送最新内容"
+        },
+        {
+          "id": "evil_rssnum",
+          "name": "忽略关键词时获取的rss订阅数量",
+          "val": 6,
+          "type": "number",
+          "desc": "自定匹配rss订阅内容数量"
+        },
+        {
+          "id": "evil_wb",
+          "name": "微博热搜",
+          "val": true,
+          "type": "boolean",
+          "desc": "打开则会监控微博热搜"
+        },
+        {
+          "id": "evil_splitpushwb",
+          "name": "分开推送微博内容",
+          "val": false,
+          "type": "boolean",
+          "desc": "打开则会独立推送每条更新"
+        },
+        {
+          "id": "evil_pushnewwb",
+          "name": "忽略关键词推送微博最新内容",
+          "val": false,
+          "type": "boolean",
+          "desc": "打开则会忽略关键词，自动推送最新内容"
+        },
+        {
+          "id": "evil_wbnum",
+          "name": "忽略关键词时获取的微博热搜数量",
+          "val": 6,
+          "type": "number",
+          "desc": "自定匹配微博热搜内容数量"
+        },
+        {
+          "id": "evil_zh",
+          "name": "知乎热榜",
+          "val": true,
+          "type": "boolean",
+          "desc": "打开则会监控知乎热榜"
+        },
+        {
+          "id": "evil_splitpushzh",
+          "name": "分开推送知乎内容",
+          "val": false,
+          "type": "boolean",
+          "desc": "打开则会独立推送每条更新"
+        },
+        {
+          "id": "evil_pushnewzh",
+          "name": "忽略关键词推送知乎最新内容",
+          "val": false,
+          "type": "boolean",
+          "desc": "打开则会忽略关键词，自动推送最新内容"
+        },
+        {
+          "id": "evil_zhnum",
+          "name": "忽略关键词时获取的知乎热榜数量",
+          "val": 6,
+          "type": "number",
+          "desc": "自定匹配知乎热榜内容数量"
+        },
+        {
+          "id": "evil_bd",
+          "name": "百度风云榜",
+          "val": false,
+          "type": "boolean",
+          "desc": "打开则会监控百度风云榜"
+        },
+        {
+          "id": "evil_splitpushbd",
+          "name": "分开推送百度内容",
+          "val": false,
+          "type": "boolean",
+          "desc": "打开则会独立推送每条更新"
+        },
+        {
+          "id": "evil_pushnewbd",
+          "name": "忽略关键词推送百度最新内容",
+          "val": false,
+          "type": "boolean",
+          "desc": "打开则会忽略关键词，自动推送最新内容"
+        },
+        {
+          "id": "evil_bdnum",
+          "name": "忽略关键词时获取的百度风云榜数量",
+          "val": 6,
+          "type": "number",
+          "desc": "自定匹配百度风云榜内容数量"
+        },
+        {
+          "id": "evil_bl",
+          "name": "B站日榜",
+          "val": true,
+          "type": "boolean",
+          "desc": "打开则会监控B站日榜"
+        },
+        {
+          "id": "evil_splitpushbl",
+          "name": "分开推送B站内容",
+          "val": true,
+          "type": "boolean",
+          "desc": "打开则会独立推送每条更新"
+        },
+        {
+          "id": "evil_pushnewbl",
+          "name": "忽略关键词推送B站最新内容",
+          "val": false,
+          "type": "boolean",
+          "desc": "打开则会忽略关键词，自动推送最新内容"
+        },
+        {
+          "id": "evil_blrid",
+          "name": "榜单编号（点击查看对应关系）",
+          "val": 0,
+          "type": "number",
+          "desc": "B站榜单对应关系：0全站，1动画，3音乐，4游戏，5娱乐，36科技，119鬼畜，129舞蹈"
+        },
+        {
+          "id": "evil_blnum",
+          "name": "忽略关键词时获取的B站榜单数量",
+          "val": 6,
+          "type": "number",
+          "desc": "自定匹配B站榜单内容数量"
+        },
+        {
+          "id": "evil_db",
+          "name": "豆瓣榜单",
+          "val": false,
+          "type": "boolean",
+          "desc": "打开则会监控豆瓣榜单"
+        },
+        {
+          "id": "evil_splitpushdb",
+          "name": "分开推送豆瓣内容",
+          "val": false,
+          "type": "boolean",
+          "desc": "打开则会独立推送每条更新"
+        },
+        {
+          "id": "evil_pushnewdb",
+          "name": "忽略关键词推送豆瓣最新内容",
+          "val": false,
+          "type": "boolean",
+          "desc": "打开则会忽略关键词，自动推送最新内容"
+        },
+        {
+          "id": "evil_dbnum",
+          "name": "忽略关键词时获取的豆瓣榜单数量",
+          "val": 6,
+          "type": "number",
+          "desc": "自定匹配豆瓣榜单内容数量"
+        },
+        {
+          "id": "evil_dy",
+          "name": "抖音榜单",
+          "val": false,
+          "type": "boolean",
+          "desc": "打开则会监控抖音榜单"
+        },
+        {
+          "id": "evil_splitpushdy",
+          "name": "分开推送抖音内容",
+          "val": false,
+          "type": "boolean",
+          "desc": "打开则会独立推送每条更新"
+        },
+        {
+          "id": "evil_pushnewdy",
+          "name": "忽略关键词推送抖音最新内容",
+          "val": false,
+          "type": "boolean",
+          "desc": "打开则会忽略关键词，自动推送最新内容"
+        },
+        {
+          "id": "evil_dynum",
+          "name": "忽略关键词时获取的抖音榜单数量",
+          "val": 6,
+          "type": "number",
+          "desc": "自定匹配抖音榜单内容数量"
+        },
+        {
+          "id": "evil_k36",
+          "name": "36氪榜单",
+          "val": false,
+          "type": "boolean",
+          "desc": "打开则会监控36氪榜单"
+        },
+        {
+          "id": "evil_splitpushk36",
+          "name": "分开推送36氪内容",
+          "val": false,
+          "type": "boolean",
+          "desc": "打开则会独立推送每条更新"
+        },
+        {
+          "id": "evil_pushnewk36",
+          "name": "忽略关键词推送36氪最新内容",
+          "val": false,
+          "type": "boolean",
+          "desc": "打开则会忽略关键词，自动推送最新内容"
+        },
+        {
+          "id": "evil_k36num",
+          "name": "忽略关键词时获取的36氪榜单数量",
+          "val": 6,
+          "type": "number",
+          "desc": "自定匹配36氪榜单内容数量"
+        },
+        {
+          "id": "evil_amazon",
+          "name": "Kindle图书榜单",
+          "val": false,
+          "type": "boolean",
+          "desc": "打开则会监控Kindle图书榜单"
+        },
+        {
+          "id": "evil_splitpushamz",
+          "name": "分开推送Kindle图书内容",
+          "val": false,
+          "type": "boolean",
+          "desc": "打开则会独立推送每条更新"
+        },
+        {
+          "id": "evil_pushnewamz",
+          "name": "忽略关键词推送Kindle图书最新内容",
+          "val": false,
+          "type": "boolean",
+          "desc": "打开则会忽略关键词，自动推送最新内容"
+        },
+        {
+          "id": "evil_amznum",
+          "name": "忽略关键词时获取的Kindle图书榜单数量",
+          "val": 6,
+          "type": "number",
+          "desc": "自定匹配Kindle图书榜单内容数量"
+        },
+        {
+          "id": "evil_zmz",
+          "name": "人人影视榜单",
+          "val": false,
+          "type": "boolean",
+          "desc": "打开则会监控人人影视榜单"
+        },
+        {
+          "id": "evil_splitpushzmz",
+          "name": "分开推送人人影视内容",
+          "val": false,
+          "type": "boolean",
+          "desc": "打开则会独立推送每条更新"
+        },
+        {
+          "id": "evil_pushnewzmz",
+          "name": "忽略关键词推送人人影视最新内容",
+          "val": false,
+          "type": "boolean",
+          "desc": "打开则会忽略关键词，自动推送最新内容"
+        },
+        {
+          "id": "evil_zmznum",
+          "name": "忽略关键词时获取的人人影视榜单数量",
+          "val": 6,
+          "type": "number",
+          "desc": "自定匹配人人影视榜单内容数量"
+        },
+        {
+          "id": "evil_cltz",
+          "name": "人人影视磁力跳转",
+          "val": "1",
+          "type": "radios",
+          "desc": "选择跳转方式",
+          "items": [
+            {
+              "key": "1",
+              "label": "调用迅雷离线"
+            },
+            {
+              "key": "2",
+              "label": "调用115离线"
+            },
+            {
+              "key": "3",
+              "label": "调用袋鼠下载"
+            },
+            {
+              "key": "4",
+              "label": "调用闪电下载"
+            }
+          ]
+        },
+        {
+          "id": "evil_attachurl",
+          "name": "附带跳转链接",
+          "val": true,
+          "type": "boolean",
+          "desc": "打开则会附带跳转链接"
+        },
+        {
+          "id": "evil_time",
+          "name": "榜单获取时限（s）",
+          "val": 2,
+          "type": "number",
+          "desc": "榜单获取时限"
+        }
+      ],
+      "author": "@evilbutcher",
+      "repo": "https://github.com/evilbutcher/Quantumult_X/tree/master/check_in/hotsearch",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/hot.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/hot.png"
+      ],
+      "script": "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/hotsearch/hot.js"
+    },
+     {
+      "id": "appmonitor",
+      "name": "AppMonitor",
+      "descs_html": [
+        "点此直达【<a href=\"https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/appstore/AppMonitor.js\">脚本地址</a>】",
+        "修改自Quantumult X群友分享，支持BoxJs。",
+        "填写App ID可通过AppStore分享按钮拷贝想要监控App的链接，在链接最后有id，复制到监控ID内即可；未单独设置区域，则采用reg默认区域",
+        "关于ID，例如：https://apps.apple.com/cn/app/nplayer-plus/id<font class=\"error--text\">539397400</font>",
+        "@App价格监控.app_monitor为本地记录的监控相关信息，可以忽略"
+      ],
+      "keys": [
+        "@App价格监控.apps",
+        "@App价格监控.reg",
+        "@App价格监控.app_monitor"
+      ],
+      "settings": [
+        {
+          "id": "@App价格监控.apps",
+          "name": "监控ID",
+          "val": "",
+          "placeholder": "例如，1312014438 cn，1282297037_au",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 2,
+          "desc": "ID与区域分隔符支持 空格/:|_-，但不同App之间请用中文逗号\"，\"分隔。"
+        },
+        {
+          "id": "@App价格监控.reg",
+          "name": "默认区域",
+          "val": "",
+          "placeholder": "例如，cn/us/au",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 1,
+          "desc": "请填写一个默认区域"
+        }
+      ],
+      "author": "@t.me/QuanXApp群友",
+      "repo": "https://github.com/evilbutcher/Quantumult_X/tree/master/check_in/appstore",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Apple.png",
+        "https://raw.githubusercontent.com/Orz-3/task/master/appstore.png"
+      ],
+      "script": "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/appstore/AppMonitor.js"
+    },
+    {
+      "id": "nasapic",
+      "name": "NASA每日一图",
+      "descs_html": [
+        "点此直达【<a href=\"https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/nasa/nasapic.js\">脚本地址</a>】",
+        "首先前往<a href=\"https://api.nasa.gov\">NASA</a>申请一个API，申请流程非常简单，把得到的API填入脚本即可"
+      ],
+      "keys": ["@NASA.nasaapi"],
+      "settings": [
+        {
+          "id": "@NASA.translate",
+          "name": "翻译",
+          "val": false,
+          "type": "boolean",
+          "desc": "是否进行翻译"
+        },
+        {
+          "id": "@NASA.nasaapi",
+          "name": "API",
+          "val": "",
+          "placeholder": "686BJ2YbpY****************Op8gaVTeVs0t",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 1,
+          "desc": "请填入API"
+        }
+      ],
+      "author": "@evilbutcher",
+      "repo": "https://github.com/evilbutcher/Quantumult_X/tree/master/check_in/nasa",
+      "icons": [
+        "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/nasa_tran.png",
+        "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/nasa.png"
+      ],
+      "script": "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/nasa/nasapic.js"
+    },
+     {
+      "id": "idaily",
+      "name": "iDaily",
+      "descs_html": [
+        "点此直达【<a href=\"https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/idaily/idaily.js\">脚本地址</a>】"
+      ],
+      "keys": ["@iDaily.random"],
+      "settings": [
+        {
+          "id": "@iDaily.random",
+          "name": "随机获取",
+          "val": false,
+          "type": "boolean",
+          "desc": "打开将会随机获取内容"
+        }
+      ],
+      "author": "@evilbutcher",
+      "repo": "https://github.com/evilbutcher/Quantumult_X/tree/master/check_in/idaily",
+      "icons": [
+        "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/idaily_tran.png",
+        "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/idaily.png"
+      ],
+      "script": "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/idaily/idaily.js"
+    },
+     {
+      "id": "wechatsubs",
+      "name": "公众号监控",
+      "descs_html": [
+        "点此直达【<a href=\"https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/wechatsubs/wechatsubs.js\">脚本地址</a>】"
+      ],
+      "keys": [
+        "@Wechatsubs.wechatkeyword1",
+        "@Wechatsubs.wechatkeyword2",
+        "@Wechatsubs.wechatsavedtime",
+        "@Wechatsubs.wechatrefreshtime",
+        "@Wechatsubs.wechatsaveditem"
+      ],
+      "settings": [
+        {
+          "id": "@Wechatsubs.wechatkeyword1",
+          "name": "关键词-1",
+          "val": "",
+          "placeholder": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 2,
+          "desc": "请填入要监控的第一组关键词，多个词用中文逗号“，”分隔。"
+        },
+        {
+          "id": "@Wechatsubs.wechatkeyword2",
+          "name": "关键词-2",
+          "val": "",
+          "placeholder": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 2,
+          "desc": "请填入要监控的第二组关键词，多个词用中文逗号“，”分隔。"
+        },
+        {
+          "id": "@Wechatsubs.wechatrefreshtime",
+          "name": "刷新时间（时）",
+          "val": 6,
+          "type": "number",
+          "desc": "重复内容默认在6小时内不再通知，之后清空，可自行修改"
+        }
+      ],
+      "author": "@evilbutcher",
+      "repo": "https://github.com/evilbutcher/Quantumult_X/tree/master/check_in/wechatsubs",
+      "icons": [
+        "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/wechat_tran.png",
+        "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/wechat.png"
+      ],
+      "script": "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/wechatsubs/wechatsubs.js"
+    },
+    {
       "id": "jdAllck",
       "name": "京东CK集合",
       "author": "自用",
