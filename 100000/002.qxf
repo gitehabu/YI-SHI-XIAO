@@ -1,5 +1,4 @@
 
-AND,((USER-AGENT,PUClient*), (NOT,((DOMAIN-SUFFIX,rr.tv)))),REJECT
 
 # 知乎 添加规则
 host, appcloud2.zhihu.com, reject
