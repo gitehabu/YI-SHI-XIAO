@@ -15,422 +15,138 @@
       "script": "https://gitee.com/Sunert/Scripts/raw/master/Task/weibo.js"
     },
     {
-      "id": "xmSports",
-      "name": "小米运动",
-      "keys": [
-        "xmSportsToken",
-        "xmMinStep",
-        "xmMaxStep"
-      ],
-      "settings": [
-        {
-          "id": "xmSportsToken",
-          "name": "小米运动Token",
-          "val": "",
-          "type": "text",
-          "desc": "小米运动登录时获取的token"
-        },
-        {
-          "id": "xmMinStep",
-          "name": "最小运动步数",
-          "val": "19000",
-          "type": "text",
-          "desc": "需要修改最小的运动步数的数字,例如:19000"
-        },
-        {
-          "id": "xmMaxStep",
-          "name": "最大运动步数",
-          "val": "25000",
-          "type": "text",
-          "desc": "需要修改最小的运动步数的数字,例如:25000"
-        }
-      ],
-      "author": "@lxk0301",
-      "repo": "https://gitee.com/lxk0301/jd_scripts/tree/master",
-      "script": "https://jdsharedresourcescdn.azureedge.net/jdresource/xmSports.js",
-      "icons": [
-        "https://raw.githubusercontent.com/58xinian/icon/master/xmyd_mini.png",
-        "https://raw.githubusercontent.com/58xinian/icon/master/xmyd.png"
-      ]
-    },
-    {
-      "id": "dianshijia",
-      "name": "电视家",
-      "keys": ["sy_signheader_dsj", "drawal_dsj"],
-      "author": "自用",
-      "settings": [{
-        "id": "REWARD",
-        "name": "额外签到奖励",
-        "val": "55",
-        "type": "radios",
-        "desc": "",
-        "items": [{
-          "key": "55",
-          "label": "提现额度"
-        }, {
-          "key": "44",
-          "label": "1天VIP"
-        }, {
-          "key": "42",
-          "label": "1888金币"
-       }]
-      }],
-      "repo": "https://gitee.com/Sunert/Scripts/blob/master/Task/dianshijia.js",
-      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/dianshijia.png", "https://raw.githubusercontent.com/Orz-3/task/master/dianshijia.png"],
-      "script": "https://gitee.com/Sunert/Scripts/raw/master/Task/dianshijia.js"
-    },
-    {
-      "author": "自用", 
-      "keys": [
-        "c"
-      ], 
-      "repo": "https://github.com/Sunert/Script/blob/master/Task/tvpreview.js", 
-      "id": "TVlist", 
-      "script": "https://raw.githubusercontent.com/Sunert/Script/master/Task/tvpreview.js", 
-      "settings": [
-        {
-          "id": "c", 
-          "val": "cctv8", 
-          "name": "电视台", 
-          "type": "text", 
-          "desc": "请填写小写英文台标，示例: 北京: btv1 | 湖南: hunan | 浙江: zhejiang 河南: henan| 江苏: jiangsu|广东: guangdong 更多电视台请参加电视家网络列表"
-        }
-      ], 
-      "name": "电视预告", 
-      "icons": [
-        "https://cdn.jsdelivr.net/gh/Sunert/Profiles@master/QuantumultX/Rules/Images/icon/tvpreview_mini.png", 
-        "https://cdn.jsdelivr.net/gh/Sunert/Profiles@master/QuantumultX/Rules/Images/icon/tvpreview.png"
-      ]
-    }, 
-    {
-      "id": "moji",
-      "name": "墨迹天气",
-      "keys": ["city","citynum"],
-      "settings": [{ 
-         "id": "city", 
-         "name": "城市", 
-         "val": "郑州", 
-         "type": "text", 
-         "desc": "请填写中文地区"
-         },
-         {
-          "id": "cut",
-          "name": "精简模式",
-          "val": true,
-          "type": "boolean",
-          "desc": "取消详情描述，默认打开"
-         },
-         {
-          "id": "citynum",
-          "name": "城市序号",
-          "val": "",
-          "type": "number",
-          "placeholder": "默认1 (点击以展开说明)",
-          "desc": "选择地区，请填写日志内冒号前的数字序号"
-        }],
-      "author": "自用",
-      "repo": "https://gitee.com/Sunert/Scripts/blob/master/Task/moji.js",
-      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Color/moji.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/moji.png"],
-      "script": "https://gitee.com/Sunert/Scripts/raw/master/Task/moji.js"
-    },
-    {
-      "author": "自用", 
-      "keys": [
-        "baidu_nick",
-        "bdspeed",
-        "cash_baidu"
-      ], 
-      "repo": "https://github.com/Sunert/Script/blob/master/Task/baiduspeed.js", 
-      "id": "baidu_speed", 
-      "script": "https://raw.githubusercontent.com/Sunert/Script/master/Task/baiduspeed.js", 
-      "settings": [
-        {
-          "items": [
-            {
-              "key": "5", 
-              "label": "5元"
-            }, 
-            {
-              "key": "30", 
-              "label": "30元"
-            }, 
-            {
-              "key": "50", 
-              "label": "50元"
-            }, 
-            {
-              "key": "100", 
-              "label": "100元"
-            }
-          ], 
-          "id": "cash_baidu", 
-          "val": "30", 
-          "name": "提现金额", 
-          "type": "radios", 
-          "desc": "自动提现金额"
-        }, 
-        {
-          "id": "on_baidu", 
-          "val": true, 
-          "name": "通知开关", 
-          "type": "boolean", 
-          "desc": "任务通知开关"
-        },
-        {
-          "id": "task_baidu", 
-          "val": true, 
-          "name": "任务开关", 
-          "type": "boolean", 
-          "desc": "除提现和兑换金币外开关，默认开启所有任务"
-        },
-        {
-          "id": "bd_Agent", 
-          "val": true, 
-          "name": "User-Agent", 
-          "type": "textarea", 
-          "desc": "自定义百度极速版UA或者可自动获取"
-        }
-      ], 
-      "name": "百度极速任务", 
-      "icons": [
-        "https://cdn.jsdelivr.net/gh/Sunert/Profiles@master/QuantumultX/Rules/Images/icon/baiduspeed_mini.png", 
-        "https://cdn.jsdelivr.net/gh/Sunert/Profiles@master/QuantumultX/Rules/Images/icon/baiduspeed.png"
-      ]
-    }, 
-    {
-      "id": "jingxi",
-      "name": "京喜",
-      "keys": ["CookieJD", "CookieJD2"],
-      "author": "自用",
-      "repo": "https://gitee.com/Sunert/Scripts/blob/master/Task/jingxi.js",
-      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/jingxi.png", "https://raw.githubusercontent.com/Orz-3/task/master/jingxi.png"],
-      "script": "https://gitee.com/Sunert/Scripts/raw/master/Task/jingxi.js"
-    },
-    {
-      "id": "youthCk",
-      "name": "中青数据",
-      "keys": ["youthheader_zq", "read_zq", "readtime_zq", "youthheader_zq2", "read_zq2", "readtime_zq2", "youthheader_zq3", "read_zq3", "readtime_zq3", "youthheader_zq4", "read_zq4", "readtime_zq4"],
+      "id": "zZ.Weibo",
+      "name": "微博通知",
       "descs_html": [
-        "多账号脚本地址【<a href=\"https://raw.githubusercontent.com/ztxtop/x/main/youth.js\">中青看点极速版</a>】",
-        "中青多账号ck抓取步骤：",
-        "1、boxjs中指定抓包账号，如：2",
-        "2、NE工具订阅配置【<a href=\"https://raw.githubusercontent.com/ztxtop/x/main/rewrite-zq.plugin\">中青看点</a>】【<a href=\"https://raw.githubusercontent.com/ztxtop/x/main/rewrite-zqkkz.plugin\">中青看看赚、浏览赚</a>】",
-        "  ⚠️订阅为Loon的插件，QX需开启解析器才能使用",
-        "3、打开中青APP，进入“我的”=>“任务中心”抓取 youthheader_zq 数据、 进入任务中心里的看看赚，点任务进入页面即可获取看看赚数据、 进入看看赚页面顶部的浏览赚页面，点任务跳转浏览器时可获取浏览赚数据（中青app有可能不发起任务开始请求，那将无法抓包）",
-        "4、在首页找个视频看看，超过1分钟后返回上一页面可获取时长数据，首次获取或时长数据记录的有效时间大于60秒时才会进行通知提醒",
-        "备注：看看赚的任务可能失效过期，建议：1、在看看赚配置中选则移除失败数据；2、看看赚任务一天跑两次；3、第一二次任务执行之间，可再回中青app看看赚任务页面查看下是否有新任务"
+        "请先进入<a href=\"https://m.weibo.cn\">手机网页版微博</a>并登陆按，再按<a href=\"https://raw.githubusercontent.com/zZPiglet/Task/master/Weibo/Weibo.js\">脚本注释</a>进行配置，然后回到网页刷新即可获取 Cookie。",
+        "请注意：一定要<font class=\"red--text\">先登录</font>，否则获取的为游客 Cookie，无法通知「特别关注」及有查看限制的微博。",
+        "运行后通知为「上一次」运行到「本次」运行之间的微博，其中「第零次」运行及「测试环境」默认为「很久很久很久···」以前（时间戳为0），所以第一次运行为接口返回的所有信息，之后有新微博才会通知。",
+        "需要注意的是：即便因配置错误运行之后有错误信息，此次运行时间戳也已经记录，若想还原到「第零次」的状态，请清空下面的时间戳。",
+        "注意：「特别管组」、「用户 ID」、「用户昵称」三者的通知均<font class=\"red--text\">独立</font>，请勿填写重复，以避免通知重复。",
+        "若有希望添加的点击跳转的客户端，请提供该客户端打开指定微博的 URL Scheme，反馈至 <a href=\"https://t.me/zZPiglet_bot\">@zZPiglet_bot</a>。"
       ],
-      "author": "自用",
-      "settings": [{
-        "id": "ckFormat",
-        "val": "",
-        "name": "新CK格式",
-        "type": "boolean",
-        "desc": "数据是否按新格式存储"
-      }, {
-        "id": "zqSuffix",
-        "name": "抓包账号",
-        "val": "1",
-        "type": "number",
-        "desc": "指定抓取的数据包用于哪个账号，设置数值如：1、2、3..."
-      }, {
-        "id": "zqExecAc",
-        "name": "中青执行账号",
-        "val": "1",
-        "type": "text",
-        "desc": "设置中青的执行账号，多个账号用半角逗号分隔，如：1,2,4"
-      }],
-      "repo": "https://github.com/ztxtop/x/blob/main/youth.js",
-      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/youth.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"],
-      "script": "https://raw.githubusercontent.com/ztxtop/x/main/youth.js"
-    },
-    {
-      "id": "youthNeRead",
-      "name": "中青阅读",
-      "descs_html": [
-        "中青阅读脚本地址【<a href=\"https://raw.githubusercontent.com/ztxtop/x/main/zqread.js\">中青阅读</a>】",
-        "注意：因此脚本使用的阅读数据存储位置与songyangzz大佬的不同，所以需搭配【<a href=\"https://raw.githubusercontent.com/ztxtop/x/main/rewrite-zqread.plugin\">阅读数据抓包订阅</a>】抓取的阅读数据使用",
-        "⚠️：QX阅读数据可通过【<a href=\"https://raw.githubusercontent.com/ztxtop/x/main/zqGaReadData.js\">Http Backend脚本</a>】的方式导出：配置好后浏览器中访问即可获取数据"
-      ],
-      "author": "自用",
-      "settings": [{
-        "id": "readMode",
-        "name": "执行模式（点击查看设置说明）",
-        "val": "0",
-        "type": "text",
-        "desc": "0-循环阅读：任务执行时间需大于21秒\n1-去重排序：根据响应数据判断重复并将视频往前排，依此优化阅读效率（可用半角逗号间隔该模式运行的账号，如账号一跟账号三才执行去重排序：1,1,3）\n3-备份数据：根据指定的备份格式，将要备份的数据以log的形式打印出来（高版本qx限制了打印日志长度，需使用其它方式导出）\n4-清空所有中青数据"
-      }, {
-        "id": "zqReadScheme",
-        "name": "阅读数据备份输出格式",
-        "val": "DF",
-        "type": "radios",
-        "items": [{
-            "key": "QX",
-            "label": "QX持久化数据代码"
-          },
-          {
-            "key": "LS",
-            "label": "Loon&Surge持久化数据代码"
-          },
-          {
-            "key": "GA",
-            "label": "Github Actions使用的以&分隔数据"
-          },
-          {
-            "key": "DF",
-            "label": "Default"
-          }
-        ]
-      }, {
-        "id": "read_count",
-        "name": "账号1总阅读数",
-        "val": "0",
-        "type": "number",
-        "desc": "账号1阅读数据总行数"
-      }, {
-        "id": "read_count2",
-        "name": "账号2总阅读数",
-        "val": "0",
-        "type": "number",
-        "desc": "账号2阅读数据总行数"
-      }, {
-        "id": "read_count3",
-        "name": "账号3总阅读数",
-        "val": "0",
-        "type": "number",
-        "desc": "账号3阅读数据总行数"
-      }, {
-        "id": "read_count4",
-        "name": "账号4总阅读数",
-        "val": "0",
-        "type": "number",
-        "desc": "账号4阅读数据总行数"
-      }],
-      "repo": "https://github.com/ztxtop/x/blob/main/zqread.js",
-      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/youth.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"],
-      "script": "https://raw.githubusercontent.com/ztxtop/x/main/youth.js",
-      "scripts": [{
-        "name": "自动阅读",
-        "script": "https://raw.githubusercontent.com/ztxtop/x/main/zqread.js"
-      }]
-    },
-    {
-      "id": "youthBanner",
-      "name": "中青看看赚",
-      "descs_html": [
-        "⚠️：带有android字眼的会话数据是抓安卓设备的app数据包的，只用ios的话，无视它的存在吧"
-      ],
-      "keys": ["youth_banner", "youth_android_readtime", "youth_android_reward", "youth_android_newtask", "youth_banner2", "youth_android_readtime2", "youth_android_reward2", "youth_android_newtask2", "youth_banner3", "youth_android_readtime3", "youth_android_reward3", "youth_android_newtask3", "youth_banner4", "youth_android_readtime4", "youth_android_reward4", "youth_android_newtask4"],
-      "author": "自用",
-      "settings": [{
-        "id": "delErrorData",
-        "name": "移除当日失败两次+的任务数据",
-        "val": "0",
-        "type": "radios",
-        "items": [{
-            "key": "0",
-            "label": "不移除"
-          },
-          {
-            "key": "1",
-            "label": "移除"
-          }
-        ]
-      }],
-      "repo": "https://github.com/ztxtop/x/blob/main/youth_banner.js",
-      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/youth.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"],
-      "script": "https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js"
-    },
-    {
-      "id": "Telegram",
-      "name": "Telegram 频道媒体推送",
-      "keys": ["@telegram.channels", "@telegram.maxMedias"],
+      "keys": ["@Weibo.WeiboNotice", "@Weibo.interval", "@Weibo.Group", "@Weibo.Weibo_uids", "@Weibo.Weibo_nicknames", "@Weibo.chooseClient"],
       "settings": [
         {
-          "id": "@telegram.channels",
-          "name": "频道列表",
-          "val": "[\"ABCD\"]",
-          "type": "textarea",
-          "autoGrow": false,
-          "rows": 2,
-          "desc": "频道列表，比如说一个频道的链接为https://t.me/s/ABCD，那么将\"ABCD\"加到列表中。"
-        },
-        {
-          "id": "@telegram.maxMedias",
-          "name": "每个频道最多显示视频和图片的数量",
-          "val": 3,
-          "type": "text",
-          "rows": 1,
-          "desc": "每个频道最多显示视频和图片的数量, 默认为3"
-        }
-      ],
-      "author": "@Peng-YM",
-      "repo": "https://github.com/Peng-YM/QuanX",
-      "icons": [
-        "https://raw.githubusercontent.com/58xinian/icon/master/telegram_mini.png",
-        "https://raw.githubusercontent.com/58xinian/icon/master/telegram.png"
-      ],
-      "script": "https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/telegram.js"
-    },
-    {
-      "id": "Caiyun",
-      "name": "彩云天气",
-      "keys": [
-        "@caiyun.token.caiyun",
-        "@caiyun.token.tencent",
-        "@caiyun.display_location",
-        "@caiyun.location.latitude",
-        "@caiyun.location.longitude",
-        "@caiyun.address"
-      ],
-      "settings": [
-        {
-          "id": "@caiyun.token.caiyun",
-          "name": "彩云天气API Token",
-          "val": null,
-          "type": "text",
-          "autoGrow": false,
-          "rows": 2,
-          "desc": "彩云天气的Token，可以自行申请或者前往频道获取"
-        },
-        {
-          "id": "@caiyun.token.tencent",
-          "name": "腾讯地图API Token",
-          "val": "AHEBZ-ASTWX-CIW4P-7TV7T-AWKLS-7CFWP",
-          "type": "text",
-          "rows": 1,
-          "desc": ""
-        },
-        {
-          "id": "@caiyun.display_location",
-          "name": "是否在日志中显示经纬度",
+          "id": "@Weibo.debug",
+          "name": "测试环境",
           "val": false,
           "type": "boolean",
-          "desc": ""
+          "desc": "如未出现特殊报错等问题请保持关闭。"
         },
         {
-          "id": "@caiyun.location.latitude",
-          "name": "纬度",
-          "val": null,
-          "type": "text",
-          "desc": "纬度，可以关闭MITM获取位置，手动设置"
+          "id": "@Weibo.interval",
+          "name": "间隔",
+          "val": "",
+          "type": "number",
+          "placeholder": "1000", 
+          "desc": "运行时多通知之间时间间隔，单位为毫秒，不填默认为 1000 毫秒。"
         },
         {
-          "id": "@caiyun.location.longitude",
-          "name": "经度",
-          "val": null,
-          "type": "text",
-          "desc": "经度，可以关闭MITM获取位置，手动设置"
+          "id": "@Weibo.update",
+          "name": "时间戳",
+          "val": "",
+          "type": "number", 
+          "desc": "上次运行时保存的时间戳，十三位。"
+        }, 
+        {
+          "id": "@Weibo.WeiboNotice",
+          "name": "Cookie",
+          "val": "",
+          "type": "textarea",
+          "rows": 2,
+          "autoGrow": true, 
+          "desc": "微博 Cookie，若抓包填入，只需填入 Cookie 中「SUB=」后至「;」中间的值。"
+        },
+        {
+          "id": "@Weibo.Group",
+          "name": "通知分组",
+          "val": ["Special"],
+          "type": "checkboxes",
+          "desc": "选择需要通知的分组",
+          "items": [
+            { "key": "Special", "label": "特别关注" },
+            { "key": "Spider", "label": "指定用户" }
+          ]
+        },
+        {
+          "id": "@Weibo.Weibo_uids",
+          "name": "用户 ID",
+          "val": "",
+          "type": "textarea",
+          "placeholder": "1111681197,\n7099422177", 
+          "autoGrow": true, 
+          "rows": 2,
+          "desc": "填入需订阅的用户 uid，如不填入 uid 及昵称请取消上一项「指定用户」勾选。以英文逗号分隔多个 uid，可加回车。微博 uid 的获取方法：如「来去之间」微博主页为「https://weibo.com/wflanker」，需查看页面源码，找到「$CONFIG['oid'] = '1111681197'」即可得知 uid 为「1111681197」，切记不是「$CONFIG['uid']」，或直接访问手机端，其主页为「https://m.weibo.cn/u/1111681197?uid=1111681197」亦可得知。再如「外交部发言人办公室」微博主页为「https://weibo.com/u/7099422177」，则其 uid 为「7099422177」。"
+        },
+        {
+          "id": "@Weibo.Weibo_nicknames",
+          "name": "用户昵称",
+          "val": "",
+          "type": "textarea",
+          "placeholder": "央视新闻,\n搜狐娱乐", 
+          "autoGrow": true, 
+          "rows": 2,
+          "desc": "填入需订阅的用户昵称，如不填入 uid 及昵称请取消上一项「指定用户」勾选。以英文逗号分隔多个昵称，可加回车。请勿重复填写。"
+        },
+        {
+          "id": "@Weibo.chooseClient",
+          "name": "客户端",
+          "val": "Safari",
+          "type": "radios",
+          "desc": "选择点击跳转的客户端，如需加入想要的客户端，请提供该客户端打开指定微博的 URL Scheme，反馈至 @zZPiglet_bot，或提交 issue，或进行 PR。",
+          "items": [
+            { "key": "Safari", "label": "Safari" },
+            { "key": "Sinaweibo", "label": "微博" },
+            { "key": "Weibointernational", "label": "微博国际版" },
+            { "key": "VVebo", "label": "VVebo" }
+          ]
         }
       ],
-      "author": "@Peng-YM",
-      "repo": "https://github.com/Peng-YM/QuanX",
+      "author": "@zZPiglet",
+      "repo": "https://github.com/zZPiglet/Task/blob/master/Weibo/Weibo.js",
+      "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/Weibo/Weibo.js",
       "icons": [
-        "https://raw.githubusercontent.com/Orz-3/mini/master/caiyun.png",
-        "https://raw.githubusercontent.com/Orz-3/task/master/caiyun.png"
-      ],
-      "script": "https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js"
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/weibo.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/weibo.png"
+      ]
     },
+    {
+      "id": "jdAllck",
+      "name": "京东CK集合",
+      "author": "自用",
+      "keys": ["CookieJD", "CookieJD2", "CookiesJD"],
+      "descs_html": [
+        "复制 <a href=\"https://bean.m.jd.com/bean/signIndex.action\">签到日历</a> 或 <a href=\"https://home.m.jd.com/myJd/newhome.action\">京东用户中心</a> 地址到浏览器打开，登录后可自动获取Cookie，没成功就登录后再次访问下之前复制的地址",
+        "管理野比NobyDa及毛哥lxk的京东账号ck 重写订阅地址【<a href=\"https://raw.githubusercontent.com/ztxtop/x/main/subscribe/rewrite-jd.plugin\">京东多账号CK订阅</a>】",
+        "注：Loon的订阅插件，QX使用需开启解析器；NE工具中直接执行脚本将移除重复的Cookie"
+      ],
+      "settings": [{
+        "id": "CookieJD",
+        "name": "账号1",
+        "val": "",
+        "type": "text",
+        "desc": "NobyDa的京东账号1 Cookie"
+      }, {
+        "id": "CookieJD2",
+        "name": "账号2",
+        "val": "",
+        "type": "text",
+        "desc": "NobyDa的京东账号2 Cookie"
+      }, {
+        "id": "CookiesJD",
+        "name": "CK 列表",
+        "val": "",
+        "type": "textarea",
+        "autoGrow": true,
+        "rows": 8,
+        "desc": "京东扩展CK 列表 (JSON 格式)"
+      }],
+      "repo": "https://gitee.com/Sunert/Scripts/blob/master/Task/NE.cookie.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/jd.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png"],
+      "script": "https://raw.githubusercontent.com/ztxtop/x/main/NE.cookie.js"
+    },
+
     {
     "id": "多合一签到",
     "name": "京东",
@@ -643,25 +359,28 @@
     "icons": ["https://raw.githubusercontent.com/NobyDa/mini/master/Alpha/jd.png", "https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png"]
     },
     {
-		"id": "txstockapp",
-		"name": "自选羊毛股",
-		"keys": ["signheader", "signkey", "taskheader", "taskkey", "userheader", "userkey", "wxtaskkey","cash","cashheader"],
-		"settings": [
-			{
-				"id": "cash",
-				"name": "提现开关:0,不自动提现;1，提现1元；5，提现5元",
-				"val": "",
-				"type": "number",
-				"desc": "默认为0,不自动提现"
-			}
-		],
-		"author": "@cenbomin",
-		"repo": ["https://raw.githubusercontent.com/CenBoMin/GithubSync"],
-		"script": "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txstockqx.js",
-		"icons": ["https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txzxg.png","https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txzxg.png"
-		]
-	},
-    {
+        "id": "jd_price_detect",
+        "name": "京东价格提醒",
+        "keys": ["tlb_jd_timeout", "tlb_jd_debug"],
+        "settings": [
+            { "id": "tlb_jd_detect_url", "name": "商品链接A", "val": "", "type": "text", "placeholder":"请在商品页获取分享链接", "desc": "请在商品页获取分享链接" },
+            { "id": "tlb_jd_detect_price", "name": "商品链接A 目标价格", "val": "", "type": "number", "placeholder":"若商品A低于该价格，则会提醒。", "desc": "" },
+            
+            { "id": "tlb_jd_detect_url2", "name": "商品链接B", "val": "", "type": "text", "placeholder":"请在商品页获取分享链接", "desc": "请在商品页获取分享链接" },
+            { "id": "tlb_jd_detect_price2", "name": "商品链接B 目标价格", "val": "", "type": "number", "placeholder":"若商品B低于该价格，则会提醒。", "desc": "" },
+            
+            { "id": "tlb_jd_detect_url3", "name": "商品链接C", "val": "", "type": "text", "placeholder":"请在商品页获取分享链接", "desc": "请在商品页获取分享链接" },
+            { "id": "tlb_jd_detect_price3", "name": "商品链接C 目标价格", "val": "", "type": "number", "placeholder":"若商品C低于该价格，则会提醒。", "desc": "" },
+            
+            { "id": "tlb_jd_timeout", "name": "[debug]请求超时限制 (毫秒)", "val": 3000, "type": "number", "desc": "" },
+            { "id": "tlb_jd_debug", "name": "[debug]开启调试", "val": false, "type": "boolean", "desc": ""}    
+        ],
+        "author": "@toulanboy",
+        "repo": "https://github.com/toulanboy/scripts/blob/master/jd_price_detect",
+        "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/jd.png", "https://raw.githubusercontent.com/Orz-3/task/master/jd.png"],
+        "script": "https://raw.githubusercontent.com/toulanboy/scripts/master/jd_price_detect/jd_price_detect.js"
+    }, 
+ {
       "id": "jdWulLiu",
       "name": "京东物流",
       "keys": ["id77_jdWulLiu_pageMax"],
@@ -687,6 +406,451 @@
         "https://raw.githubusercontent.com/id77/QuantumultX/master/icon/jdWuLiu.png"
       ]
     },
+    {
+      "id": "jingxi",
+      "name": "京喜",
+      "keys": ["CookieJD", "CookieJD2"],
+      "author": "自用",
+      "repo": "https://gitee.com/Sunert/Scripts/blob/master/Task/jingxi.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/jingxi.png", "https://raw.githubusercontent.com/Orz-3/task/master/jingxi.png"],
+      "script": "https://gitee.com/Sunert/Scripts/raw/master/Task/jingxi.js"
+    },
+    {
+      "id": "zyb",
+      "name": "作业帮",
+      "keys": ["zyb","zybbody"],
+      "author": "@photonmang",
+      "repo": "https://raw.githubusercontent.com/photonmang/quantumultX/master/Task/zyb.js",
+      "script": "https://raw.githubusercontent.com/photonmang/quantumultX/master/Task/zyb.js",
+      "icons": ["https://raw.githubusercontent.com/photonmang/quantumultX/master/Task/zyb.png", "https://raw.githubusercontent.com/photonmang/quantumultX/master/Task/zyb.png"]
+    },
+    {
+      "id": "xmSports",
+      "name": "小米运动",
+      "keys": [
+        "xmSportsToken",
+        "xmMinStep",
+        "xmMaxStep"
+      ],
+      "settings": [
+        {
+          "id": "xmSportsToken",
+          "name": "小米运动Token",
+          "val": "",
+          "type": "text",
+          "desc": "小米运动登录时获取的token"
+        },
+        {
+          "id": "xmMinStep",
+          "name": "最小运动步数",
+          "val": "19000",
+          "type": "text",
+          "desc": "需要修改最小的运动步数的数字,例如:19000"
+        },
+        {
+          "id": "xmMaxStep",
+          "name": "最大运动步数",
+          "val": "25000",
+          "type": "text",
+          "desc": "需要修改最小的运动步数的数字,例如:25000"
+        }
+      ],
+      "author": "@lxk0301",
+      "repo": "https://gitee.com/lxk0301/jd_scripts/tree/master",
+      "script": "https://jdsharedresourcescdn.azureedge.net/jdresource/xmSports.js",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/xmyd_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/xmyd.png"
+      ]
+    },
+    {
+      "id": "dianshijia",
+      "name": "电视家",
+      "keys": ["sy_signheader_dsj", "drawal_dsj"],
+      "author": "自用",
+      "settings": [{
+        "id": "REWARD",
+        "name": "额外签到奖励",
+        "val": "55",
+        "type": "radios",
+        "desc": "",
+        "items": [{
+          "key": "55",
+          "label": "提现额度"
+        }, {
+          "key": "44",
+          "label": "1天VIP"
+        }, {
+          "key": "42",
+          "label": "1888金币"
+       }]
+      }],
+      "repo": "https://gitee.com/Sunert/Scripts/blob/master/Task/dianshijia.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/dianshijia.png", "https://raw.githubusercontent.com/Orz-3/task/master/dianshijia.png"],
+      "script": "https://gitee.com/Sunert/Scripts/raw/master/Task/dianshijia.js"
+    },
+    {
+      "author": "自用", 
+      "keys": [
+        "c"
+      ], 
+      "repo": "https://github.com/Sunert/Script/blob/master/Task/tvpreview.js", 
+      "id": "TVlist", 
+      "script": "https://raw.githubusercontent.com/Sunert/Script/master/Task/tvpreview.js", 
+      "settings": [
+        {
+          "id": "c", 
+          "val": "cctv8", 
+          "name": "电视台", 
+          "type": "text", 
+          "desc": "请填写小写英文台标，示例: 北京: btv1 | 湖南: hunan | 浙江: zhejiang 河南: henan| 江苏: jiangsu|广东: guangdong 更多电视台请参加电视家网络列表"
+        }
+      ], 
+      "name": "电视预告", 
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/Sunert/Profiles@master/QuantumultX/Rules/Images/icon/tvpreview_mini.png", 
+        "https://cdn.jsdelivr.net/gh/Sunert/Profiles@master/QuantumultX/Rules/Images/icon/tvpreview.png"
+      ]
+    }, 
+    {
+      "id": "moji",
+      "name": "墨迹天气",
+      "keys": ["city","citynum"],
+      "settings": [{ 
+         "id": "city", 
+         "name": "城市", 
+         "val": "郑州", 
+         "type": "text", 
+         "desc": "请填写中文地区"
+         },
+         {
+          "id": "cut",
+          "name": "精简模式",
+          "val": true,
+          "type": "boolean",
+          "desc": "取消详情描述，默认打开"
+         },
+         {
+          "id": "citynum",
+          "name": "城市序号",
+          "val": "",
+          "type": "number",
+          "placeholder": "默认1 (点击以展开说明)",
+          "desc": "选择地区，请填写日志内冒号前的数字序号"
+        }],
+      "author": "自用",
+      "repo": "https://gitee.com/Sunert/Scripts/blob/master/Task/moji.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Color/moji.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/moji.png"],
+      "script": "https://gitee.com/Sunert/Scripts/raw/master/Task/moji.js"
+    },
+    {
+      "id": "Caiyun",
+      "name": "彩云天气",
+      "keys": [
+        "@caiyun.token.caiyun",
+        "@caiyun.token.tencent",
+        "@caiyun.display_location",
+        "@caiyun.location.latitude",
+        "@caiyun.location.longitude",
+        "@caiyun.address"
+      ],
+      "settings": [
+        {
+          "id": "@caiyun.token.caiyun",
+          "name": "彩云天气API Token",
+          "val": null,
+          "type": "text",
+          "autoGrow": false,
+          "rows": 2,
+          "desc": "彩云天气的Token，可以自行申请或者前往频道获取"
+        },
+        {
+          "id": "@caiyun.token.tencent",
+          "name": "腾讯地图API Token",
+          "val": "AHEBZ-ASTWX-CIW4P-7TV7T-AWKLS-7CFWP",
+          "type": "text",
+          "rows": 1,
+          "desc": ""
+        },
+        {
+          "id": "@caiyun.display_location",
+          "name": "是否在日志中显示经纬度",
+          "val": false,
+          "type": "boolean",
+          "desc": ""
+        },
+        {
+          "id": "@caiyun.location.latitude",
+          "name": "纬度",
+          "val": null,
+          "type": "text",
+          "desc": "纬度，可以关闭MITM获取位置，手动设置"
+        },
+        {
+          "id": "@caiyun.location.longitude",
+          "name": "经度",
+          "val": null,
+          "type": "text",
+          "desc": "经度，可以关闭MITM获取位置，手动设置"
+        }
+      ],
+      "author": "@Peng-YM",
+      "repo": "https://github.com/Peng-YM/QuanX",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/caiyun.png",
+        "https://raw.githubusercontent.com/Orz-3/task/master/caiyun.png"
+      ],
+      "script": "https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js"
+    },
+    {
+      "author": "自用", 
+      "keys": [
+        "baidu_nick",
+        "bdspeed",
+        "cash_baidu"
+      ], 
+      "repo": "https://github.com/Sunert/Script/blob/master/Task/baiduspeed.js", 
+      "id": "baidu_speed", 
+      "script": "https://raw.githubusercontent.com/Sunert/Script/master/Task/baiduspeed.js", 
+      "settings": [
+        {
+          "items": [
+            {
+              "key": "5", 
+              "label": "5元"
+            }, 
+            {
+              "key": "30", 
+              "label": "30元"
+            }, 
+            {
+              "key": "50", 
+              "label": "50元"
+            }, 
+            {
+              "key": "100", 
+              "label": "100元"
+            }
+          ], 
+          "id": "cash_baidu", 
+          "val": "30", 
+          "name": "提现金额", 
+          "type": "radios", 
+          "desc": "自动提现金额"
+        }, 
+        {
+          "id": "on_baidu", 
+          "val": true, 
+          "name": "通知开关", 
+          "type": "boolean", 
+          "desc": "任务通知开关"
+        },
+        {
+          "id": "task_baidu", 
+          "val": true, 
+          "name": "任务开关", 
+          "type": "boolean", 
+          "desc": "除提现和兑换金币外开关，默认开启所有任务"
+        },
+        {
+          "id": "bd_Agent", 
+          "val": true, 
+          "name": "User-Agent", 
+          "type": "textarea", 
+          "desc": "自定义百度极速版UA或者可自动获取"
+        }
+      ], 
+      "name": "百度极速任务", 
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/Sunert/Profiles@master/QuantumultX/Rules/Images/icon/baiduspeed_mini.png", 
+        "https://cdn.jsdelivr.net/gh/Sunert/Profiles@master/QuantumultX/Rules/Images/icon/baiduspeed.png"
+      ]
+    }, 
+    {
+      "id": "youthCk",
+      "name": "中青数据",
+      "keys": ["youthheader_zq", "read_zq", "readtime_zq", "youthheader_zq2", "read_zq2", "readtime_zq2", "youthheader_zq3", "read_zq3", "readtime_zq3", "youthheader_zq4", "read_zq4", "readtime_zq4"],
+      "descs_html": [
+        "多账号脚本地址【<a href=\"https://raw.githubusercontent.com/ztxtop/x/main/youth.js\">中青看点极速版</a>】",
+        "中青多账号ck抓取步骤：",
+        "1、boxjs中指定抓包账号，如：2",
+        "2、NE工具订阅配置【<a href=\"https://raw.githubusercontent.com/ztxtop/x/main/rewrite-zq.plugin\">中青看点</a>】【<a href=\"https://raw.githubusercontent.com/ztxtop/x/main/rewrite-zqkkz.plugin\">中青看看赚、浏览赚</a>】",
+        "  ⚠️订阅为Loon的插件，QX需开启解析器才能使用",
+        "3、打开中青APP，进入“我的”=>“任务中心”抓取 youthheader_zq 数据、 进入任务中心里的看看赚，点任务进入页面即可获取看看赚数据、 进入看看赚页面顶部的浏览赚页面，点任务跳转浏览器时可获取浏览赚数据（中青app有可能不发起任务开始请求，那将无法抓包）",
+        "4、在首页找个视频看看，超过1分钟后返回上一页面可获取时长数据，首次获取或时长数据记录的有效时间大于60秒时才会进行通知提醒",
+        "备注：看看赚的任务可能失效过期，建议：1、在看看赚配置中选则移除失败数据；2、看看赚任务一天跑两次；3、第一二次任务执行之间，可再回中青app看看赚任务页面查看下是否有新任务"
+      ],
+      "author": "自用",
+      "settings": [{
+        "id": "ckFormat",
+        "val": "",
+        "name": "新CK格式",
+        "type": "boolean",
+        "desc": "数据是否按新格式存储"
+      }, {
+        "id": "zqSuffix",
+        "name": "抓包账号",
+        "val": "1",
+        "type": "number",
+        "desc": "指定抓取的数据包用于哪个账号，设置数值如：1、2、3..."
+      }, {
+        "id": "zqExecAc",
+        "name": "中青执行账号",
+        "val": "1",
+        "type": "text",
+        "desc": "设置中青的执行账号，多个账号用半角逗号分隔，如：1,2,4"
+      }],
+      "repo": "https://github.com/ztxtop/x/blob/main/youth.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/youth.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"],
+      "script": "https://raw.githubusercontent.com/ztxtop/x/main/youth.js"
+    },
+    {
+      "id": "youthNeRead",
+      "name": "中青阅读",
+      "descs_html": [
+        "中青阅读脚本地址【<a href=\"https://raw.githubusercontent.com/ztxtop/x/main/zqread.js\">中青阅读</a>】",
+        "注意：因此脚本使用的阅读数据存储位置与songyangzz大佬的不同，所以需搭配【<a href=\"https://raw.githubusercontent.com/ztxtop/x/main/rewrite-zqread.plugin\">阅读数据抓包订阅</a>】抓取的阅读数据使用",
+        "⚠️：QX阅读数据可通过【<a href=\"https://raw.githubusercontent.com/ztxtop/x/main/zqGaReadData.js\">Http Backend脚本</a>】的方式导出：配置好后浏览器中访问即可获取数据"
+      ],
+      "author": "自用",
+      "settings": [{
+        "id": "readMode",
+        "name": "执行模式（点击查看设置说明）",
+        "val": "0",
+        "type": "text",
+        "desc": "0-循环阅读：任务执行时间需大于21秒\n1-去重排序：根据响应数据判断重复并将视频往前排，依此优化阅读效率（可用半角逗号间隔该模式运行的账号，如账号一跟账号三才执行去重排序：1,1,3）\n3-备份数据：根据指定的备份格式，将要备份的数据以log的形式打印出来（高版本qx限制了打印日志长度，需使用其它方式导出）\n4-清空所有中青数据"
+      }, {
+        "id": "zqReadScheme",
+        "name": "阅读数据备份输出格式",
+        "val": "DF",
+        "type": "radios",
+        "items": [{
+            "key": "QX",
+            "label": "QX持久化数据代码"
+          },
+          {
+            "key": "LS",
+            "label": "Loon&Surge持久化数据代码"
+          },
+          {
+            "key": "GA",
+            "label": "Github Actions使用的以&分隔数据"
+          },
+          {
+            "key": "DF",
+            "label": "Default"
+          }
+        ]
+      }, {
+        "id": "read_count",
+        "name": "账号1总阅读数",
+        "val": "0",
+        "type": "number",
+        "desc": "账号1阅读数据总行数"
+      }, {
+        "id": "read_count2",
+        "name": "账号2总阅读数",
+        "val": "0",
+        "type": "number",
+        "desc": "账号2阅读数据总行数"
+      }, {
+        "id": "read_count3",
+        "name": "账号3总阅读数",
+        "val": "0",
+        "type": "number",
+        "desc": "账号3阅读数据总行数"
+      }, {
+        "id": "read_count4",
+        "name": "账号4总阅读数",
+        "val": "0",
+        "type": "number",
+        "desc": "账号4阅读数据总行数"
+      }],
+      "repo": "https://github.com/ztxtop/x/blob/main/zqread.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/youth.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"],
+      "script": "https://raw.githubusercontent.com/ztxtop/x/main/youth.js",
+      "scripts": [{
+        "name": "自动阅读",
+        "script": "https://raw.githubusercontent.com/ztxtop/x/main/zqread.js"
+      }]
+    },
+    {
+      "id": "youthBanner",
+      "name": "中青看看赚",
+      "descs_html": [
+        "⚠️：带有android字眼的会话数据是抓安卓设备的app数据包的，只用ios的话，无视它的存在吧"
+      ],
+      "keys": ["youth_banner", "youth_android_readtime", "youth_android_reward", "youth_android_newtask", "youth_banner2", "youth_android_readtime2", "youth_android_reward2", "youth_android_newtask2", "youth_banner3", "youth_android_readtime3", "youth_android_reward3", "youth_android_newtask3", "youth_banner4", "youth_android_readtime4", "youth_android_reward4", "youth_android_newtask4"],
+      "author": "自用",
+      "settings": [{
+        "id": "delErrorData",
+        "name": "移除当日失败两次+的任务数据",
+        "val": "0",
+        "type": "radios",
+        "items": [{
+            "key": "0",
+            "label": "不移除"
+          },
+          {
+            "key": "1",
+            "label": "移除"
+          }
+        ]
+      }],
+      "repo": "https://github.com/ztxtop/x/blob/main/youth_banner.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/youth.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"],
+      "script": "https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js"
+    },
+    {
+      "id": "Telegram",
+      "name": "Telegram 频道媒体推送",
+      "keys": ["@telegram.channels", "@telegram.maxMedias"],
+      "settings": [
+        {
+          "id": "@telegram.channels",
+          "name": "频道列表",
+          "val": "[\"ABCD\"]",
+          "type": "textarea",
+          "autoGrow": false,
+          "rows": 2,
+          "desc": "频道列表，比如说一个频道的链接为https://t.me/s/ABCD，那么将\"ABCD\"加到列表中。"
+        },
+        {
+          "id": "@telegram.maxMedias",
+          "name": "每个频道最多显示视频和图片的数量",
+          "val": 3,
+          "type": "text",
+          "rows": 1,
+          "desc": "每个频道最多显示视频和图片的数量, 默认为3"
+        }
+      ],
+      "author": "@Peng-YM",
+      "repo": "https://github.com/Peng-YM/QuanX",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/telegram_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/telegram.png"
+      ],
+      "script": "https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/telegram.js"
+    },
+    {
+		"id": "txstockapp",
+		"name": "自选羊毛股",
+		"keys": ["signheader", "signkey", "taskheader", "taskkey", "userheader", "userkey", "wxtaskkey","cash","cashheader"],
+		"settings": [
+			{
+				"id": "cash",
+				"name": "提现开关:0,不自动提现;1，提现1元；5，提现5元",
+				"val": "",
+				"type": "number",
+				"desc": "默认为0,不自动提现"
+			}
+		],
+		"author": "@cenbomin",
+		"repo": ["https://raw.githubusercontent.com/CenBoMin/GithubSync"],
+		"script": "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txstockqx.js",
+		"icons": ["https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txzxg.png","https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txzxg.png"
+		]
+	},
      {
       "id": "zZ.DiDi",
       "name": "滴滴出行",
@@ -799,103 +963,6 @@
       "icons": [
         "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/115.png",
         "https://raw.githubusercontent.com/Orz-3/mini/master/Color/115.png"
-      ]
-    },
-    {
-      "id": "zZ.Weibo",
-      "name": "微博通知",
-      "descs_html": [
-        "请先进入<a href=\"https://m.weibo.cn\">手机网页版微博</a>并登陆按，再按<a href=\"https://raw.githubusercontent.com/zZPiglet/Task/master/Weibo/Weibo.js\">脚本注释</a>进行配置，然后回到网页刷新即可获取 Cookie。",
-        "请注意：一定要<font class=\"red--text\">先登录</font>，否则获取的为游客 Cookie，无法通知「特别关注」及有查看限制的微博。",
-        "运行后通知为「上一次」运行到「本次」运行之间的微博，其中「第零次」运行及「测试环境」默认为「很久很久很久···」以前（时间戳为0），所以第一次运行为接口返回的所有信息，之后有新微博才会通知。",
-        "需要注意的是：即便因配置错误运行之后有错误信息，此次运行时间戳也已经记录，若想还原到「第零次」的状态，请清空下面的时间戳。",
-        "注意：「特别管组」、「用户 ID」、「用户昵称」三者的通知均<font class=\"red--text\">独立</font>，请勿填写重复，以避免通知重复。",
-        "若有希望添加的点击跳转的客户端，请提供该客户端打开指定微博的 URL Scheme，反馈至 <a href=\"https://t.me/zZPiglet_bot\">@zZPiglet_bot</a>。"
-      ],
-      "keys": ["@Weibo.WeiboNotice", "@Weibo.interval", "@Weibo.Group", "@Weibo.Weibo_uids", "@Weibo.Weibo_nicknames", "@Weibo.chooseClient"],
-      "settings": [
-        {
-          "id": "@Weibo.debug",
-          "name": "测试环境",
-          "val": false,
-          "type": "boolean",
-          "desc": "如未出现特殊报错等问题请保持关闭。"
-        },
-        {
-          "id": "@Weibo.interval",
-          "name": "间隔",
-          "val": "",
-          "type": "number",
-          "placeholder": "1000", 
-          "desc": "运行时多通知之间时间间隔，单位为毫秒，不填默认为 1000 毫秒。"
-        },
-        {
-          "id": "@Weibo.update",
-          "name": "时间戳",
-          "val": "",
-          "type": "number", 
-          "desc": "上次运行时保存的时间戳，十三位。"
-        }, 
-        {
-          "id": "@Weibo.WeiboNotice",
-          "name": "Cookie",
-          "val": "",
-          "type": "textarea",
-          "rows": 2,
-          "autoGrow": true, 
-          "desc": "微博 Cookie，若抓包填入，只需填入 Cookie 中「SUB=」后至「;」中间的值。"
-        },
-        {
-          "id": "@Weibo.Group",
-          "name": "通知分组",
-          "val": ["Special"],
-          "type": "checkboxes",
-          "desc": "选择需要通知的分组",
-          "items": [
-            { "key": "Special", "label": "特别关注" },
-            { "key": "Spider", "label": "指定用户" }
-          ]
-        },
-        {
-          "id": "@Weibo.Weibo_uids",
-          "name": "用户 ID",
-          "val": "",
-          "type": "textarea",
-          "placeholder": "1111681197,\n7099422177", 
-          "autoGrow": true, 
-          "rows": 2,
-          "desc": "填入需订阅的用户 uid，如不填入 uid 及昵称请取消上一项「指定用户」勾选。以英文逗号分隔多个 uid，可加回车。微博 uid 的获取方法：如「来去之间」微博主页为「https://weibo.com/wflanker」，需查看页面源码，找到「$CONFIG['oid'] = '1111681197'」即可得知 uid 为「1111681197」，切记不是「$CONFIG['uid']」，或直接访问手机端，其主页为「https://m.weibo.cn/u/1111681197?uid=1111681197」亦可得知。再如「外交部发言人办公室」微博主页为「https://weibo.com/u/7099422177」，则其 uid 为「7099422177」。"
-        },
-        {
-          "id": "@Weibo.Weibo_nicknames",
-          "name": "用户昵称",
-          "val": "",
-          "type": "textarea",
-          "placeholder": "央视新闻,\n搜狐娱乐", 
-          "autoGrow": true, 
-          "rows": 2,
-          "desc": "填入需订阅的用户昵称，如不填入 uid 及昵称请取消上一项「指定用户」勾选。以英文逗号分隔多个昵称，可加回车。请勿重复填写。"
-        },
-        {
-          "id": "@Weibo.chooseClient",
-          "name": "客户端",
-          "val": "Safari",
-          "type": "radios",
-          "desc": "选择点击跳转的客户端，如需加入想要的客户端，请提供该客户端打开指定微博的 URL Scheme，反馈至 @zZPiglet_bot，或提交 issue，或进行 PR。",
-          "items": [
-            { "key": "Safari", "label": "Safari" },
-            { "key": "Sinaweibo", "label": "微博" },
-            { "key": "Weibointernational", "label": "微博国际版" },
-            { "key": "VVebo", "label": "VVebo" }
-          ]
-        }
-      ],
-      "author": "@zZPiglet",
-      "repo": "https://github.com/zZPiglet/Task/blob/master/Weibo/Weibo.js",
-      "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/Weibo/Weibo.js",
-      "icons": [
-        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/weibo.png",
-        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/weibo.png"
       ]
     },
     {
@@ -1474,41 +1541,7 @@
         "https://raw.githubusercontent.com/58xinian/icon/master/hot.png"
       ],
       "script": "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/hotsearch/hot.js"
-    },
-    {
-      "id": "jdAllck",
-      "name": "京东CK集合",
-      "author": "自用",
-      "keys": ["CookieJD", "CookieJD2", "CookiesJD"],
-      "descs_html": [
-        "复制 <a href=\"https://bean.m.jd.com/bean/signIndex.action\">签到日历</a> 或 <a href=\"https://home.m.jd.com/myJd/newhome.action\">京东用户中心</a> 地址到浏览器打开，登录后可自动获取Cookie，没成功就登录后再次访问下之前复制的地址",
-        "管理野比NobyDa及毛哥lxk的京东账号ck 重写订阅地址【<a href=\"https://raw.githubusercontent.com/ztxtop/x/main/subscribe/rewrite-jd.plugin\">京东多账号CK订阅</a>】",
-        "注：Loon的订阅插件，QX使用需开启解析器；NE工具中直接执行脚本将移除重复的Cookie"
-      ],
-      "settings": [{
-        "id": "CookieJD",
-        "name": "账号1",
-        "val": "",
-        "type": "text",
-        "desc": "NobyDa的京东账号1 Cookie"
-      }, {
-        "id": "CookieJD2",
-        "name": "账号2",
-        "val": "",
-        "type": "text",
-        "desc": "NobyDa的京东账号2 Cookie"
-      }, {
-        "id": "CookiesJD",
-        "name": "CK 列表",
-        "val": "",
-        "type": "textarea",
-        "autoGrow": true,
-        "rows": 8,
-        "desc": "京东扩展CK 列表 (JSON 格式)"
-      }],
-      "repo": "https://gitee.com/Sunert/Scripts/blob/master/Task/NE.cookie.js",
-      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/jd.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png"],
-      "script": "https://raw.githubusercontent.com/ztxtop/x/main/NE.cookie.js"
     }
+    
   ]
 }
