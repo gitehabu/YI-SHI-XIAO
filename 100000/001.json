@@ -25,7 +25,7 @@
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_signin.qxrewrite,tag=中国联通_获取Cookie"
     },
     {
-      "config":"0 8,17 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js, tag=切换会话, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/box.png, enabled=true",
+      "config":"0 8,17 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js, tag=切换会话, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/box.png, enabled=true"
     },
     {
       "config":"10 6 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/quanx/v2ex.js, tag=V2EX, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/task/v2ex.png, enabled=true",
