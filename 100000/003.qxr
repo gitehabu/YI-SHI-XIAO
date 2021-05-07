@@ -171,8 +171,12 @@ http-response ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile requires-bod
 ^https:\/\/api\.vuevideo\.net\/api\/v1\/(users\/.+\/profile|subtitle\/prepare) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/VUE.js
 # 哔哩哔哩番剧开启1080P+
 ^https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/bilifj.js
-# 人人视频
+# 人人视频 vip
 ^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll|\/rrtv-video\/v4plus\/season\/detail) url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/rrtv.js
+# 人人视频 去广告
+^https?:\/\/api\.rr\.tv\/(?:ad\/getAll$|storage/business/rootName/app/homePage) url reject-200
+^https?:\/\/api\.rr\.tv\/watch\/v\d\/get_movie_info url script-response-body https://Choler.github.io/Surge/Script/rrsp.js
+^https?:\/\/api\.rr\.tv\/v\dplus\/index\/channel url script-response-body https://Choler.github.io/Surge/Script/rrsp.js
 # 京东比价(正式版+极速版)
 ^https?://api\.m\.jd\.com/(client\.action)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
 # 淘宝比价
