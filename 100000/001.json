@@ -1,7 +1,7 @@
 {"name":"知行合一",
   "task":[
     {
-      "config":"1 0 * * * https://raw.githubusercontent.com/photonmang/quantumultX/master/Task/zyb.js, tag=作业帮签到, img-url=https://raw.githubusercontent.com/sngxpro/QuanX/master/icons/zuoyebang.png, enabled=true",
+      "config":"1 7 * * * https://raw.githubusercontent.com/photonmang/quantumultX/master/Task/zyb.js, tag=作业帮签到, img-url=https://raw.githubusercontent.com/sngxpro/QuanX/master/icons/zuoyebang.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/zuoyebang.qxr,tag=作业帮_获取Cookie"
     },
     {
@@ -17,11 +17,11 @@
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/jzb.qxrw,tag=家长帮_获取Cookie"
     },
     {
-      "config":"15 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.js, tag=Fa米家, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia.png, enabled=true",
+      "config":"15 7 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.js, tag=Fa米家, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.qxrewrite,tag=Fa米家_获取Cookie"
     },
     {
-      "config":"15 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_signin.js, tag=中国联通, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/10010.png, enabled=true",
+      "config":"15 7 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_signin.js, tag=中国联通, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/10010.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_signin.qxrewrite,tag=中国联通_获取Cookie"
     },
     {
