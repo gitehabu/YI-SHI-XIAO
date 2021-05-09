@@ -1,4 +1,4 @@
-{"name":"知行合一",
+{"name":"自用脚本",
   "task":[
     {
       "config":"1 7 * * * https://raw.githubusercontent.com/photonmang/quantumultX/master/Task/zyb.js, tag=作业帮签到, img-url=https://raw.githubusercontent.com/sngxpro/QuanX/master/icons/zuoyebang.png, enabled=true",
@@ -240,5 +240,5 @@
       "config":"0 9 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/telegram.js, tag=电报图片推送, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/task/tgpic.png,enabled=true"
     }  
   ],
-  "description":"交易交易规则"
+  "description":""
 }
