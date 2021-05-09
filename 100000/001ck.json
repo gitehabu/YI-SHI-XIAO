@@ -21,8 +21,7 @@
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.qxrewrite,tag=Fa米家_获取Cookie"
     },
     {
-      "config":"15 7 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_signin.js, tag=中国联通, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/10010.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_signin.qxrewrite,tag=中国联通_获取Cookie"
+      "config":"0 0 6 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/nasa/nasapic.js, tag=NASA每日一图, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/nasa.png, enabled=true"
     },
     {
       "config":"0 8,17 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js, tag=切换会话, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/box.png, enabled=true"
@@ -32,7 +31,18 @@
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/v2ex.qxrewrite,tag=V2EX_获取Cookie"
     },
     {
+      "config": "0 0 6 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/idaily/idaily.js, tag=iDaily每日环球视野, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/idaily.png, enabled=true"
+    },
+    {
+      "config":"15 7 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_signin.js, tag=中国联通, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/10010.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_signin.qxrewrite,tag=中国联通_获取Cookie"
+    },
+    {
       "config": "0 0 8 * * * https://raw.githubusercontent.com/Sunert/Script/master/Task/tvpreview.js, tag=节目预告, img-url=https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/tvpreview.png, enabled=true"
+    },
+    {
+      "config":"0 1,20,21 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js, tag=滴滴签到, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/didi_new.qxrewrite,tag=滴滴出行_获取Cookie"
     },
     {
       "config":"50 16,17 * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/xmSports.js, tag=小米运动, img-url=https://raw.githubusercontent.com/58xinian/icon/master/xmyd.png, enabled=true",
@@ -45,18 +55,6 @@
     {
       "config":"0 7-22/3 * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/caiyun.js, tag=彩云天气, img-url=https://raw.githubusercontent.com/Orz-3/task/master/caiyun.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/caiyun.qxrewrite,tag=彩云天气_获取Cookie"
-    },
-    {
-      "config":"40 8,20,9-19/2 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_drink.js, tag=滴滴喝水, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/didi.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/didi_new.qxrewrite,tag=滴滴出行_获取Cookie"
-    },
-    {
-      "config":"0 1,20,21 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js, tag=滴滴签到, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/didi_new.qxrewrite,tag=滴滴出行_获取Cookie"
-    },
-    {
-      "config":"1 6,22 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_sleep.js, tag=滴滴睡觉, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/didi.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/didi_new.qxrewrite,tag=滴滴出行_获取Cookie"
     },
     {
       "config":"*/1 * * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/weibotsvi.js, tag=微博通知, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/weibo.png, enabled=true",
