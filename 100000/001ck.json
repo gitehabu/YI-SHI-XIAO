@@ -42,6 +42,17 @@
       "config": "0 0 8 * * * https://raw.githubusercontent.com/Sunert/Script/master/Task/tvpreview.js, tag=节目预告, img-url=https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/tvpreview.png, enabled=true"
     },
     {
+      "config": "0 9 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/github.js, tag=GitHub, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/github.png, enabled=true"
+    },
+    {
+      "config":"40 8,20,9-19/2 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_drink.js, tag=滴滴喝水, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/didi.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/didi_new.qxrewrite,tag=滴滴出行_获取Cookie"
+    },
+    {
+      "config":"1 6,22 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_sleep.js, tag=滴滴睡觉, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/didi.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/didi_new.qxrewrite,tag=滴滴出行_获取Cookie"
+    },
+    {
       "config":"0 1,20,21 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js, tag=滴滴签到, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/didi_new.qxrewrite,tag=滴滴出行_获取Cookie"
     },
