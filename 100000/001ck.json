@@ -24,7 +24,8 @@
       "config":"0 0 6 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/nasa/nasapic.js, tag=NASA每日一图, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/nasa.png, enabled=true"
     },
     {
-      "config":"0 8,17 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js, tag=切换会话, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/box.png, enabled=true"
+      "config":"0 7-22/3 * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/caiyun.js, tag=彩云天气, img-url=https://raw.githubusercontent.com/Orz-3/task/master/caiyun.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/caiyun.qxrewrite,tag=彩云天气_获取Cookie"
     },
     {
       "config":"10 6 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/quanx/v2ex.js, tag=V2EX, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/task/v2ex.png, enabled=true",
@@ -53,8 +54,7 @@
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/duokan.qxrw,tag=多看阅读_获取Cookie"
     },
     {
-      "config":"0 7-22/3 * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/caiyun.js, tag=彩云天气, img-url=https://raw.githubusercontent.com/Orz-3/task/master/caiyun.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/caiyun.qxrewrite,tag=彩云天气_获取Cookie"
+      "config":"0 8,17 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js, tag=切换会话, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/box.png, enabled=true"
     },
     {
       "config":"*/1 * * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/weibotsvi.js, tag=微博通知, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/weibo.png, enabled=true",
