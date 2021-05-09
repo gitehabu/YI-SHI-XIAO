@@ -203,8 +203,8 @@
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.qxrewrite,tag=百度贴吧_获取Cookie"
     },
     {
-      "config": "10 0 * * * https://raw.githubusercontent.com/age174/-/main/bsly.js, tag=百事乐元, img-url=https://qxzy.top/rules/QuantumultX/img/tgpic.png, enabled=true", 
-      "addons": "https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/baishi.qxr, tag=百事乐元_获取Cookie"
+      "config": "1 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/115/115.js, tag=115, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/115.png, enabled=true", 
+      "addons": "https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/115.qxr, tag=115_获取Cookie"
     },
     {
       "config": "30 10 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js, tag=哈啰出行, img-url=https://qxzy.top/rules/QuantumultX/img/hellbike.png, enabled=true", 
