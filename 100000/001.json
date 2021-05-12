@@ -21,7 +21,8 @@
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.qxrewrite,tag=Fa米家_获取Cookie"
     },
     {
-      "config": "0 0 6 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/idaily/idaily.js, tag=iDaily每日环球视野, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/idaily.png, enabled=true"
+      "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js, tag=顺丰速运, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/sfexpress.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/shunfeng.qxr,tag=顺丰速运_获取Cookie"
     },
     {
       "config":"0 7-22/3 * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/caiyun.js, tag=彩云天气, img-url=https://raw.githubusercontent.com/Orz-3/task/master/caiyun.png, enabled=true",
@@ -32,8 +33,8 @@
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/v2ex.qxrewrite,tag=V2EX_获取Cookie"
     },
     {
-      "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js, tag=顺丰速运, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/sfexpress.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/shunfeng.qxr,tag=顺丰速运_获取Cookie"
+      "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js, tag=美团, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/meituan.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/meituan.qxr,tag=美团_获取Cookie"
     },
     {
       "config":"15 6 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_signin.js, tag=中国联通, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/10010.png, enabled=true",
@@ -43,8 +44,8 @@
       "config": "0 0 6 * * * https://raw.githubusercontent.com/Sunert/Script/master/Task/tvpreview.js, tag=节目预告, img-url=https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/tvpreview.png, enabled=true"
     },
     {
-      "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js, tag=美团, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/meituan.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/meituan.qxr,tag=美团_获取Cookie"
+      "config":"10 8,12,18 * * * https://raw.githubusercontent.com/passerby-b/didi_fruit/main/dd_fruit.js, tag=滴滴水果, img-url=https://gitee.com/passerby-b/javascript/raw/master/icon/didi.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/didi_new.qxrewrite,tag=滴滴出行_获取Cookie"
     },
     {
       "config":"40 8,20,9-19/2 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_drink.js, tag=滴滴喝水, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/didi.png, enabled=true",
