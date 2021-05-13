@@ -139,8 +139,8 @@
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/ximalaya.qxrw,tag=喜马拉雅_获取Cookie"
     },
     {
-      "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/csdn/csdn.js, tag=CSDN, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/csdn.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/csdn.qxr,tag=CSDN_获取Cookie"
+      "config":"1 0 * * * https://ghproxy.com/https://raw.githubusercontent.com/zZPiglet/Task/master/Haidilao/Haidilao.js, tag=海底捞, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/haidilao.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/haidilao.qxr,tag=海底捞_获取Cookie"
     },
     {
       "config":"30 6 * * * https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js, tag=中青看看赚, img-url=https://raw.githubusercontent.com/Orz-3/task/master/youth.png, enabled=true",
