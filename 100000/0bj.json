@@ -898,6 +898,39 @@
           "rows": 7,
           "desc": "Token 可同时存在多个，可使用不同日期获取的 Token 进行测试。"
         },
+        {
+          "id": "DiDi_city",
+          "name": "城市编号",
+          "val": "",
+          "type": "number",
+          "desc": "滴滴出行城市编号，可更改至别的城市进行测试。"
+        },
+        {
+          "id": "@Didi.drawdelay",
+          "name": "抽奖延迟",
+          "val": "",
+          "type": "number",
+          "placeholder": "2000", 
+          "desc": "每次抽奖之间的间隔，单位为毫秒，不填默认为 2000 毫秒。如提示抽奖过快请加大延迟。"
+        },
+        {
+          "id": "@Didi.actIdPM",
+          "name": "晚八点券",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 1,
+          "desc": "晚八点的优惠券编号组（如果有）。"
+        }
+      ],
+      "author": "@zZPiglet",
+      "repo": "https://github.com/zZPiglet/Task/blob/master/DiDi/README.md",
+      "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/didi.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/didi.png"
+      ]
+    },
      {
       "id": "zZ.115",
       "name": "115 网盘",
@@ -1648,39 +1681,6 @@
       "author": "@passerby-b",
       "repo": "https://gitee.com/passerby-b/javascript/raw/master/JD/passerby-b.boxjs.json",
       "script": "https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_fruit_collectWater.js"
-    },
-    {
-          "id": "DiDi_city",
-          "name": "城市编号",
-          "val": "",
-          "type": "number",
-          "desc": "滴滴出行城市编号，可更改至别的城市进行测试。"
-        },
-        {
-          "id": "@Didi.drawdelay",
-          "name": "抽奖延迟",
-          "val": "",
-          "type": "number",
-          "placeholder": "2000", 
-          "desc": "每次抽奖之间的间隔，单位为毫秒，不填默认为 2000 毫秒。如提示抽奖过快请加大延迟。"
-        },
-        {
-          "id": "@Didi.actIdPM",
-          "name": "晚八点券",
-          "val": "",
-          "type": "textarea",
-          "autoGrow": true,
-          "rows": 1,
-          "desc": "晚八点的优惠券编号组（如果有）。"
-        }
-      ],
-      "author": "@zZPiglet",
-      "repo": "https://github.com/zZPiglet/Task/blob/master/DiDi/README.md",
-      "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js",
-      "icons": [
-        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/didi.png",
-        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/didi.png"
-      ]
     },
     {
       "id": "didi_fruit",
