@@ -48,18 +48,6 @@
       "config":"0 0 6 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/idaily/idaily.js, tag=iDaily每日环球视野, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/idaily.png, enabled=true"
     },
     {
-      "config":"0 * * * * https://ghproxy.com/https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js, tag=京东整点京豆雨, img-url=https://ghproxy.com/https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/external/QuantumultX/JDDailyBonus/JDDailyBonus.conf,tag=京东多合一_获取Cookie"
-    },
-    {
-      "config":"30 * * * * https://ghproxy.com/https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_half_redrain.js, tag=京东半点京豆雨, img-url=https://ghproxy.com/https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/external/QuantumultX/JDDailyBonus/JDDailyBonus.conf,tag=京东多合一_获取Cookie"
-    },
-    {
-      "config":"0 0 6 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/nasa/nasapic.js, tag=NASA每日一图, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/nasa.png, enabled=true"
-    },
-    
-    {
       "config":"15 6 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_signin.js, tag=中国联通, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/10010.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_signin.qxrewrite,tag=中国联通_获取Cookie"
     },
@@ -109,6 +97,19 @@
       "config":"5 0 * * * https://raw.githubusercontent.com/toulanboy/scripts/master/jd_price_detect/jd_price_detect.js, tag=京东价格提醒, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/external/QuantumultX/JDDailyBonus/JDDailyBonus.conf,tag=京东多合一_获取Cookie"
     },
+    {
+      "config":"0 * * * * https://ghproxy.com/https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js, tag=京东整点京豆雨, img-url=https://ghproxy.com/https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/external/QuantumultX/JDDailyBonus/JDDailyBonus.conf,tag=京东多合一_获取Cookie"
+    },
+    {
+      "config":"30 * * * * https://ghproxy.com/https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_half_redrain.js, tag=京东半点京豆雨, img-url=https://ghproxy.com/https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/external/QuantumultX/JDDailyBonus/JDDailyBonus.conf,tag=京东多合一_获取Cookie"
+    },
+    {
+      "config":"0 2 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_price.js, tag=京东保价, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true"
+      "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/external/QuantumultX/JDDailyBonus/JDDailyBonus.conf,tag=京东多合一_获取Cookie"
+    }
+    
     {
       "config":"5 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/script/468f015d9da1a01bf12975782203e978.js, tag=京东多合一, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png,enabled=true",
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/external/QuantumultX/JDDailyBonus/JDDailyBonus.conf,tag=京东多合一_获取Cookie"
