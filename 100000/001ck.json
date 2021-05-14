@@ -37,7 +37,7 @@
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/meituan.qxr,tag=美团_获取Cookie"
     },
     {
-      "config":"0 0 * * * https://github.com/gitehabu/YI-SHI-XIAO/blob/main/100000/js/jxcfd1.js, tag=京喜财富岛提现1, img-url=https://ghproxy.com/https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/jx_cfd_exchange.png, enabled=true",
+      "config":"0 0 * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/js/jxcfd1.js, tag=京喜财富岛提现1, img-url=https://ghproxy.com/https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/jx_cfd_exchange.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/jx.qxr,tag=京喜_获取Cookie"
     },
     {
