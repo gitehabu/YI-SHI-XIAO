@@ -117,6 +117,7 @@
     {
       "config":"0 6 * * * https://raw.githubusercontent.com/whyour/hundun/master/quanx/jd_stock.js, tag=京东库存, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png,enabled=true",
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/external/QuantumultX/JDDailyBonus/JDDailyBonus.conf,tag=京东多合一_获取Cookie"
+    },
     {
       "config":"12 6 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js, tag=Bili直播, img-url=https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/bili.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/bilizb.qxrw,tag=Bili直播_获取Cookie"
