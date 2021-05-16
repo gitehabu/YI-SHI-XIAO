@@ -1,3 +1,6 @@
 hostname = haokan.baidu.com
 
+#此条重写无效❎
+#✅只能开抓包模式，自己抓起cookie，填入boxJS
+
 https:\/\/haokan\.baidu\.com\/activity\/h5\/vault\?productid=\d url script-request-header https://raw.githubusercontent.com/gitehabu/Scripts-3/master/Task/baidu_speed.js
