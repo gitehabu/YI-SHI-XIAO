@@ -6,6 +6,102 @@
   "repo": "https://github.com/gitehabu/YI-SHI-XIAO",
   "apps": [
     {
+      "id": "jdLiveRain",
+      "name": "京豆雨",
+      "keys": [
+        "RAIN_NOTIFY_CONTROL",
+        "SUPER_RAIN_RRA",
+        "HALF_RAIN_RRA"
+      ],
+      "settings": [
+        {
+          "id": "RAIN_NOTIFY_CONTROL",
+          "name": "京豆雨通知",
+          "val": "true",
+          "type": "radios",
+          "desc": "默认发送通知",
+          "items": [{
+            "key": "true",
+            "label": "通知"
+          }, {
+            "key": "false",
+            "label": "不通知"
+          }]
+        },
+        {
+          "id": "SUPER_RAIN_RRA",
+          "name": "整点京豆雨RRA",
+          "val": "",
+          "type": "text",
+          "desc": "整点京豆雨RRA, 默认无需填写, 脚本从远程配置获取。多个ID英文分号间隔;"
+        },
+        {
+          "id": "HALF_RAIN_RRA",
+          "name": "半点京豆雨RRA",
+          "val": "",
+          "type": "text",
+          "desc": "半点京豆雨RRA, 默认无需填写, 脚本从远程配置获取。多个ID英文分号间隔;"
+        }
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/jd_bean_home.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/jd_bean_home.png"
+      ],
+      "author": "@nianyuguai",
+      "repo": "https://github.com/nianyuguai/longzhuzhu",
+      "script": "https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js",
+      "descs_html": [
+        "龙猪猪 作者仓库：【<a href=\"https://github.com/nianyuguai/longzhuzhu\">https://github.com/nianyuguai/longzhuzhu</a>】",
+        "龙猪猪 电报频道：【<a href=\"https://t.me/longzhuzhu\">https://t.me/longzhuzhu</a>】"
+      ]
+    },
+    {
+      "id": "gistBackup",
+      "name": "gist 备份",
+      "keys": [
+        "@gist.token",
+        "@gist.username"
+      ],
+      "author": "@dompling",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/github.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/github.png"
+      ],
+      "descs_html": [
+        "Token的获取方式:",
+        "头像菜单->\n      Settings ->\n      Developer settings ->\n      Personal access tokens ->\n      Generate new token ->\n      在里面找到 gist 勾选提交"
+      ],
+      "scripts": [
+        {
+          "name": "备份 Gist",
+          "script": "https://raw.githubusercontent.com/dompling/Script/master/gist/backup.js"
+        },
+        {
+          "name": "从 Gist 恢复",
+          "script": "https://raw.githubusercontent.com/dompling/Script/master/gist/restore.js"
+        }
+      ],
+      "settings": [
+        {
+          "id": "@gist.username",
+          "name": "用户名",
+          "val": null,
+          "type": "text",
+          "placeholder": "github 用户名",
+          "desc": "必填"
+        },
+        {
+          "id": "@gist.token",
+          "name": "Personal access tokens",
+	  "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Color/box.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/box.png"],
+          "val": null,
+          "type": "text",
+          "placeholder": "github personal access tokens",
+          "desc": "必填"
+        }
+      ]
+    },
+    {
       "id": "weibo",
       "name": "新浪微博",
       "keys": ["sy_payheader_wb", "sy_token_wb"],
