@@ -33,10 +33,6 @@
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/v2ex.qxrewrite,tag=V2EX_获取Cookie"
     },
     {
-      "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js, tag=美团, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/meituan.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/meituan.qxr,tag=美团_获取Cookie"
-    },
-    {
       "config":"15 6 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_signin.js, tag=中国联通, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/10010.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_signin.qxrewrite,tag=中国联通_获取Cookie"
     },
@@ -60,6 +56,15 @@
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/didi_new.qxrewrite,tag=滴滴出行_获取Cookie"
     },
     {
+      "config":"0 10 * * * https://raw.githubusercontent.com/dompling/Script/master/gist/backup.js, tag=备份会话, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/box.png, enabled=true"
+    },
+    {
+      "config":"5 10 * * * https://raw.githubusercontent.com/dompling/Script/master/gist/restore.js, tag=恢复会话, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/box.png, enabled=true"
+    },
+    {
+      "config":"0 8,17 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js, tag=切换会话, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/box.png, enabled=true"
+    },
+    {
       "config":"50 16,17 * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/xmSports.js, tag=小米运动, img-url=https://raw.githubusercontent.com/58xinian/icon/master/xmyd.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/xmSports.txt,tag=小米运动_获取Cookie"
     },
@@ -68,7 +73,8 @@
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/duokan.qxrw,tag=多看阅读_获取Cookie"
     },
     {
-      "config":"0 8,17 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js, tag=切换会话, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/box.png, enabled=true"
+      "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js, tag=美团, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/meituan.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/meituan.qxr,tag=美团_获取Cookie"
     },
     {
       "config":"*/1 * * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/weibotsvi.js, tag=微博通知, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/weibo.png, enabled=true",
