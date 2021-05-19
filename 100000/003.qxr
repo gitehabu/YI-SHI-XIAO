@@ -178,6 +178,8 @@ http-response ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile requires-bod
 ^https?:\/\/api\.rr\.tv\/(?:ad\/getAll$|storage/business/rootName/app/homePage) url reject-200
 ^https?:\/\/api\.rr\.tv\/watch\/v\d\/get_movie_info url script-response-body https://Choler.github.io/Surge/Script/rrsp.js
 ^https?:\/\/api\.rr\.tv\/v\dplus\/index\/channel url script-response-body https://Choler.github.io/Surge/Script/rrsp.js
+#彩云天气
+https:\/\/((weather-data\.apple)|(api.weather))\.com url script-request-header https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/caiyun.js
 # 京东比价(正式版+极速版)
 ^https?://api\.m\.jd\.com/(client\.action)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness) url script-response-body https://ghproxy.com/https://raw.githubusercontent.com/JDHelloWorld/jd_price/main/jd_price.js
 # 淘宝比价
