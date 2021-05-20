@@ -181,7 +181,7 @@ http-response ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile requires-bod
 #彩云天气
 https:\/\/((weather-data\.apple)|(api.weather))\.com url script-request-header https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/caiyun.js
 # 京东比价(正式版+极速版)
-^https?://api\.m\.jd\.com/(client\.action)\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://ghproxy.com/raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
+^https?://api\.m\.jd\.com/(client\.action)\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://ghproxy.com/https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
 # 淘宝比价
 ^http://.+/amdc/mobileDispatch url script-request-body https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
 ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
