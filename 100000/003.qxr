@@ -2,9 +2,9 @@ hostname = vipapi.jxedt.com, shopmember.m.jd.com,guide-acs.m.taobao.com, *.cp31.
 
 # 驾校一点通 (by @superuv)
 ^https:\/\/vipapi\.jxedt\.com\/vip\/check url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/jxydt.js
-#取消绑定京东店铺会员。 点击会员卡直达注销页面
+# 取消绑定京东店铺会员。 点击会员卡直达注销页面
 ^https:\/\/shopmember\.m\.jd\.com\/shopcard\/\?(venderId=[0-9]+).* url 302 https:\/\/shopmember\.m\.jd\.com\/member\/memberCloseAccount\?$1
-#替换支付宝内淘票票评分为豆瓣评分
+# 替换支付宝内淘票票评分为豆瓣评分
 ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopshowapi\.getextendshowbyid url script-response-body https://raw.githubusercontent.com/Peng-YM/QuanX/master/Rewrites/TaoPiaoPiao/taopiaopiao.js
 # 优酷视频 去片头广告
 ^http:\/\/.*\.cp31\.ott\.cibntv\.net\/youku\/ url reject-200
