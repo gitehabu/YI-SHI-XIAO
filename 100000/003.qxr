@@ -127,6 +127,7 @@ https://wx2.sinaimg.cn/mw690/0060lm7Tly1ft0kdwp3qgj30oq03wwek.jpg url reject
 ^https?://api.rr.tv/storage/business url reject
 ^https?://api.rr.tv/watch/get_video_info url reject
 # Wind万得
+^*/WFTMOpenBanner url reject
 ^*/ImageWeb url reject
 ^*/smartad url reject
 # 汉字的故事
