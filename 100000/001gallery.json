@@ -240,8 +240,8 @@
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/wzfgwh.qxr,tag=威锋网_获取Cookie"
     },
     {
-      "config": "0 0 7,22 * * * https://raw.githubusercontent.com/gitehabu/Scripts-3/master/Task/dianshijia.js, tag=电视家, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/dianshijia.png, enabled=true", 
-      "addons": "https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/dianshijia.qxr, tag=电视家_获取Cookie"
+      "config": "1 7,12,20 * * * https://raw.githubusercontent.com/Sunert/Script/master/Task/dianshijia.js, tag=电视家, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/dianshijia.png, enabled=true", 
+      "addons": "https://raw.githubusercontent.com/Sunert/Script/master/TaskConf/dianshijia/qx_rewite.txt, tag=电视家_获取Cookie"
     },
     {
       "config":"30 0 * * *  https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.js, tag=百度贴吧, img-url=https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/%E7%99%BE%E5%BA%A6%E8%B4%B4%E5%90%A7~1.png, enabled=true",
