@@ -260,7 +260,7 @@
       "addons": "https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/baidu_speed.qxr, tag=百度极速版_获取Cookie"
     },
     {
-      "config":"0 9 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/nCov.js, tag=新冠疫情推送, img-url=https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/covid19_logo~1.png, enabled=true"
+      "config": "3 9 * * * https://raw.githubusercontent.com/whyour/hundun/master/quanx/daymatter.js, tag=倒数日, img-url=https://raw.githubusercontent.com/Orz-3/task/master/daysmatter.png, enabled=true"
     },
     {
       "config":"1 0 * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/rrtv.js, tag=人人视频, img-url=https://qxzy.top/rules/QuantumultX/img/rrtv.png, enabled=true",
