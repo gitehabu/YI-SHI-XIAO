@@ -33,8 +33,7 @@
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/v2ex.qxrewrite,tag=V2EX_获取Cookie"
     },
     {
-      "config":"0 8 * * * https://ghproxy.com/https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Jd/jd_cardId_export.js, tag=京东注销会员链接Alook, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/external/QuantumultX/JDDailyBonus/JDDailyBonus.conf,tag=京东多合一_获取Cookie"
+      "config":"0 0 6 * * * https://ghproxy.com/https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/idaily/idaily.js, tag=iDaily每日环球视野, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/idaily.png, enabled=true"
     },
     {
       "config":"30 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai_checkin.js, tag=美团买菜, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai.png, enabled=true",
@@ -129,6 +128,18 @@
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/external/QuantumultX/JDDailyBonus/JDDailyBonus.conf,tag=京东多合一_获取Cookie"
     },
     {
+      "config":"50 16,17 * * * https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txstockqx.js, tag=腾讯自选股, img-url=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txzxg.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txs_cookie.conf,tag=腾讯自选股_获取Cookie"
+    },
+    {
+      "config":"30 7,8 * * * https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txstockcow.js, tag=长牛来了, img-url=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txzxg.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txs_wxcookie.conf,tag=长牛来了_获取Cookie"
+    },
+    {
+      "config":"0 8 * * * https://ghproxy.com/https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Jd/jd_cardId_export.js, tag=京东注销会员链接Alook, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/external/QuantumultX/JDDailyBonus/JDDailyBonus.conf,tag=京东多合一_获取Cookie"
+    },
+    {
       "config":"12 6 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js, tag=Bili直播, img-url=https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/bili.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/bilizb.qxrw,tag=Bili直播_获取Cookie"
     },
@@ -151,18 +162,6 @@
     {
       "config":"20 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.js, tag=慢慢买, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanmai.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.qxrewrite,tag=慢慢买_获取Cookie"
-    },
-    {
-      "config":"50 16,17 * * * https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txstockqx.js, tag=腾讯自选股, img-url=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txzxg.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txs_cookie.conf,tag=腾讯自选股_获取Cookie"
-    },
-    {
-      "config":"30 7,8 * * * https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txstockcow.js, tag=长牛来了, img-url=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txzxg.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txs_wxcookie.conf,tag=长牛来了_获取Cookie"
-    },
-    {
-      "config":"33 6 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.js, tag=WPS, img-url=https://qxzy.top/rules/QuantumultX/img/wps.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/wps.qxrw,tag=WPS_获取Cookie"
     },
     {
       "config":"30 6 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/quanx/neteasemusic.js, tag=网易云音乐, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/task/neteasemusic.png, enabled=true",
