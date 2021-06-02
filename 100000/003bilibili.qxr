@@ -1,0 +1,29 @@
+hostname= *.bilibili.*
+
+# ---(By srk24)---
+# > bilibili
+^https?://app\.bilibili\.com/x/v2/splash/list url script-response-body https://raw.githubusercontent.com/srk24/profile/master/js/bilibili_splash.js
+^https?://app\.bilibili\.com/x/((resource/show/tab)|(v2/((feed/index)|(account/mine)|view)))\?access_key url script-response-body https://raw.githubusercontent.com/srk24/profile/master/js/bilibili_all.js
+^https?://app\.bilibili\.com/x/v\d/(search/(defaultword|square)) url reject-200
+^https?://api\.bilibili\.com/x/v\d/dm/ad url reject-200
+^https?:\/\/api\.vc\.bilibili\.com\/search_svr\/v\d\/Search\/recommend_words url reject-200
+^https?:\/\/api\.vc\.bilibili\.com\/dynamic_svr\/v1\/dynamic_svr\/mix_uplist url reject-200
+^https?://api\.vc\.bilibili\.com/topic_svr/v\d/topic_svr url reject-200
+^https?://app\.bilibili\.com/x/resource/top/activity\?access_key url reject-200
+^https?:\/\/api\.bilibili\.com\/pgc\/season\/app\/related\/recommend\? url reject-200
+^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash url reject-200
+^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/ListFlash url reject-200
+# ------
+
+# ---(By onewayticket255)---
+# > bilibili
+https://app.bilibili.com/x/v2/(splash|search/(defaultword|square)) url reject-200
+https://api.bilibili.com/x/v2/dm/ad url reject-200
+#https://app.bilibili.com/x/v2/space?access_key url script-response-body https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20space.js
+https://app.bilibili.com/x/resource/show/tab?access_key url script-response-body https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20tab.js
+https://app.bilibili.com/x/v2/feed/index?access_key url script-response-body https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20feed.js
+https://app.bilibili.com/x/v2/account/mine?access_key url script-response-body https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20account.js
+https://app.bilibili.com/x/v2/view?access_key url script-response-body https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20view%20relate.js
+https://api.bilibili.com/x/v2/reply/main?access_key url script-response-body https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20reply.js
+https://api.live.bilibili.com/xlive/app-room/v1/index/getInfoByRoom?access_key url script-response-body https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20live.js
+# ------
