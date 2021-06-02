@@ -12,7 +12,7 @@ https:\/\/.*\.(xiaoxiaoapps|xiaoxiaoimg)\.com\/(ssp-svr\/ssp\/list3|ucp/index|ge
 ^https?://boxjs.com url script-analyze-echo-response https://raw.githubusercontent.com/chavyleung/scripts/master/chavy.box.js
 # 盒子测试版
 ^https?://boxjs.net url script-analyze-echo-response https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js
-# 小米运动获取Token
+# 小米运动
 ^https:\/\/account\.huami\.com\/v2\/client\/login url script-response-body https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/xmSports.js
 # 在微信中打开淘宝等被屏蔽链接，点击 Surge/QuantumultX 通知跳转到 Safari 或淘宝 App
 ^https?:\/\/weixin110\.qq\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi url script-response-body https://raw.githubusercontent.com/lmh77/A/main/Js/JS/wechaturl.js
@@ -183,7 +183,7 @@ http-response ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile requires-bod
 ^https?:\/\/api\.rr\.tv\/(?:ad\/getAll$|storage/business/rootName/app/homePage) url reject-200
 ^https?:\/\/api\.rr\.tv\/watch\/v\d\/get_movie_info url script-response-body https://Choler.github.io/Surge/Script/rrsp.js
 ^https?:\/\/api\.rr\.tv\/v\dplus\/index\/channel url script-response-body https://Choler.github.io/Surge/Script/rrsp.js
-#彩云天气
+# 彩云天气
 https:\/\/((weather-data\.apple)|(api.weather))\.com url script-request-header https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/caiyun.js
 # 京东比价(正式版+极速版)
 ^https?://api\.m\.jd\.com/(client\.action)\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://ghproxy.com/https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
@@ -211,9 +211,9 @@ https:\/\/((weather-data\.apple)|(api.weather))\.com url script-request-header h
 ^https://account.wps.*/api/users/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
 # 有道云笔记 vip
 ^https://note.youdao.com/yws/(mapi/payment|api/self) url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/ydybj.js
-#解锁百度云盘会员（byddgksf2013）
+# 解锁百度云盘会员（byddgksf2013）
 https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/bdcloud.js
-#百度云盘解锁视频在线播放和倍速(by nobyda)
+# 百度云盘解锁视频在线播放和倍速(by nobyda)
 https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
 # 推特图片替换原图tweetbot
 ^https://pbs.twimg.com/media/\?|format=jpg&name=small url request-header format=jpg&name=small request-header format=jpg&name=orig
