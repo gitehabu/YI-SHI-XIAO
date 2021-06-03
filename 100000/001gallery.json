@@ -1,9 +1,6 @@
 {"name":"自用脚本",
   "task":[
-    {
-      "config":"1 6 * * * https://raw.githubusercontent.com/photonmang/quantumultX/master/Task/zyb.js, tag=作业帮签到, img-url=https://raw.githubusercontent.com/sngxpro/QuanX/master/icons/zuoyebang.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/zuoyebang.qxr,tag=作业帮_获取Cookie"
-    },
+
     {
       "config":"17 6 * * * https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js, tag=Bili漫画, img-url=https://qxzy.top/rules/QuantumultX/img/manga.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/bilimh.qxrw,tag=Bili漫画_获取Cookie"
@@ -33,7 +30,8 @@
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/v2ex.qxrewrite,tag=V2EX_获取Cookie"
     },
     {
-      "config":"0 0 6 * * * https://ghproxy.com/https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/idaily/idaily.js, tag=iDaily每日环球视野, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/idaily.png, enabled=true"
+      "config":"10 0 * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/js/baishi.js, tag=百事乐元, img-url=https://ae01.alicdn.com/kf/U2fec2be787b74fb3928d83773822eef56.jpg, enabled=true",
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/baishi.qxr,tag=百事乐元_获取Cookie"
     },
     {
       "config":"30 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai_checkin.js, tag=美团买菜, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai.png, enabled=true",
