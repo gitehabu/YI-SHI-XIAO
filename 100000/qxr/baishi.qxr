@@ -2,4 +2,4 @@ hostname = pepcoin.pepsico.com.cn
 
 
 #百事乐元
-https://pepcoin.pepsico.com.cn/api/wxapp/doGetUserInfo url script-request-body https://raw.githubusercontent.com/age174/-/main/bsly.js
+https://pepcoin.pepsico.com.cn/api/wxapp/doGetUserInfo url script-request-body https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/js/baishi.js
