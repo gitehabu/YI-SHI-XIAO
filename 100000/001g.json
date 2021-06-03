@@ -92,7 +92,7 @@
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didachuxing/didachuxing_plus.qxrewrite,tag=嘀嗒出行_获取Cookie"
     },
     {
-      "config":"5 0 * * * https://raw.githubusercontent.com/toulanboy/scripts/master/jd_price_detect/jd_price_detect.js, tag=京东价格提醒, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png, enabled=true",
+      "config":"5 0 * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/js/jdprice.js, tag=京东价格提醒, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/external/QuantumultX/JDDailyBonus/JDDailyBonus.conf,tag=京东多合一_获取Cookie"
     },
     {
