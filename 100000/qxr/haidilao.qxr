@@ -1,5 +1,4 @@
 hostname = superapp.kiwa-tech.com, activity-1.m.duiba.com.cn
 
-
-^https:\/\/superapp\.kiwa-tech\.com\/app\/coupon\/customerLevelShow url script-request-body https://raw.githubusercontent.com/zZPiglet/Task/master/Haidilao/Haidilao.js
-^https:\/\/activity-1\.m\.duiba\.com\.cn\/signactivity\/getSignInfo url script-request-header https://raw.githubusercontent.com/zZPiglet/Task/master/Haidilao/Haidilao.js
+^https:\/\/superapp\.kiwa-tech\.com\/app\/coupon\/customerLevelShow url script-request-body https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/js/haidilao.js
+^https:\/\/activity-1\.m\.duiba\.com\.cn\/signactivity\/getSignInfo url script-request-header https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/js/haidilao.js
