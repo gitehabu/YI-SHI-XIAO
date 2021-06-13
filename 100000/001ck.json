@@ -188,6 +188,18 @@
       "config":"8/30 * 1-6 * * * https://raw.githubusercontent.com/ztxtop/x/main/zqread.js, tag=中青自动阅读, img-url=https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/task/youth.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/zqread_autoread.qxr,tag=中青自动阅读_获取Cookie"
     },
+        {
+            "config": "20 11 8 * * * https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js, tag=中青看点极速版, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png, enabled=true", 
+            "addons": "https://raw.githubusercontent.com/Sunert/Script/master/TaskConf/youth/qx_rewite.txt, tag=中青看点, update-interval=-1, opt-parser=false, enabled=true"
+        }, 
+        {
+            "config": "20 15 */2 * * * https://raw.githubusercontent.com/Sunert/Script/master/Task/Youth_Read.js, tag=中青自动阅读, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png, enabled=true", 
+            "addons": "https://raw.githubusercontent.com/Sunert/Script/master/TaskConf/youth/qx_youthread.txt, tag=中青阅读, update-interval=-1, opt-parser=false, enabled=true"
+        }, 
+        {
+            "config": "20 5 10 * * * https://raw.githubusercontent.com/Sunert/Script/master/Task/youth_gain.js, tag=中青浏览赚, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png, enabled=true", 
+            "addons": "https://raw.githubusercontent.com/Sunert/Script/master/TaskConf/youth/qx_rewite.txt, tag=中青看点, update-interval=-1, opt-parser=false, enabled=true"
+        }, 
     {
       "config":"20 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/dingdong/dingdong_checkin.js, tag=叮咚买菜, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/dingdong/dingdong.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/dingdong/dingdong_checkin.qxrewrite,tag=叮咚买菜_获取Cookiee"
