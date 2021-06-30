@@ -166,7 +166,7 @@ https://translate.google.com/|%3Flangpair= url request-header %3Flangpair= reque
 # 小睡眠
 http-response ^https:\/\/api\.psy-1\.com\/cosleep\/user\/info requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xiaoshuimian.js,tag=小睡眠
 # photoshop
-http-response ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/photoshop.js,script-update-interval=0
+http-response ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/js/photoshop.js,script-update-interval=0
 # 陆琪讲故事
 ^https:\/\/www\.luqijianggushi\.com\/api\/v2\/user\/get url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/luqi.js
 # 水印精灵 vip
