@@ -84,12 +84,12 @@
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/weibotsvi.qxrewrite,tag=微博通知_获取Cookie"
     },
     {
-      "config":"0 6 * * * https://raw.githubusercontent.com/whyour/hundun/master/quanx/jd_stock.js, tag=京东库存, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png,enabled=true",
-      "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/external/QuantumultX/JDDailyBonus/JDDailyBonus.conf,tag=京东多合一_获取Cookie"
-    },
-    {
       "config":"10 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didachuxing/didachuxing_plus.js, tag=嘀嗒出行, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didachuxing/didachuxing.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didachuxing/didachuxing_plus.qxrewrite,tag=嘀嗒出行_获取Cookie"
+    },
+    {
+      "config":"0 6 * * * https://raw.githubusercontent.com/whyour/hundun/master/quanx/jd_stock.js, tag=京东库存, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png,enabled=true",
+      "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/external/QuantumultX/JDDailyBonus/JDDailyBonus.conf,tag=京东多合一_获取Cookie"
     },
     {
       "config":"5 0 * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/js/jdprice.js, tag=京东价格提醒, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png, enabled=true",
