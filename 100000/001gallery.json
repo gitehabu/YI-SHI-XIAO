@@ -115,11 +115,11 @@
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/external/QuantumultX/JDDailyBonus/JDDailyBonus.conf,tag=京东物流快递_获取Cookie"
     },
     {
-      "config":"0 0 0/1 * * ? https://qxzy.top/rules/QuantumultX/js/zwf234/jx_cfd.js, tag=京喜财富岛, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png, enabled=true",
+      "config":"18 0-23/2 * * * https://raw.githubusercontent.com/smiek2221/scripts/master/gua_wealth_island.js, tag=京喜财富岛, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/jx.qxr,tag=京喜_获取Cookie"
     },
     {
-      "config":"0 0 0,5,9,14,20 * * ? https://qxzy.top/rules/QuantumultX/js/zwf234/jx_hotballoon.js, tag=财富岛热气球, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png, enabled=true",
+      "config":"18 0,1,9,14,18 * * * https://raw.githubusercontent.com/smiek2221/scripts/master/gua_wealth_island_help.js, tag=京喜财富岛互助, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/jx.qxr,tag=京喜_获取Cookie"
     },
     {
