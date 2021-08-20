@@ -127,12 +127,12 @@
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/jx.qxr,tag=京喜_获取Cookie"
     },
     {
-      "config":"50 16,17 * * * https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txstockqx.js, tag=腾讯自选股, img-url=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txzxg.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txs_cookie.conf,tag=腾讯自选股_获取Cookie"
+      "config":"50 16,17 * * * https://github.com/gitehabu/YI-SHI-XIAO/blob/main/100000/js/txstockqx.js, tag=腾讯自选股, img-url=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txzxg.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/txs_cookie.conf,tag=腾讯自选股_获取Cookie"
     },
     {
-      "config":"30 7,8 * * * https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txstockcow.js, tag=长牛来了, img-url=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txzxg.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txs_wxcookie.conf,tag=长牛来了_获取Cookie"
+      "config":"30 7,8 * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/js/txstockcow.js, tag=长牛来了, img-url=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txzxg.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/txs_wxcookie.conf,tag=长牛来了_获取Cookie"
     },
     {
       "config":"0 8 * * * https://ghproxy.com/https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Jd/jd_cardId_export.js, tag=京东注销会员链接Alook, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png, enabled=true",
