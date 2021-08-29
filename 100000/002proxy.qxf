@@ -1,0 +1,21 @@
+# 币安
+host-keyword, binance, proxy
+# TV
+host-keyword, tradingview, proxy
+# 奇心
+host, qxzy.top, proxy
+host, 9itube.com, proxy
+host, www.mfkhm.com, proxy
+# 爬犁爬犁 pali.city
+host, pali.city, proxy
+# 中国人线上看 chinaq.cc
+host-keyword, chinaq, proxy
+# 18comic.vip 漫画
+host-keyword, 18comic, proxy
+# YouTube
+host-keyword, youtube, proxy
+# 皮皮喵漫画
+host-keyword, hmso, proxy
+host-keyword, comicun, proxy
+# 以太坊浏览器
+host, etherscan.io, proxy
