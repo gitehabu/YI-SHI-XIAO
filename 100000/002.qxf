@@ -1,4 +1,40 @@
-
+host, encimga.qihaofs.com, reject
+host-keyword, bdyuteng, reject
+host-keyword, judeleshiye, reject
+host, tpsp.bjkairk.com, reject
+host, static.acf.huaerdadi.com, reject
+host, img.ynkmjj.com, reject
+host, bgg.baidu.com, reject
+host, ios.bugly.qq.com, reject
+host, itunes.apple.com, reject
+host, www.apple.com, reject
+host-keyword, bailingniao, reject
+host, ecmb.bdimg.com, reject
+host, adlog.flurry.com, reject
+host-keyword, adashx, reject
+# 文华财经
+host, m.wenhua.com.cn, direct
+host, m2-news-net.wenhua.com.cn, reject
+# 万德金融端
+host, 180.96.8.44, reject
+host, 114.80.154.36, reject
+# 人人视频
+host, img.rr.tv, reject
+host, blink-upload.bayescom.com, reject
+host, t.langago.cn, reject
+host, httpdns.titannetwork.cn, reject
+# 文华财经开屏广告
+host, m-holiday.wenhua.com.cn, reject
+# 熊掌记
+host, bear.app, reject
+host-keyword, appcenter, reject
+# 元思笔记
+host, assets.tuishujun.com, reject
+host-keyword, flurry, reject
+# 讯飞输入法
+host-keyword, openspeech, reject
+host-keyword, voicecloud, reject
+host-keyword, kaspersky, reject
 
 # 知乎 添加规则
 host, appcloud2.zhihu.com, reject
