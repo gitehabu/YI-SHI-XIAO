@@ -179,7 +179,7 @@
     },
     {
       "config":"15/30 * * * * https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js, tag=中青签到转盘, img-url=https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/task/youth.png, enabled=true",
-      "addons":"https://github.com/gitehabu/YI-SHI-XIAO/raw/main/zq_qiandao%26zhuanpan.qxr,tag=中青签到转盘_获取Cookie"
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/youth.qxrewite,tag=中青签到转盘_获取Cookie"
     }, 
     {
       "config":"8/30 * 1-6 * * * https://raw.githubusercontent.com/ztxtop/x/main/zqread.js, tag=中青自动阅读, img-url=https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/task/youth.png, enabled=true",
