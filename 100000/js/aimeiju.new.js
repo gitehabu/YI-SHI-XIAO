@@ -2,9 +2,9 @@
 爱美剧 unlock vip（官网：xmj.app）
 Made by huihui
 QX : 
-^https?:\/\/mjapp.yaocaoshiyu.com\/index\.php\/app\/ios\/(vod\/show|(user|vod|topic|type)\/index) url script-response-body https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/aimeiju.js
+^https?:\/\/mjapp.yaocaoshiyu.com\/index\.php\/app\/ios\/(vod\/show|(user|vod|topic|type)\/index) url script-response-body https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/js/aimeiju.new.js
 Surge4：
-http-response ^https?:\/\/mjapp.yaocaoshiyu.com\/index\.php\/app\/ios\/(vod\/show|(user|vod|topic|type)\/index) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/aimeiju.js
+http-response ^https?:\/\/mjapp.yaocaoshiyu.com\/index\.php\/app\/ios\/(vod\/show|(user|vod|topic|type)\/index) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/js/aimeiju.new.js
 
 hostname = mjapp.yaocaoshiyu.com
 
