@@ -36,8 +36,34 @@ https://license.pdfexpert.com/api/2.0/scanner/subscription/refresh url script-re
 # tiktok封区解锁
 (.*video_id=\w{32})(.*watermark=)(.*) url 302 $1
 (?<=(carrier|account|sys)_region=)CN url 307 JP
+# 爱美剧
+https:\/\/api.bjxkhc.com\/index.php/app/ios/ads/index url reject
+https:\/\/api.bjxkhc.com\/index.php/app/ios/ver/index_ios url reject
+https:\/\/api.bjxkhc.com\/index.php/app/ios/pay/ok url reject
+https:\/\/api.bjxkhc.com\/index.php/app/ios/danmu/index url reject
+https:\/\/api.bjxkhc.com\/index.php/app/ios/task/done url reject
+https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/user\/index url response-body cion":"\d+ response-body cion":"9999
+https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/user\/index url response-body vip":"\d response-body vip":"1
+https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/user\/index url response-body viptime":"(.*?)" response-body viptime":"2970-01-01 08:00:00"
+https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/ver\/change url response-body playTimes":\d+ response-body playTimes":0
+https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/vod\/show url response-body CT_App_Show_Vod_Time1":"\d response-body CT_App_Show_Vod_Time1":"0
+https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/vod\/show url response-body advertising":"[\s\S] response-body advertising":"[0]
+https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/vod\/show url response-body CT_App_Show_Vod_must_Time1":"\d response-body CT_App_Show_Vod_must_Time1":"0
+https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/vod\/show url response-body ad":"\d response-body ad":"0
+https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/vod\/show url response-body time":"\d response-body time":"0
+^*.alicdn.com/kf url reject
+^*.mjomj.* url reject
+^*.qishenga.* url reject
+^*jianshu.* url reject
+^*.minsutx.* url reject
+^*.511.la url reject
+^*.cddpsc.* url reject
+^*.doubanio.* url reject
+^*.rrzy.* url reject
+^*.yefu365.* url reject
+https://wx2.sinaimg.cn/mw690/0060lm7Tly1ft0kdwp3qgj30oq03wwek.jpg url reject
 # 爱美剧 VIP (官网：app.meiju2018.com)
-^https?:\/\/api.bjxkhc.com\/index\.php\/app\/ios\/(vod\/show|(user|vod|topic|type)\/index) url script-response-body https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/aimeiju.js
+//^https?:\/\/api.bjxkhc.com\/index\.php\/app\/ios\/(vod\/show|(user|vod|topic|type)\/index) url script-response-body https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/aimeiju.js
 # 爱美剧 去广告 (官网：app.meiju2018.com)
 ^https?://api.bjxkhc.com/index.php/app/ios/ads/index url reject-dict
 ^https?://api.bjxkhc.com/index.php/app/ios/ver/index_ios$ url reject
@@ -78,32 +104,6 @@ https?:\/\/www\.google\.([a-z.]*)\/search.*(?<!start=\d{2}|\d{3})$ url script-re
 https://m\.weibo\.cn/comments/hotflow.*max_id=.* url reject-dict
 # 百度（全站替换为手机百度 Quark 的 User-Agent）
 ^https?:\/\/(?!d\.pcs).*(?<!map)\.baidu\.com url request-header (\r\n)User-Agent:.+iPhone.+(\r\n) request-header $1User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Mobile/15E148 Safari/16C50 Quark/604.1 T7/10.3 SearchCraft/2.6.3 (Baidu; P1 8.0.0)$2
-# 爱美剧
-https:\/\/api.bjxkhc.com\/index.php/app/ios/ads/index url reject
-https:\/\/api.bjxkhc.com\/index.php/app/ios/ver/index_ios url reject
-https:\/\/api.bjxkhc.com\/index.php/app/ios/pay/ok url reject
-https:\/\/api.bjxkhc.com\/index.php/app/ios/danmu/index url reject
-https:\/\/api.bjxkhc.com\/index.php/app/ios/task/done url reject
-https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/user\/index url response-body cion":"\d+ response-body cion":"9999
-https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/user\/index url response-body vip":"\d response-body vip":"1
-https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/user\/index url response-body viptime":"(.*?)" response-body viptime":"2970-01-01 08:00:00"
-https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/ver\/change url response-body playTimes":\d+ response-body playTimes":0
-https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/vod\/show url response-body CT_App_Show_Vod_Time1":"\d response-body CT_App_Show_Vod_Time1":"0
-https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/vod\/show url response-body advertising":"[\s\S] response-body advertising":"[0]
-https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/vod\/show url response-body CT_App_Show_Vod_must_Time1":"\d response-body CT_App_Show_Vod_must_Time1":"0
-https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/vod\/show url response-body ad":"\d response-body ad":"0
-https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/vod\/show url response-body time":"\d response-body time":"0
-^*.alicdn.com/kf url reject
-^*.mjomj.* url reject
-^*.qishenga.* url reject
-^*jianshu.* url reject
-^*.minsutx.* url reject
-^*.511.la url reject
-^*.cddpsc.* url reject
-^*.doubanio.* url reject
-^*.rrzy.* url reject
-^*.yefu365.* url reject
-https://wx2.sinaimg.cn/mw690/0060lm7Tly1ft0kdwp3qgj30oq03wwek.jpg url reject
 # 人人视频极简版
 ^https?://qcloud.rr.tv url reject
 ^https?://ued.rr.tv url reject
