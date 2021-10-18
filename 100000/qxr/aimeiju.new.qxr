@@ -1,4 +1,10 @@
 #爱美剧
 hostname = mjapp.yaocaoshiyu.com
 
+# unlock vip
 ^https?:\/\/mjapp.yaocaoshiyu.com\/index\.php\/app\/ios\/(vod\/show|(user|vod|topic|type)\/index) url script-response-body https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/js/aimeiju.new
+
+# 启动广告/弹窗
+^https?://mjapp.yaocaoshiyu.com/index.php/app/ios/ads/index url reject-dict
+^https?://mjapp.yaocaoshiyu.com/index.php/app/ios/ver/index_ios$ url reject
+^https?://mjapp.yaocaoshiyu.com/index.php/app/ios/pay/ok$ url reject-dict
