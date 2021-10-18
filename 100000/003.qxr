@@ -44,7 +44,7 @@ https:\/\/api.bjxkhc.com\/index.php/app/ios/danmu/index url reject
 https:\/\/api.bjxkhc.com\/index.php/app/ios/task/done url reject
 https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/user\/index url response-body cion":"\d+ response-body cion":"9999
 https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/user\/index url response-body vip":"\d response-body vip":"1
-https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/user\/index url response-body viptime":"(.*?)" response-body viptime":"2970-01-01 08:00:00"
+https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/user\/index url response-body viptime":"(.*?)" response-body viptime":"2025-06-01 09:00:00"
 https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/ver\/change url response-body playTimes":\d+ response-body playTimes":0
 https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/vod\/show url response-body CT_App_Show_Vod_Time1":"\d response-body CT_App_Show_Vod_Time1":"0
 https:\/\/api.bjxkhc.com\/index.php\/app\/(ios|android)\/vod\/show url response-body advertising":"[\s\S] response-body advertising":"[0]
