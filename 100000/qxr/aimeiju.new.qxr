@@ -1,0 +1,4 @@
+#爱美剧
+hostname = mjapp.yaocaoshiyu.com
+
+^https?:\/\/mjapp.yaocaoshiyu.com\/index\.php\/app\/ios\/(vod\/show|(user|vod|topic|type)\/index) url script-response-body https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/js/aimeiju.new
