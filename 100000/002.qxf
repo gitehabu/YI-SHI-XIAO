@@ -1,3 +1,5 @@
+host, members.3322.org, reject
+host-keyword, bdstatic, reject
 host, encimga.qihaofs.com, reject
 host-keyword, bdyuteng, reject
 host-keyword, judeleshiye, reject
