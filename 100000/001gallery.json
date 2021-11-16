@@ -147,8 +147,8 @@
       "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/bilibiliMonitor.qxr,tag=Bili番剧监控_获取Cookie"
     },
     {
-      "config":"0 5 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.js, tag=苏宁易购, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/suning.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/suning.qxrewrite,tag=苏宁易购_获取Cookie"
+      "config":"5 6-18/6 * * * https://raw.githubusercontent.com/passerby-b/JDDJ/main/jd_fruit2.js, tag=东东农场, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/jd-cookies.qxr,tag=京东多合一_获取Cookie"
     },
     {
       "config":"5 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_signin.js, tag=每日签到, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm.png, enabled=true",
