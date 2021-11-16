@@ -1,0 +1,3 @@
+hostname = farm.api.ddxq.mobi
+
+https:\/\/farm\.api\.ddxq\.mobi\/api\/v2\/props\/feed url script-request-header https://raw.githubusercontent.com/iepngs/Script/master/dingdong/ddgy.js
