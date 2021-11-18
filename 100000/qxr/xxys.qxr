@@ -1,0 +1,4 @@
+hostname= *.5iqzj.com
+
+# 小小影视 VIP
+https:\/\/.*\.5iqzj\.com\/(ssp-svr\/ssp\/list3|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/photonmang/quantumultX/master/xxys.js
