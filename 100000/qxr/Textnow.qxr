@@ -1,0 +1,5 @@
+[MITM]
+hostname = api.textnow.me
+
+[Script]
+Textnow.js = type=http-response,pattern=^https?:\/\/api\.textnow\.me\/api2.0\/users\/.*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/js/Textnow.js,script-update-interval=0
