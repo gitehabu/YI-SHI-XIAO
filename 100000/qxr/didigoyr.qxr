@@ -1,0 +1,4 @@
+host=mall.meituan.com
+
+
+^https://mall.meituan.com/api/c/mallcoin/game/fruit/waterTree url script-request-header https://raw.githubusercontent.com/gitehabu/mt_fruit/main/mtmc_getToken.js
