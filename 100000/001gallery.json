@@ -36,11 +36,11 @@
     },
     {
       "config":"30 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai_checkin.js, tag=美团买菜签到, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai_checkin.qxrewrite,tag=美团买菜_获取Cookie"
+      "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai_checkin.qxrewrite,tag=美团买菜签到_获取Cookie"
     },
     {
       "config":"30 6,8,10,12 * * * https://raw.githubusercontent.com/passerby-b/mt_fruit/main/mt_fruit.js, tag=美团买菜果园, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai_checkin.qxrewrite,tag=美团买菜_获取Cookie" 
+      "addons":"https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/qxr/mt_fruit.qxr,tag=美团买菜果园_获取Cookie" 
     },
     {
       "config": "10 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/pagoda/pagoda.js, tag=百果园, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/pagoda.png, enabled=true", 
@@ -80,10 +80,12 @@
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didachuxing/didachuxing_plus.qxrewrite,tag=嘀嗒出行_获取Cookie"
     },
     {
-      "config":"10 8,12,18 * * * https://raw.githubusercontent.com/passerby-b/didi_fruit/main/dd_fruit.js, tag=滴滴水果自动浇水, img-url=https://gitee.com/passerby-b/javascript/raw/master/icon/didi.png, enabled=true"
+      "config":"10 8,12,18 * * * https://raw.githubusercontent.com/passerby-b/didi_fruit/main/dd_fruit.js, tag=滴滴水果自动浇水, img-url=https://gitee.com/passerby-b/javascript/raw/master/icon/didi.png, enabled=true",
+      "addons":"https://github.com/gitehabu/YI-SHI-XIAO/blob/main/100000/qxr/didi_fruit.qxr,tag=滴滴水果_获取Cookie"
     },
     {
-      "config":"*/30 * * * * https://raw.githubusercontent.com/passerby-b/didi_fruit/main/dd_bucketWater.js, tag=滴滴水果自动收水, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/didi.png, enabled=true"
+      "config":"*/30 * * * * https://raw.githubusercontent.com/passerby-b/didi_fruit/main/dd_bucketWater.js, tag=滴滴水果自动收水, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/didi.png, enabled=true",
+      "addons":"https://github.com/gitehabu/YI-SHI-XIAO/blob/main/100000/qxr/didi_fruit.qxr,tag=滴滴水果_获取Cookie"
     },
     {
       "config":"0 7-22/3 * * * https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/caiyun.js, tag=彩云天气, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/task/caiyun.png, enabled=true",
