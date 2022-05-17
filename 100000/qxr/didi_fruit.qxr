@@ -1,0 +1,4 @@
+host=game.xiaojukeji.com
+
+
+^game.xiaojukeji.com/api/game/plant/watering url script-response-body https://raw.githubusercontent.com/gitehabu/didi_fruit/main/dd_getToken.js
