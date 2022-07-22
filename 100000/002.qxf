@@ -18,6 +18,23 @@ host-keyword, adashx, reject
 host, datasink.canva.sensorsdatavip.com, reject
 # facebook 禁止一切相关
 host-keyword, facebook, reject
+# 云听
+host, beacon-api.aliyuncs.com, reject
+host, oss-bj-radio-client.oss-cn-beijing.aliyuncs.com, reject
+host, adash.man.aliyuncs.com, reject
+host, httpdns.n.netease.com, reject
+host, n.sinaimg.cn, reject
+host, mlvbdc.live.qcloud.com, reject
+host, sdk.open.talk.igexin.com, reject
+host, ytapi.radio.cn, reject
+host-suffix, mob.com, reject
+host, redirect.networkbench.com, reject
+host, cnvod.cnr.cn, reject
+host, report.radio.cn, reject
+host-keyword, getui, reject
+host, ytmedia.radio.cn, reject
+host, inappcheck.itunes.apple.com, reject
+host, mpush-api.aliyun.com, reject
 # 文华财经
 host, m.wenhua.com.cn, direct
 host, m2-news-net.wenhua.com.cn, reject
