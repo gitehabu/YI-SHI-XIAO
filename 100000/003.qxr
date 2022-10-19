@@ -271,7 +271,7 @@ https:\/\/((weather-data\.apple)|(api.weather))\.com url script-request-header h
 # WPS解锁  超级会员、wps会员、稻壳会员
 ^https://account.wps.*/api/users/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
 # 有道云笔记 vip
-^https://note.youdao.com/yws/(mapi/payment|api/self) url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/ydybj.js
+#^https://note.youdao.com/yws/(mapi/payment|api/self) url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/ydybj.js
 # 解锁百度云盘会员（byddgksf2013）
 https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/bdcloud.js
 # 百度云盘解锁视频在线播放和倍速(by nobyda)
