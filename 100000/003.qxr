@@ -14,7 +14,7 @@ https://iostab.qihaofs.com/img/bg.png url reject
 # 雅虎天气去广告
 https://m.yap.yahoo.com/v19/getAds.do url reject
 # 驾校一点通 (by @superuv)
-^https:\/\/vipapi\.jxedt\.com\/vip\/check url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/jxydt.js
+^https:\/\/vipapi\.jxedt\.com\/vip\/check url script-response-body https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/js/jxydt.js
 # 替换支付宝内淘票票评分为豆瓣评分
 ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopshowapi\.getextendshowbyid url script-response-body https://raw.githubusercontent.com/Peng-YM/QuanX/master/Rewrites/TaoPiaoPiao/taopiaopiao.js
 # 优酷视频 去片头广告
