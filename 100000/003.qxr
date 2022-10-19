@@ -161,9 +161,9 @@ cnvod.cnr.cn url reject
 https://www.google.com/translate_t url 307 https://translate.google.com/
 https://translate.google.com/|%3Flangpair= url request-header %3Flangpair= request-header ?langpair=
 # 宠汪汪助力更新Token
-^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/api\/user\/addUser\?code= url script-response-body https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/jd_joy_run.js
+#^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/api\/user\/addUser\?code= url script-response-body https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/jd_joy_run.js
 # 宠汪汪助力获取Token
-^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/api\/user\/user\/detail\?openId= url script-request-header https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/jd_joy_run.js
+#^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/api\/user\/user\/detail\?openId= url script-request-header https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/jd_joy_run.js
 # 小米运动获取Token
 ^https:\/\/account\.huami\.com\/v2\/client\/login url script-response-body https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/xmSports.js
 # 皮皮虾 去广告去水印
@@ -174,9 +174,9 @@ https://translate.google.com/|%3Flangpair= url request-header %3Flangpair= reque
 #^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-request-header https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/js/Aweme.js
 #^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-response-body https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/js/Aweme.js
 # 西窗烛
-^https:\/\/avoscloud\.com\/1\.1\/users\/ url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xcz.js
+#^https:\/\/avoscloud\.com\/1\.1\/users\/ url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xcz.js
 # 小睡眠
-http-response ^https:\/\/api\.psy-1\.com\/cosleep\/user\/info requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xiaoshuimian.js,tag=小睡眠
+#http-response ^https:\/\/api\.psy-1\.com\/cosleep\/user\/info requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xiaoshuimian.js,tag=小睡眠
 # photoshop
 http-response ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/js/photoshop.js,script-update-interval=0
 # 陆琪讲故事
@@ -240,11 +240,11 @@ https://api.bilibili.com/x/v2/dm/ad url reject-200
 # 哔哩哔哩番剧开启1080P+
 ^https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)) url script-response-body https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/js/bilifj.js
 # 人人视频 vip
-^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll|\/rrtv-video\/v4plus\/season\/detail) url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/rrtv.js
+#^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll|\/rrtv-video\/v4plus\/season\/detail) url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/rrtv.js
 # 人人视频 去广告
-^https?:\/\/api\.rr\.tv\/(?:ad\/getAll$|storage/business/rootName/app/homePage) url reject-200
-^https?:\/\/api\.rr\.tv\/watch\/v\d\/get_movie_info url script-response-body https://Choler.github.io/Surge/Script/rrsp.js
-^https?:\/\/api\.rr\.tv\/v\dplus\/index\/channel url script-response-body https://Choler.github.io/Surge/Script/rrsp.js
+#^https?:\/\/api\.rr\.tv\/(?:ad\/getAll$|storage/business/rootName/app/homePage) url reject-200
+#^https?:\/\/api\.rr\.tv\/watch\/v\d\/get_movie_info url script-response-body https://Choler.github.io/Surge/Script/rrsp.js
+#^https?:\/\/api\.rr\.tv\/v\dplus\/index\/channel url script-response-body https://Choler.github.io/Surge/Script/rrsp.js
 # 彩云天气
 https:\/\/((weather-data\.apple)|(api.weather))\.com url script-request-header https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/caiyun.js
 # 扫描全能王 pro
