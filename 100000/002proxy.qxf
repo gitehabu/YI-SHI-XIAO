@@ -20,3 +20,18 @@ host-keyword, hmso, proxy
 host-keyword, comicun, proxy
 # 以太坊浏览器
 host, etherscan.io, proxy
+# 自定义
+host, ilovexjp.pages.dev, proxy
+host, mozilla.cloudflare-dns.com, proxy
+host-keyword, aicoin, proxy
+host-keyword, okx, proxy
+host-keyword, xunlangbot, proxy
+host-suffix, daycat.space, proxy
+host, sub.ssrsub.com, proxy
+host, cdn.jsdelivr.net, proxy
+host-keyword, rsshub, proxy
+host-suffix, rfi.rf, proxy
+host-keyword, marxists, proxy
+host-keyword, xmkczs, 机场
+host-keyword, tanz, 机场
+host, coinlist.co, 机场
