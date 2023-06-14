@@ -248,7 +248,7 @@ https://api.bilibili.com/x/v2/dm/ad url reject-200
 # 彩云天气
 https:\/\/((weather-data\.apple)|(api.weather))\.com url script-request-header https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/caiyun.js
 # 扫描全能王 pro
-^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/CamScanner.js
+^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/js/cam.js
 # PicsArt美易 pro
 ^https:\/\/api\.(picsart|meiease)\.c(n|om)\/users\/show\/me\.json url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/PicsArt.js
 # VSCO滤镜 vip
