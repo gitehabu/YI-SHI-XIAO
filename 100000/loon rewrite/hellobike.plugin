@@ -1,0 +1,4 @@
+[Mitm]
+hostname = gameapi.hellobike.com
+[Script]
+http-request ^https:\/\/gameapi\.hellobike\.com\/api script-path = https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js, requires-body = true, tag = 哈啰单车有哈有车签到 Cookie捕获
