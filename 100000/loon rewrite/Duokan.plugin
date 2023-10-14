@@ -1,0 +1,5 @@
+[Mitm]
+hostname = = www.duokan.com
+
+[Script]
+http-request ^https:\/\/www\.duokan\.com\/checkin\/v0\/status script-path = https://raw.githubusercontent.com/chavyleung/scripts/master/duokan/duokan.cookie.js, requires-body = true, tag = 多看阅读签到 Cookie捕获
