@@ -1,0 +1,15 @@
+#!美菜获取token
+#!重写进果园浇一次水: 
+#!^https://mall.meituan.com/api/c/mallcoin/game/fruit/waterTree url script-request-header mtmc_getToken.js
+#!触发类型:request-headers
+#!MITM:
+#!mall.meituan.com
+#!每次获取会覆盖之前的ck,请先用boxjs备份
+#!多账号可以每次获取后复制出来最后拼在一起用英文逗号(,)分隔后一起复制到boxjs里 
+
+
+[Script]
+http-request ^https://mall.meituan.com/api/c/mallcoin/game/fruit/waterTree script-path = https://raw.githubusercontent.com/gitehabu/mt_fruit/main/mtmc_getToken.js, requires-body = true, tag = 美团买菜•天天果园•获取token
+  
+[Mitm]
+hostname = mall.meituan.com
