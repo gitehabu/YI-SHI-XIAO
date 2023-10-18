@@ -1,14 +1,14 @@
 hostname = *.bdstatic.com,iostab.qihaofs.com,vipapi.jxedt.com, guide-acs.m.taobao.com, *.cp31.ott.cibntv.net, *.xxjjappss.com,*.huaerdadi.com,*.xiaoxiaoapps.com,*.xiaoxiaoimg.com, account.huami.com, weixin110.qq.com, mp.weixin.qq.com, *.dxy.cn, ipadcms.caixin.com, gateway.caixin.com, license.pdfexpert.com, sf?-ttcdn-tos.pstatp.com, www.51devapp.com, www.19831110.com, api-access.pangolin-sdk-toutiao.com, os8.pw, *.byteimg.com, *.redd.*, *.googlevideo.com,www.youtube.com,s.youtube.com, */splash_store.json, */app_ios_store_free.json, gentle.coding.net, img.alicdn.com, *.zyiis.net, *.lrswl.com, api.hanju.koudaibaobao.com, baimiao.uzero.cn, www.google.*, m.weibo.cn, *.baidu.com, *.zhihu.com, api.bjxkhc.com,*.mjomj.*,*.qishenga.*,*.jianshu.*,*.minsutx.*,*.511.la,*.cddpsc*,*.doubanio.*,*.rrzy.*,*.yefu365.*,*.sinaimg.*,*/ImageWeb, */smartad, savoscloud.com,beacon-api.aliyuncs.com,oss-bj-radio-client.oss-cn-beijing.aliyuncs.com,adash.man.aliyuncs.com,mlvbdc.live.qcloud.com, lbs.netease.im, sdk.open.talk.igexin.com, cnvod.cnr.cn, *.ut.taobao.com, mobile-api.adguard.com, buy.itunes.apple.com, www.google.com,translate.google.com, draw.jdfcloud.com, v3-dy-o.zjcdn.com, avoscloud.com, api.psy-1.com, lcs-mobile-cops.adobe.io, www.luqijianggushi.com, api1.dobenge.cn, api.vuevideo.net ,*.bilibili.*, *.rr.tv, api.weather.com, ap*.intsig.net, api.picsart.c*, api.meiease.c*, vsco.co, p.du.163.com, vip1.kuwo.cn, account.wps.cn, note.youdao.com, pan.baidu.com, pbs.twimg.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, 91mjw.com, sf3-ttcdn-tos.pstatp.com, nfstar.net, mdapp2.pw, bde4.cc, www.hptoon.com, maphuahin.com, streamsb.com, ssl.p.jwpcdn.com, mc.yandex.ru, ad.pornimg.xyz, blastcahs.com, *.aliyuncs.com, pic.caihong52.com, meethanshi.com, baomitu.com, cdn.ggsfq.com, ggsfq.com, streamsb.net, *.javbus.com, www.javbus.com, www.zhenbuka.com, cluster.awmserve.com, urtirepor.com, ads.bullionyield.com, www.porntrex.com, cloudrls.com, javtsunami.com, *.cloudfront.net, 91porny.com, cdn.jsdelivr.net, s3.amazonaws.com, static.nyahentai.pw, zh.nyahentai.me, m.yhdm.io, k.wudejia.com, www.mfkhm.com, www.cocomanhua.com, fans.91p20.space, 91porn.com, *.xvideos-cdn.com, www.xvideos.com, *.realsrv.com, *.nyahentai.com, gum.criteo.com, rt.gsspat.jp, -*.nyahentai.pw, rt.gsspat.jp, img.gsspat.jp, -*.phncdn.com, www.pornhub.com, cn.pornhub.com, *.ddmax20.*, asianclub.tv, *.yabo.*, *.yabo729.com, *.wine-api.net, *.wixsite.com, *.wixstatic.com, *.dilidd.com, *.alicdn.com, *.dililitv.com, *.dililitv.cc, m.dlili.tv, netflav.com, www.avple.video, *.imgur.*, m.mypianku.com, mypianku.com, *.pianku.*, *.xn--2qux23c9ziyrq.club, *.naifei.shop, www.nfmovies.com, *.yb463.app, *.yabet.*, *.yabet1477.*, ddrk.me, poweredbyliquidfire.mobi, *.poweredbyliquidfire.mobi, avgle.com, *.avgle.com, *.juicyads.com, *.jads.co, jable.tv, *.jable.tv, *.ackcdn.net, -*.trwl1.*, -*.trwl1.com, *.o333o.com, *.exosrv.com, asewlfjqwlflkew.com, *.asewlfjqwlflkew.com, *.tsyndicate.com, tsyndicate.com, *.uus58.com, asewlfjqwlflkew.com, *.uus58.*, duckduckgo.com, testflight.apple.com, imgs.smxwhcm.cn, encimga.jiu-wang.cn, api.meirigengxin.com, encimgf.fjyuxin.cn, encimgf.cchzkj.cn, */javapp_img
 
 # 微博推送广告
-^https://api.weibo.cn/2/push/active url reject
+#^https://api.weibo.cn/2/push/active url reject
 # 百度地图开屏广告
-^*.bdstatic.com url reject
+#^*.bdstatic.com url reject
 # 京东比价 (yichahucha)
-^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
+#^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
 # 淘宝比价 (yichahucha)
-^http://.+/amdc/mobileDispatch url script-request-body https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
-^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail url script-response-body https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
+#^http://.+/amdc/mobileDispatch url script-request-body https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
+#^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail url script-response-body https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
 # pali.city背景
 https://iostab.qihaofs.com/img/bg.png url reject
 # 雅虎天气去广告
@@ -158,8 +158,8 @@ cnvod.cnr.cn url reject
 # Bear熊掌记 内购解锁
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/Bear.js
 # Tweetbot5 翻译修复
-https://www.google.com/translate_t url 307 https://translate.google.com/
-https://translate.google.com/|%3Flangpair= url request-header %3Flangpair= request-header ?langpair=
+#https://www.google.com/translate_t url 307 https://translate.google.com/
+#https://translate.google.com/|%3Flangpair= url request-header %3Flangpair= request-header ?langpair=
 # 宠汪汪助力更新Token
 #^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/api\/user\/addUser\?code= url script-response-body https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/jd_joy_run.js
 # 宠汪汪助力获取Token
@@ -167,9 +167,9 @@ https://translate.google.com/|%3Flangpair= url request-header %3Flangpair= reque
 # 小米运动获取Token
 #^https:\/\/account\.huami\.com\/v2\/client\/login url script-response-body https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/xmSports.js
 # 皮皮虾 去广告去水印
-#^http://v3-dy-o.zjcdn.com/\?|tos-cn-ve-51/ url reject
-#^https?://.*\.snssdk\.com/bds/(feed/stream|comment/cell_reply|cell/cell_comment|cell/detail|ward/list|user/favorite|user/cell_coment|user/cell_userfeed|user/publish_list) url request-header app_name=super&([\S]*)aid=\d+ request-header app_name=super_pro&$1aid=1412
-#^https?://.*\.snssdk\.com/bds/(feed/stream|comment/cell_reply|cell/cell_comment|cell/detail|ward/list|user/favorite|user/cell_coment|user/cell_userfeed|user/publish_list) url script-response-body https://raw.githubusercontent.com/Liquor030/Sub_Ruleset/master/Script/Super.js
+^http://v3-dy-o.zjcdn.com/\?|tos-cn-ve-51/ url reject
+^https?://.*\.snssdk\.com/bds/(feed/stream|comment/cell_reply|cell/cell_comment|cell/detail|ward/list|user/favorite|user/cell_coment|user/cell_userfeed|user/publish_list) url request-header app_name=super&([\S]*)aid=\d+ request-header app_name=super_pro&$1aid=1412
+^https?://.*\.snssdk\.com/bds/(feed/stream|comment/cell_reply|cell/cell_comment|cell/detail|ward/list|user/favorite|user/cell_coment|user/cell_userfeed|user/publish_list) url script-response-body https://raw.githubusercontent.com/Liquor030/Sub_Ruleset/master/Script/Super.js
 # 抖音去广告去水印
 #^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-request-header https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/js/Aweme.js
 #^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-response-body https://raw.githubusercontent.com/gitehabu/YI-SHI-XIAO/main/100000/js/Aweme.js
@@ -269,20 +269,20 @@ https:\/\/((weather-data\.apple)|(api.weather))\.com url script-request-header h
 # 酷我换肤(已经有的皮肤需要先从本地皮肤删除再换)
 #^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/theme)  url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/themekuwo.js
 # WPS解锁  超级会员、wps会员、稻壳会员
-^https://account.wps.*/api/users/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
+#^https://account.wps.*/api/users/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
 # 有道云笔记 vip
 #^https://note.youdao.com/yws/(mapi/payment|api/self) url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/ydybj.js
 # 解锁百度云盘会员（byddgksf2013）
-https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/bdcloud.js
+#https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/bdcloud.js
 # 百度云盘解锁视频在线播放和倍速(by nobyda)
-https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
+#https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
 # 推特图片替换原图tweetbot
 ^https://pbs.twimg.com/media/\?|format=jpg&name=small url request-header format=jpg&name=small request-header format=jpg&name=orig
 ^https://pbs.twimg.com/media/\?|format=jpg&name=medium url request-header format=jpg&name=medium request-header format=jpg&name=orig
 ^https://pbs.twimg.com/media/\?|format=jpg&name=large url request-header format=jpg&name=large request-header format=jpg&name=orig
 # 微博 去广告
-^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js
-^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/photos/pic_recommend_status|video/tiny_stream_video_list|photo/info) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js
+#^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js
+#^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/photos/pic_recommend_status|video/tiny_stream_video_list|photo/info) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js
 
 
 
