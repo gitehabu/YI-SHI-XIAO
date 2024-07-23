@@ -1,5 +1,5 @@
-const cityId = $argument; 
-const apiUrl = `http://t.weather.sojson.com/api/weather/city/101120201`;
+const cityId = 101120201; 
+const apiUrl = `http://t.weather.sojson.com/api/weather/city/${cityId}`;
 
 $httpClient.get(apiUrl, (error, response, data) => {
   if (error) {
@@ -13,7 +13,7 @@ $httpClient.get(apiUrl, (error, response, data) => {
   if (weatherData.status !== 200) {
     console.log(`请求失败，状态码：${weatherData.status}`);
     $notification.post('获取天气失败', '', '请填写正确的cityId');
-    $done();
+    $done();https://github.com/gitehabu/YI-SHI-XIAO/blob/main/100000/js/tianqi.js
     return;
   }
 
